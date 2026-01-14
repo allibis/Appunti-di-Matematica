@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "it-IT",
     baseUrl: "allibis.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian", ".excalidraw"],
+    ignorePatterns: ["private", "templates", ".obsidian", ".excalidraw", "Dashboard"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
