@@ -62,7 +62,6 @@ const defaultOptions: GraphOptions = {
     removeTags: [],
     focusOnHover: true,
     enableRadial: true,
-    disableIndex: false,
     defaultCentralSlug: "/"
   },
 }
