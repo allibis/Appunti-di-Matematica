@@ -6,6 +6,18 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Base di una Topologia</title>
+    <link>https://allibis.github.io/Base-di-una-Topologia</link>
+    <guid>https://allibis.github.io/Base-di-una-Topologia</guid>
+    <description><![CDATA[  Base di una Topologia Sia (X,\tau) uno spazio topologico, \beta \subseteq \tau è base della topologia \tau se \displaystyle\forall U\in \tau, \exists\{B_{i}\}_{i\in I}\mid U=\bigcup_{i\in I}B_{i} . ]]></description>
+    <pubDate>Wed, 14 Jan 2026 21:46:01 GMT</pubDate>
+  </item><item>
+    <title>Appunti di Topologia</title>
+    <link>https://allibis.github.io/</link>
+    <guid>https://allibis.github.io/</guid>
+    <description><![CDATA[ 1. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 21:46:01 GMT</pubDate>
+  </item><item>
     <title>Aperto</title>
     <link>https://allibis.github.io/Aperto</link>
     <guid>https://allibis.github.io/Aperto</guid>
@@ -52,18 +64,6 @@
     <link>https://allibis.github.io/Chiusura-di-un-insieme</link>
     <guid>https://allibis.github.io/Chiusura-di-un-insieme</guid>
     <description><![CDATA[  Chiusura di un insieme Siano (X,\tau) uno spazio topologico e A\in\tau. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
-  </item><item>
-    <title>Confronto Tra Topologie</title>
-    <link>https://allibis.github.io/Confronto-Tra-Topologie</link>
-    <guid>https://allibis.github.io/Confronto-Tra-Topologie</guid>
-    <description><![CDATA[  Topologie più fini, meno fini e confrontabili Siano \tau,\tau&#039; due topologie. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
-  </item><item>
-    <title>Confronto tra Topologia Uniforme e Topologia Prodotto</title>
-    <link>https://allibis.github.io/Confronto-tra-Topologia-Uniforme-e-Topologia-Prodotto</link>
-    <guid>https://allibis.github.io/Confronto-tra-Topologia-Uniforme-e-Topologia-Prodotto</guid>
-    <description><![CDATA[  La Topologia Uniforme è più Fine della Topologia Prodotto Se J è infinito, la topologia uniforme è più fine della topologia prodotto. ]]></description>
     <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
   </item>
     </channel>
