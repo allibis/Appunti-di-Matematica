@@ -1,0 +1,28 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("Topologia")
+    groupBy:
+      property: tags
+      direction: ASC
+    order:
+      - file.name
+      - tags
+      - aliases
+      - icon
+    sort:
+      - property: tags
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 287
+      note.tags: 383
+      note.aliases: 331
+  - type: cards
+    name: View
+    groupBy:
+      property: tags
+      direction: ASC

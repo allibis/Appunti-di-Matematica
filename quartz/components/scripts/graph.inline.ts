@@ -87,14 +87,18 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     showTags,
     focusOnHover,
     enableRadial,
+
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
-  const data: Map<SimpleSlug, ContentDetails> = new Map(
-    Object.entries<ContentDetails>(await fetchData).map(([k, v]) => [
-      simplifySlug(k as FullSlug),
-      v,
-    ]),
+   const data: Map<SimpleSlug, ContentDetails> = new Map(  
+    Object.entries<ContentDetails>(await fetchData).map(([k, v]) => [  
+      simplifySlug(k as FullSlug),  
+      v,  
+    ]),  
   )
+
+  
+
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
   const validLinks = new Set(data.keys())
@@ -105,6 +109,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
     for (const dest of outgoing) {
       if (validLinks.has(dest)) {
+        // Ignores all links with "/"
+        if(dest == "/" || source == "/") break
         links.push({ source: source, target: dest })
       }
     }
@@ -122,8 +128,17 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
   }
 
+  // this sets a default central node if i'm on the / page
+  const centralSlug = "Topologia" as SimpleSlug; 
   const neighbourhood = new Set<SimpleSlug>()
-  const wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
+  let wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
+
+  // added default central slug if page is / (main page)
+  if (slug === ("/" as SimpleSlug)){
+      wl = [centralSlug, "__SENTINEL"]
+  }
+
+
   if (depth >= 0) {
     while (depth >= 0 && wl.length > 0) {
       // compute neighbours

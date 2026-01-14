@@ -8,8 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/allibis",
+
     },
   }),
 }
@@ -17,16 +17,17 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    Component.PageTitle(),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
+    
+    // Component.ContentMeta(),
+    // Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
+    Component.ArticleTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -35,16 +36,36 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+        // { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.ConditionalRender({
+      component: Component.Explorer({
+        filterFn: (f) => !f.slug!.startsWith("Excalidraw/")
+      }),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.TableOfContents(),
+      condition: (page) => page.fileData.slug === "index",
+    })
+    
+
   ],
   right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Graph({
+      localGraph:{
+        showTags: false
+      },
+      globalGraph:{
+        showTags: false
+      }
+    }
+    ),
     Component.Backlinks(),
   ],
+  
+
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -62,7 +83,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+
   ],
   right: [],
 }

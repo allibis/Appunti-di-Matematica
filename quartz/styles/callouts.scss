@@ -118,6 +118,92 @@
     --callout-icon: var(--callout-icon-quote);
   }
 
+  /* --- TEOREMA (verde chiaro) --- */
+&[data-callout="teorema"], 
+&[data-callout="teo"] {
+    --color: rgb(126,211,33);
+    --border: rgb(126,211,33);
+    --bg: rgba(126, 211, 33, 0.1);
+    --callout-icon: url('https://unpkg.com/lucide-static@latest/icons/scroll-text.svg'); /* Icona Pergamena */
+    --callout-title-size: 1.1em;
+    --callout-title-weight: 700; /* Molto grassetto */
+}
+
+/* --- DEFINIZIONE (rosso) --- */
+&[data-callout="definizione"],
+&[data-callout="def"] {
+    --color: rgb(208,2,27);
+    --border: rgb(208,2,27);  
+    --bg: rgba(208, 2, 27, 0.1);
+    --callout-icon: url('https://unpkg.com/lucide-static@latest/icons/book-open.svg'); /* Icona Libro */
+}
+
+/* --- DIMOSTRAZIONE (Grigio, discreto) --- */
+&[data-callout="dimostrazione"],
+&[data-callout="dim"] {
+    --color: rgb(120, 120, 120);
+    --border: rgb(120, 120, 120);
+    --bg: rgba(120, 120, 120, 0.1);
+    --callout-icon: url('https://unpkg.com/lucide-static@latest/icons/pen-tool.svg'); 
+    border: 1px solid rgba(120,120,120, 0.2); /* Bordo sottile */
+    margin-top: -12px !important;
+    margin-left: 20px !important; /* La sposta un po' più a destra */
+}
+
+/* --- OSSERVAZIONE / NOTA BENE (blu) --- */
+&[data-callout="osservazione"],
+&[data-callout="oss"],
+&[data-callout="obs"] {
+    --color: rgb(74,144,226);
+    --border: rgb(74,144,226);
+    --bg: rgba(74, 144, 226, 0.1);
+    --callout-icon: url('https://unpkg.com/lucide-static@latest/icons/lightbulb.svg');
+}
+
+/* --- ESEMPIO (arancione) --- */
+&[data-callout="esempio"],
+&[data-callout="es"],
+&[data-callout="ex"] {
+    --color: rgb(245,166,35);
+    --border: rgb(245,166,35);
+    --bg: rgba(245, 166, 35, 0.1);
+    --callout-icon: url('https://unpkg.com/lucide-static@latest/icons/notebook-text.svg');
+}
+
+/* --- PROPOSIZIONE (verde scuro) --- */
+&[data-callout="proposizione"],
+&[data-callout="prop"] {
+    --color: rgb(65,117,5);
+    --border: rgb(65,117,5);
+    --bg: rgba(65, 117, 5, 0.1);
+    --callout-icon: url('https://unpkg.com/lucide-static@latest/icons/circle-check.svg');
+}
+
+/* --- TODO (verde chiaro/bianco) --- */
+&[data-callout="todo"], 
+&[data-callout="TODO"] {
+    --color: rgb(255, 255, 255);
+    --border: rgb(255, 255, 255);
+    --bg: rgba(255, 255, 255, 0.1);
+    --callout-icon: url('https://unpkg.com/lucide-static@latest/icons/message-square-warning.svg'); /* Icona Punto Esclamativo */
+    --callout-title-size: 1.1em;
+    --callout-title-weight: 500;
+}
+
+/* ============================================================
+   Q.E.D. AUTOMATICO PER LE DIMOSTRAZIONI
+   ============================================================ */
+&[data-callout="dim"] .callout-content::after,
+&[data-callout="dimostrazione"] .callout-content::after {
+    content: "□"; 
+    float: right;
+    color: var(--text-muted); 
+    font-size: 1.2em;         
+    margin-left: 10px;        
+    margin-top: -10px;        
+}
+
+
   &.is-collapsed {
     & > .callout-title > .fold-callout-icon {
       transform: rotateZ(-90deg);

@@ -1,3 +1,80 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+blockquote{
+  border-left: 0;
+  padding-left: 0;
+}
+
+// Fix LaTeX newlines in callouts - comprehensive solution  
+.callout {  
+  // Target all possible KaTeX display elements  
+  .callout-content {  
+    .katex-display,  
+    .katex .katex-display,  
+    mjx-container[jax="CHTML"][display="true"] {  
+      display: block !important;  
+      margin: 1em 0 !important;  
+      overflow-x: auto !important;  
+      overflow-y: hidden !important;  
+      text-align: center !important;  
+    }  
+      
+    // Force block display on any element containing display math  
+    *:has(.katex-display, mjx-container[display="true"]) {  
+      display: block !important;  
+      margin-bottom: 1em !important;  
+    }  
+      
+    // Ensure paragraphs break after display math  
+    p {  
+      &:has(.katex-display, mjx-container[display="true"]) {  
+        margin-bottom: 1em !important;  
+        display: block !important;  
+      }  
+    }  
+  }  
+}  
+  
+// Global override for KaTeX display in any context  
+.katex-display {  
+  display: block !important;  
+  margin: 1em 0 !important;  
+}
+
+
+/* Rimozione del titolo del callout e ridimensionamento dei vari titoli dei paragrafi */
+.transclude-src {
+  display: none;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2{
+  font-size: 1.3em;
+}
+
+blockquote h1 {
+  font-size: 1.2em;
+}
+
+/* Rimuozione i titoli degli embed per evitare ripetizioni */
+blockquote.transclude h1 {
+  display: none;
+}
+
+
+.callout-title{
+  padding-bottom: 0.2rem;
+}
+
+/* Aggiusta il colore del font del link */
+a.internal{
+  color: var(--darkgray);
+}
+
+// TODO: aggiustare le liste 
+ol {
+  margin-top: -1em;
+}

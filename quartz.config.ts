@@ -8,16 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Appunti di Topologia",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "it-IT",
     baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", ".excalidraw"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -66,7 +66,40 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.ObsidianFlavoredMarkdown({
+        enableInHtmlEmbed: false,
+        callouts: {
+          // Teorema -> Pergamena
+          teorema: "ScrollText",
+          teo: "ScrollText",
+          
+          // Definizione -> Libro Aperto
+          definizione: "BookOpen",
+          def: "BookOpen",
+          
+          // Dimostrazione -> Penna (Strumento Penna)
+          dimostrazione: "PenTool",
+          dim: "PenTool",
+          
+          // Osservazione -> Lampadina
+          osservazione: "Lightbulb",
+          oss: "Lightbulb",
+          obs: "Lightbulb",
+          
+          // Esempio -> Taccuino
+          esempio: "NotebookText",
+          es: "NotebookText",
+          ex: "NotebookText",
+          
+          // Proposizione -> Spunta Cerchiata
+          proposizione: "CircleCheck",
+          prop: "CircleCheck",
+          
+          // Todo -> Avviso
+          todo: "MessageSquareWarning",
+          TODO: "MessageSquareWarning",
+        },
+      }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
@@ -89,7 +122,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(),
     ],
   },
 }

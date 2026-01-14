@@ -39,7 +39,7 @@ export default {
       createdWith: "Creato con",
     },
     graph: {
-      title: "Vista grafico",
+      title: "Note Collegate",
     },
     recentNotes: {
       title: "Note recenti",
@@ -52,7 +52,7 @@ export default {
     },
     search: {
       title: "Cerca",
-      searchBarPlaceholder: "Cerca qualcosa",
+      searchBarPlaceholder: "Cerca tra gli appunti...",
     },
     tableOfContents: {
       title: "Indice",
