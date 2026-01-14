@@ -16,8 +16,8 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "it-IT",
-    baseUrl: "allibis.github.io/Appunti-di-Topologia/",
-    ignorePatterns: ["private", "templates", ".obsidian", ".excalidraw", "content/Dashboard.md"],
+    baseUrl: "allibis.github.io/Appunti-di-Topologia",
+    ignorePatterns: ["private", "templates", ".obsidian", ".excalidraw"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
