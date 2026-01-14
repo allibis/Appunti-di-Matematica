@@ -7,19 +7,19 @@ slug: index
 # 1. Topologia
 
 ## 1.1 _Definizione di Topologia_
-![[Topologia]]
+![[topologia]]
 
 ---
 ## 1.2 _Esempi di Topologie_
-![[Topologia Discreta]] 
+![[topologia Discreta]] 
 
-![[Topologia Banale]]  
+![[topologia Banale]]  
 
-![[Topologia Cofinita]]
+![[topologia cofinita]]
 
-![[Topologia Euclidea]]
+![[topologia Euclidea]]
 
-![[Topologia del Limite Inferiore]]
+![[topologia del limite inferiore]]
 
 > [!ex] Esempio di NON topologia
 > Sia $\tau=\{X\}\cup\{\varnothing\}\cup\{[-a,a]|a\in \mathbb{R}^+\}$ <br>
@@ -29,9 +29,9 @@ slug: index
 > ![[esempio non topologia.excalidraw.dark.svg]]
 
 
-![[Topologia con Seno]]
+![[topologia con seno]]
 
-![[Confronto Tra Topologie]]
+![[confronto tra topologie]]
 
 ---
 ## 1.3 _Aperti e Chiusi_

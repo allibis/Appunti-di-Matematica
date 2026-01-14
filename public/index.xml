@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Base di una Topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Base-di-una-Topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Base-di-una-Topologia</guid>
-    <description><![CDATA[  Base di una Topologia Sia (X,\tau) uno spazio topologico, \beta \subseteq \tau è base della topologia \tau se \displaystyle\forall U\in \tau, \exists\{B_{i}\}_{i\in I}\mid U=\bigcup_{i\in I}B_{i} . ]]></description>
-    <pubDate>Wed, 14 Jan 2026 21:46:01 GMT</pubDate>
-  </item><item>
     <title>Appunti di Topologia</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/</guid>
     <description><![CDATA[ 1. ]]></description>
     <pubDate>Wed, 14 Jan 2026 21:46:01 GMT</pubDate>
   </item><item>
-    <title>Aperto</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Aperto</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Aperto</guid>
-    <description><![CDATA[  Definizione Data una topologia \tau, i suoi elementi si chiamano aperti. ]]></description>
+    <title>base di una topologia</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/base-di-una-topologia</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/base-di-una-topologia</guid>
+    <description><![CDATA[  Base di una Topologia Sia (X,\tau) uno spazio topologico, \beta \subseteq \tau è base della topologia \tau se \displaystyle\forall U\in \tau, \exists\{B_{i}\}_{i\in I}\mid U=\bigcup_{i\in I}B_{i} . ]]></description>
+    <pubDate>Wed, 14 Jan 2026 20:54:25 GMT</pubDate>
+  </item><item>
+    <title>esempio non topologia.excalidraw</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/excalidraw/esempio-non-topologia.excalidraw</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/excalidraw/esempio-non-topologia.excalidraw</guid>
+    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
     <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
   </item><item>
-    <title>Box Topologia e Continuità</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia-e-Continuit%C3%A0</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia-e-Continuit%C3%A0</guid>
-    <description><![CDATA[  La Box Topologia non garantisce la continuità delle funzioni Consideriamo (\mathbb{R},\mathcal{E}) (topologia euclidea) e (\mathbb{R}^\mathbb{N},\tau_{\text{box}}) la box topologia. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
+    <title>teorema del limite uniforme</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/teorema-del-limite-uniforme</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/teorema-del-limite-uniforme</guid>
+    <description><![CDATA[  Teorema del Limite Uniforme Sia f_{n} una successione di funzioni da X spazio topologico a Y spazio metrico. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 20:23:48 GMT</pubDate>
   </item><item>
-    <title>Box Topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia</guid>
-    <description><![CDATA[  Box Topologia La box topologia su \mathbb{R}^\mathbb{N}=\{ (x_{1},x_{2},\dots,)\vert x_{i}\in \mathbb{R},\forall i\in \mathbb{N} \} è la topologia generata dalla base \displaystyle\beta=\left\{ \prod_{n\in N}U_{n} \middle \vert U_{n}\text{ aperto in } \mathbb{R}\right\} Su \mathbb{R}^n con n\in \ma... ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
+    <title>topologia cofinita</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/topologia-cofinita</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/topologia-cofinita</guid>
+    <description><![CDATA[  Topologia Cofinita Dato X, la sua topologia cofinita è \tau = \{X\} \cup \{\varnothing\} \cup \{U_j | U^C è sottoinsieme finito di X\} Dim Dimostro che \tau = \{X\} \cup \{\varnothing\} \cup \{U_j | U^C è un sottoinsieme finito di X\} è una topologia su X. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 20:11:46 GMT</pubDate>
   </item><item>
-    <title>Caratterizzazione degli insiemi densi</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-insiemi-densi</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-insiemi-densi</guid>
-    <description><![CDATA[  Caratterizzazione degli insiemi densi Sia (X,\tau) spazio topologico e A\subseteq X. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
+    <title>topologia euclidea</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/topologia-euclidea</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/topologia-euclidea</guid>
+    <description><![CDATA[  Topologia Euclidea \mathcal{E} La topologia euclidea (o standard) su \mathbb{R} è: \mathcal{E}=\left\{U\subseteq \mathbb{R}|\exists\{(a_{i},b_{i})\}_{i\in I},\text{t.c } U=\bigcup_{i\in I}(a_{i},b_{i})\right\} Base di \mathcal{E} Una base per la topologia euclidea è \beta=\{(a,b)\mid a,b\in \mathbb... ]]></description>
+    <pubDate>Wed, 14 Jan 2026 19:56:48 GMT</pubDate>
   </item><item>
-    <title>Caratterizzazione degli omeomorfismi</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-omeomorfismi</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-omeomorfismi</guid>
-    <description><![CDATA[  Proposizione Sia f:X\to Y una mappa tra spazi topologici. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
+    <title>topologia</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/topologia</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/topologia</guid>
+    <description><![CDATA[  Topologia Sia X un insieme e \tau \subseteq \mathcal{P}(X) una famiglia di sottoinsiemi di X con le seguenti proprietà: \varnothing \in \tau e X \in \tau La famiglia \tau è chiusa rispetto all’unione, ossia \forall A,B \in \tau: A\cup B \in \tau, e più in generale, data \{U_j\}_{j\in J} tale che \f... ]]></description>
+    <pubDate>Wed, 14 Jan 2026 18:37:44 GMT</pubDate>
   </item><item>
-    <title>Caratterizzazione delle Mappe Continue</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Mappe-Continue</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Mappe-Continue</guid>
-    <description><![CDATA[  Teorema Siano (X,\tau),(Y,\tau&#039;) spazi topologici e f:X\to Y. Allora vale la seguente equivalenza: a. f è continua globalmente b. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
+    <title>dashboard</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/dashboard</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/dashboard</guid>
+    <description><![CDATA[ 🔥 Heatmap Tracker // --- 1. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 17:55:29 GMT</pubDate>
   </item><item>
-    <title>Chiusi di sottospazi</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Chiusi-di-sottospazi</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Chiusi-di-sottospazi</guid>
-    <description><![CDATA[  Proposizione Sia (X,\tau) è spazio topologico e (Y,\tau_{Y}) suo sottospazio. C è chiuso in \tau_{Y}\iff \exists D\in \tau chiuso \vert\, C=D\cap Y . ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
+    <title>teorema di weierstrass m-test</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/teorema-di-weierstrass-m-test</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/teorema-di-weierstrass-m-test</guid>
+    <description><![CDATA[  Teorema di Weierstrass M-Test Sia X un insieme e sia (f_{i})_{i\in \mathbb{N}} una successione di funzioni f_{i}:X\to \mathbb{R} (o \mathbb{C}). ]]></description>
+    <pubDate>Wed, 14 Jan 2026 17:43:55 GMT</pubDate>
   </item><item>
-    <title>Chiusura di un insieme</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Chiusura-di-un-insieme</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Chiusura-di-un-insieme</guid>
-    <description><![CDATA[  Chiusura di un insieme Siano (X,\tau) uno spazio topologico e A\in\tau. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
+    <title>esempio topologia seno.excalidraw</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/excalidraw/esempio-topologia-seno.excalidraw</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/excalidraw/esempio-topologia-seno.excalidraw</guid>
+    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 16:17:24 GMT</pubDate>
   </item>
     </channel>
   </rss>
