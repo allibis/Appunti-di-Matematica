@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Appunti di Topologia</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Ultime 10 note on Appunti di Topologia</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Topologia Cofinita</title>
+    <link>https://quartz.jzhao.xyz/Topologia-Cofinita</link>
+    <guid>https://quartz.jzhao.xyz/Topologia-Cofinita</guid>
+    <description><![CDATA[  Topologia Cofinita Dato X, la sua topologia cofinita è \tau = \{X\} \cup \{\varnothing\} \cup \{U_j | U^C è sottoinsieme finito di X\} Dim Dimostro che \tau = \{X\} \cup \{\varnothing\} \cup \{U_j | U^C è un sottoinsieme finito di X\} è una topologia su X. ]]></description>
+    <pubDate>Sun, 11 Jan 2026 23:15:53 GMT</pubDate>
+  </item><item>
+    <title>Aperto</title>
+    <link>https://quartz.jzhao.xyz/Aperto</link>
+    <guid>https://quartz.jzhao.xyz/Aperto</guid>
+    <description><![CDATA[  Definizione Data una topologia \tau, i suoi elementi si chiamano aperti. ]]></description>
+    <pubDate>Sun, 11 Jan 2026 21:13:37 GMT</pubDate>
+  </item><item>
+    <title>esempio non topologia.excalidraw</title>
+    <link>https://quartz.jzhao.xyz/Excalidraw/esempio-non-topologia.excalidraw</link>
+    <guid>https://quartz.jzhao.xyz/Excalidraw/esempio-non-topologia.excalidraw</guid>
+    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
+    <pubDate>Sat, 10 Jan 2026 19:20:09 GMT</pubDate>
+  </item><item>
+    <title>Caratterizzazione delle Mappe Continue</title>
+    <link>https://quartz.jzhao.xyz/Caratterizzazione-delle-Mappe-Continue</link>
+    <guid>https://quartz.jzhao.xyz/Caratterizzazione-delle-Mappe-Continue</guid>
+    <description><![CDATA[  Teorema Siano (X,\tau),(Y,\tau&#039;) spazi topologici e f:X\to Y. Allora vale la seguente equivalenza: a. f è continua globalmente b. ]]></description>
+    <pubDate>Sat, 10 Jan 2026 19:14:15 GMT</pubDate>
+  </item><item>
+    <title>Topologia del Limite Inferiore</title>
+    <link>https://quartz.jzhao.xyz/Topologia-del-Limite-Inferiore</link>
+    <guid>https://quartz.jzhao.xyz/Topologia-del-Limite-Inferiore</guid>
+    <description><![CDATA[  Topologia del Limite Inferiore \tau_{\mathscr{l}} Si può definire su \mathbb{R} la seguente topologia \tau_{\mathscr{l}}=\left\{U\subseteq \mathbb{R}|\exists\{[a_{i},b_{i})\}_{i\in I},\text{t.c } U=\bigcup_{i\in I}[a_{i},b_{i})\right\} Gli elementi della topologia \tau_{\mathscr{l}} sono sia aperti... ]]></description>
+    <pubDate>Sat, 10 Jan 2026 19:06:41 GMT</pubDate>
+  </item><item>
+    <title>Topologia Prodotto</title>
+    <link>https://quartz.jzhao.xyz/Topologia-Prodotto</link>
+    <guid>https://quartz.jzhao.xyz/Topologia-Prodotto</guid>
+    <description><![CDATA[  Topologia Prodotto Siano (X,\tau), (Y,\sigma) due spazi topologici. ]]></description>
+    <pubDate>Sat, 10 Jan 2026 19:00:24 GMT</pubDate>
+  </item><item>
+    <title>Topologia Discreta</title>
+    <link>https://quartz.jzhao.xyz/Topologia-Discreta</link>
+    <guid>https://quartz.jzhao.xyz/Topologia-Discreta</guid>
+    <description><![CDATA[  Topologia Discreta Dato X, la sua topologia discreta è \tau = \mathcal{P}(X) \cup \{\varnothing\} . ]]></description>
+    <pubDate>Sat, 10 Jan 2026 18:51:23 GMT</pubDate>
+  </item><item>
+    <title>Metriche e Confronto tra Topologie</title>
+    <link>https://quartz.jzhao.xyz/Metriche-e-Confronto-tra-Topologie</link>
+    <guid>https://quartz.jzhao.xyz/Metriche-e-Confronto-tra-Topologie</guid>
+    <description><![CDATA[  Proposizione Siano d,d&#039; metriche su X. ]]></description>
+    <pubDate>Sat, 10 Jan 2026 18:29:32 GMT</pubDate>
+  </item><item>
+    <title>Teorema sulla Metrica euclidea, Distanza Chebyshev e Topologia Prodotto</title>
+    <link>https://quartz.jzhao.xyz/Teorema-sulla-Metrica-euclidea,-Distanza-Chebyshev-e-Topologia-Prodotto</link>
+    <guid>https://quartz.jzhao.xyz/Teorema-sulla-Metrica-euclidea,-Distanza-Chebyshev-e-Topologia-Prodotto</guid>
+    <description><![CDATA[  Teorema Le topologie indotte dalla metrica euclidea d e dalla metrica di chebyshev p sono uguali alla topologia prodotto su \mathbb{R}^n. ]]></description>
+    <pubDate>Sat, 10 Jan 2026 18:23:26 GMT</pubDate>
+  </item><item>
+    <title>Dashboard</title>
+    <link>https://quartz.jzhao.xyz/Dashboard</link>
+    <guid>https://quartz.jzhao.xyz/Dashboard</guid>
+    <description><![CDATA[ 🔥 Heatmap Tracker // --- 1. ]]></description>
+    <pubDate>Sat, 10 Jan 2026 18:23:01 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

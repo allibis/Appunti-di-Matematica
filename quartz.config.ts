@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "it-IT",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "allibis.github.io",
     ignorePatterns: ["private", "templates", ".obsidian", ".excalidraw"],
     defaultDateType: "modified",
     theme: {
