@@ -7,8 +7,8 @@
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>Base di una Topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Base-di-una-Topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Base-di-una-Topologia</guid>
+    <link>https://allibis.github.io/Appunti-di-Topologia/base-di-una-topologia</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/base-di-una-topologia</guid>
     <description><![CDATA[  Base di una Topologia Sia (X,\tau) uno spazio topologico, \beta \subseteq \tau è base della topologia \tau se \displaystyle\forall U\in \tau, \exists\{B_{i}\}_{i\in I}\mid U=\bigcup_{i\in I}B_{i} . ]]></description>
     <pubDate>Wed, 14 Jan 2026 21:46:01 GMT</pubDate>
   </item><item>
@@ -19,50 +19,50 @@
     <pubDate>Wed, 14 Jan 2026 21:46:01 GMT</pubDate>
   </item><item>
     <title>Aperto</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Aperto</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Aperto</guid>
+    <link>https://allibis.github.io/Appunti-di-Topologia/aperto</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/aperto</guid>
     <description><![CDATA[  Definizione Data una topologia \tau, i suoi elementi si chiamano aperti. ]]></description>
     <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
   </item><item>
     <title>Box Topologia e Continuità</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia-e-Continuit%C3%A0</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia-e-Continuit%C3%A0</guid>
+    <link>https://allibis.github.io/Appunti-di-Topologia/box-topologia-e-continuit%C3%A0</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/box-topologia-e-continuit%C3%A0</guid>
     <description><![CDATA[  La Box Topologia non garantisce la continuità delle funzioni Consideriamo (\mathbb{R},\mathcal{E}) (topologia euclidea) e (\mathbb{R}^\mathbb{N},\tau_{\text{box}}) la box topologia. ]]></description>
     <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
   </item><item>
     <title>Box Topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia</guid>
+    <link>https://allibis.github.io/Appunti-di-Topologia/box-topologia</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/box-topologia</guid>
     <description><![CDATA[  Box Topologia La box topologia su \mathbb{R}^\mathbb{N}=\{ (x_{1},x_{2},\dots,)\vert x_{i}\in \mathbb{R},\forall i\in \mathbb{N} \} è la topologia generata dalla base \displaystyle\beta=\left\{ \prod_{n\in N}U_{n} \middle \vert U_{n}\text{ aperto in } \mathbb{R}\right\} Su \mathbb{R}^n con n\in \ma... ]]></description>
     <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
   </item><item>
     <title>Caratterizzazione degli insiemi densi</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-insiemi-densi</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-insiemi-densi</guid>
+    <link>https://allibis.github.io/Appunti-di-Topologia/caratterizzazione-degli-insiemi-densi</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/caratterizzazione-degli-insiemi-densi</guid>
     <description><![CDATA[  Caratterizzazione degli insiemi densi Sia (X,\tau) spazio topologico e A\subseteq X. ]]></description>
     <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
   </item><item>
     <title>Caratterizzazione degli omeomorfismi</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-omeomorfismi</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-omeomorfismi</guid>
+    <link>https://allibis.github.io/Appunti-di-Topologia/caratterizzazione-degli-omeomorfismi</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/caratterizzazione-degli-omeomorfismi</guid>
     <description><![CDATA[  Proposizione Sia f:X\to Y una mappa tra spazi topologici. ]]></description>
     <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
   </item><item>
     <title>Caratterizzazione delle Mappe Continue</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Mappe-Continue</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Mappe-Continue</guid>
+    <link>https://allibis.github.io/Appunti-di-Topologia/caratterizzazione-delle-mappe-continue</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/caratterizzazione-delle-mappe-continue</guid>
     <description><![CDATA[  Teorema Siano (X,\tau),(Y,\tau&#039;) spazi topologici e f:X\to Y. Allora vale la seguente equivalenza: a. f è continua globalmente b. ]]></description>
     <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
   </item><item>
     <title>Chiusi di sottospazi</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Chiusi-di-sottospazi</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Chiusi-di-sottospazi</guid>
+    <link>https://allibis.github.io/Appunti-di-Topologia/chiusi-di-sottospazi</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/chiusi-di-sottospazi</guid>
     <description><![CDATA[  Proposizione Sia (X,\tau) è spazio topologico e (Y,\tau_{Y}) suo sottospazio. C è chiuso in \tau_{Y}\iff \exists D\in \tau chiuso \vert\, C=D\cap Y . ]]></description>
     <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
   </item><item>
     <title>Chiusura di un insieme</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Chiusura-di-un-insieme</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Chiusura-di-un-insieme</guid>
+    <link>https://allibis.github.io/Appunti-di-Topologia/chiusura-di-un-insieme</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/chiusura-di-un-insieme</guid>
     <description><![CDATA[  Chiusura di un insieme Siano (X,\tau) uno spazio topologico e A\in\tau. ]]></description>
     <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
   </item>
