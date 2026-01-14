@@ -93,7 +93,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
    const data: Map<SimpleSlug, ContentDetails> = new Map(  
     Object.entries<ContentDetails>(await fetchData).map(([k, v]) => [  
-      simplifySlug(k as FullSlug),  
+      simplifySlug(k as FullSlug).toLowerCase(),  
       v,  
     ]),  
   )
