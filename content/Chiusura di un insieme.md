@@ -1,6 +1,10 @@
 ---
-tags: [Topologia, Definizione, Chiusura, Chiusi]
-aliases: [Chiusura]
+tags:
+  - Topologia
+  - Definizione
+  - Chiusi
+aliases:
+  - Chiusura
 icon: lucide-book-open
 ---
 

@@ -1,7 +1,13 @@
 ---
-tags: [Topologia, Box Topologia, Topologia Prodotto, Proposizione]
+tags:
+  - Topologia
+  - Box-Topologia
+  - TopologiapProdotto
+  - Proposizione
 aliases: []
-inlinks: [Box Topologia, Topologia Prodotto]
+inlinks:
+  - Box Topologia
+  - Topologia Prodotto
 icon: lucide-circle-check-big
 ---
 

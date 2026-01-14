@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Definizione, Metrica]
+tags: [Topologia, Definizione, Metriche]
 aliases: [metrica, metriche, distanza]
 icon: lucide-book-open
 ---

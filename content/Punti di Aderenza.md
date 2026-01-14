@@ -1,6 +1,11 @@
 ---
-tags: [Topologia, Definizione, Punti di Aderenza]
-aliases: [punto di aderenza, aderente]
+tags:
+  - Topologia
+  - Definizione
+  - Punti-di-Aderenza
+aliases:
+  - punto di aderenza
+  - aderente
 icon: lucide-book-open
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Definizioni, Basi, Continuità]
+tags: [Topologia, Definizione, Basi, Continuità]
 aliases: []
 icon: lucide-circle-check-big
 ---

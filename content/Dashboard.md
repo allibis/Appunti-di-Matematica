@@ -163,73 +163,129 @@ window.renderChart(chartData, this.container);
 ```
 
 ## 🗺️ Argomenti Trattati di Topologia 
+## 🧭 Syllabus Tracker (Ordine Geometria 4 + Esercitazioni)
 
-> [!INFO] 1 - Fondamenti e Basi Topologiche
-> - [p] Definizioni: Spazio topologico, aperti e topologia banale/discreta
-> - [p] Topologia Cofinita (complementari finiti)
-> - [p] Definizione di Chiuso e proprietà (intersezioni/unioni)
-> - [p] Basi e topologie generate da basi
-> - [p] Confronto tra topologie: "Più fine" vs "Meno fine"
-> - [p] Esempio: Confronto tra Topologia Euclidea, Sorgenfrey ($\mathbb{R}_\ell$) e K-Topologia
-> - [p] Assiomi di Numerabilità: Primo e Secondo Numerabile (da Esercitazioni)
-> - [p] Sistemi fondamentali di intorni (da Esercitazioni)
+> [!abstract]+ **1. Dai Metrici agli Spazi Topologici**
+> 
+> **Preliminari Metrici**
+> - [p] Spazi metrici: definizione, palle aperte e topologia indotta
+> - [p] Metriche equivalenti e limitatezza
+> - [p] Metrica euclidea vs Metrica discreta vs Metrica uniforme
+> - [p] Esercizio: Dimostrare che una metrica induce una topologia
+> 
+> **Struttura Topologica**
+> - [p] Spazi topologici: definizione di aperti e assiomi
+> - [p] Topologie fondamentali: Discreta, Banale, Cofinita
+> - [p] Topologia di Sorgenfrey (Retta del limite inferiore $\mathbb{R}_l$)
+> - [p] Esercizio: Confronto tra topologie (Esercizi su $\subseteq$ e $\subsetneq$)
+> - [p] Insiemi chiusi: definizione, proprietà e Leggi di De Morgan
+> - [p] Esercizio: Chiusi nella topologia cofinita (finiti o tutto X)
+> 
+> - [p] **Basi e Intorni**
+> - [p] Base di una topologia: definizione e Teoremi di caratterizzazione
+> - [p] Sottobase e generazione di topologie
+> - [p] Intorni e Sistema Fondamentale di Intorni (S.F.I.)
+> - [p] Assiomi di numerabilità: I-numerabile (N1) e II-numerabile (N2)
+> - [p] Proposizione: Spazi metrici $\implies$ I-numerabili (ma non per forza II)
 
-> [!ABSTRACT] 2.- Prodotti e Sottospazi
-> - [p] Operatori su sottinsiemi: Interno, Esterno, Frontiera
-> - [p] Insiemi densi e punti di accumulazione 
-> - [p] Topologia Prodotto (caso finito) e basi
-> - [p] Prodotto infinito: Topologia Prodotto (Tychonoff) vs Box Topology
-> - [p] Proprietà universale del prodotto e proiezioni
-> - [p] Topologia di Sottospazio: definizione e basi indotte
-> - [p] Proprietà dei sottospazi
+> [!example]- **2. Analisi Locale e Costruzioni**
+> 
+> - [p] **Operatori Topologici**
+> - [p] Interno (Int), Esterno e Frontiera ($\partial A$): definizioni e relazioni
+> - [p] Chiusura (Cl): definizione come più piccolo chiuso e tramite aderenza
+> - [p] Insiemi densi e Spazi separabili
+> - [p] Successioni: convergenza (unica in Hausdorff, multipla in cofinita)
+> - [p] Esercizio: Calcolo di Int, Cl e Frontiera in $\mathbb{R}_l$ vs Euclidea
+> 
+> - [p] **Sottospazi e Prodotti**
+> - [p] Topologia di Sottospazio: definizione e proprietà ereditarie
+> - [p] Topologia Prodotto (finita) e base canonica
+> - [p] Topologia Prodotto (infinita) vs Box Topology
+> - [p] Proiezioni canoniche: continuità e apertura
+> 
+> **Funzioni Continue**
+> - [p] Continuità: definizione topologica (preimmagine di aperti)
+> - [p] Continuità in un punto vs Continuità globale
+> - [p] Funzioni aperte, chiuse e Omeomorfismi
+> - [p] Lemma dell'incollamento (Pasting Lemma) per funzioni continue
+> - [p] Esercizio: Dimostrare che $f$ è continua o trovare controesempi
 
-> [!TIP] 3.- Continuità e Omeomorfismi
-> - [p] Funzioni continue: definizione globale (controimmagine) e locale
-> - [p] Continuità rispetto alle basi e al prodotto
-> - [p] Omeomorfismi: definizione e invarianza topologica
-> - [p] Lemma dell'incollamento (Gluing Lemma)
-> - [p] Gruppo degli Automorfismi $Aut(X)$: Traslazioni e Gruppo Affine
-> - [p] Grafico di una funzione e continuità
+> [!ex]- **3. Metrica e Convergenza**
+> 
+> **Struttura Metrica**
+> - [p] Definizione di Metrica e Spazio Metrico
+> - [p] Definizione di Palla Aperta $B_d(x, \epsilon)$ e Topologia Metrica indotta
+> - [p] Le palle aperte formano una base per la topologia metrica
+> - [p] Metrica limitata standard $\bar{d}$ (minimo tra $d$ e 1) e limitatezza topologica
+> - [p] Metriche Equivalenti: definizione e conservazione della topologia
+> - [p] Esempi fondamentali: Metrica Euclidea, Quadrata (del massimo), Discreta
+> - [p] Teorema: Le topologie indotte da metrica euclidea e quadrata su $\mathbb{R}^n$ coincidono
+> 
+> - [p] **Metrica Uniforme e Prodotti**
+> - [p] Metrica Uniforme $\bar{p}$ su $\mathbb{R}^J$ (sup-norma limitata)
+> - [p] Confronto topologie su prodotti infiniti: $\tau_{prod} \subseteq \tau_{unif} \subseteq \tau_{box}$
+> - [p] Teorema: La topologia uniforme è più fine della prodotto e meno fine della box
+> - [p] Esempio: Insieme delle successioni limitate $l^\infty$ o $l^2$ (Cubo di Hilbert)
+> 
+> **Convergenza di Successioni**
+> - [p] Convergenza di una successione in spazi topologici vs metrici
+> - [p] Lemma della Successione (caratterizzazione metrica della chiusura)
+> - [p] Unicità del limite (garantita negli spazi Metrici poiché Hausdorff)
+> - [p] Continuità per successioni: $f$ continua $\iff (x_n \to x \implies f(x_n) \to f(x))$ (valido in spazi metrici/I-numerabili)
+> 
+> **Convergenza Uniforme di Funzioni**
+> - [p] Definizione di Convergenza Puntuale vs Convergenza Uniforme
+> - [p] La metrica uniforme induce la topologia della convergenza uniforme
+> - [p] **Teorema del Limite Uniforme**: il limite uniforme di funzioni continue è continuo
+> - [p] **M-Test di Weierstrass** per la convergenza uniforme di serie di funzioni
+> - [ ] Spazi Metrizzabili: definizione e Teorema di metrizzabilità di Urysohn (cenni)
+> - [ ] Teorema: Ogni spazio metrico è Normale ($T_4$) e I-numerabile
 
-> [!EXAMPLE] 4 - Spazi Metrici e Convergenza
-> - [ ] Metriche equivalenti: Euclidea, Quadrata e Uniforme su $\mathbb{R}^n$
-> - [ ] Topologia indotta dalla metrica
-> - [ ] Metrica Uniforme su spazi di funzioni e successioni ($\mathbb{R}^J$)
-> - [ ] Confronto tra topologia uniforme e topologia prodotto
-> - [ ] Metrizzabilità e Lemma della successione
-> - [ ] Spazio $\ell^2$ e Cubo di Hilbert (da Esercitazioni)
-> - [ ] Metriche speciali: Discreta e "British Rail/SNCF" (da Esercitazioni)
-> - [ ] Convergenza Uniforme vs Convergenza Puntuale (Teorema del limite uniforme)
+> [!check]- **4. Assiomi di Separazione e Teoremi Avanzati**
+> 
+> **Gerarchia di Separazione**
+> - [ ] Assiomi $T_0$ (Kolmogorov) e $T_1$ (Fréchet)
+> - [ ] Assioma $T_2$ (Hausdorff): unicità del limite
+> - [ ] Assiomi $T_3$ (Regolari) e $T_4$ (Normali)
+> - [ ] Esercizio: La topologia cofinita è $T_1$ ma non $T_2$
+> - [ ] Esercizio: La retta di Sorgenfrey è Normale ($T_4$) ma il suo quadrato $\mathbb{R}_l^2$ no
+> 
+> **Teoremi Fondamentali (dal file Geometria 4)**
+> - [ ] Teorema: Ogni spazio metrico è Normale ($T_4$)
+> - [ ] Lemma di Urysohn (Separazione funzionale)
+> - [ ] Teorema di Estensione di Tietze
+> - [ ] Teorema di metrizzabilità di Urysohn (Spazi $T_3$ II-numerabili)
 
-> [!CITE] 5 - Quozienti e Superfici
-> - [ ] Mappe quozienti: definizione e continuità forte
-> - [ ] Insiemi saturi e relazione con le mappe aperte/chiuse
-> - [ ] Spazi quozienti da partizioni e da azioni di gruppo
-> - [ ] Costruzione per incollamento (Pushout)
-> - [ ] Spazi Proiettivi Reali ($\mathbb{P}^n(\mathbb{R})$) e Complessi
-> - [ ] Superfici: Toro ($T^2$), Nastro di Möbius, Bottiglia di Klein
-> - [ ] Somma connessa e Wedge Sum (Somma a punto base)
-> - [ ] Orecchino Hawaiano (costruzione dettagliata da Esercitazioni)
+> [!tip]- **5. Compattezza e Compattificazione**
+> 
+> **Compattezza**
+> - [ ] Compattezza: definizione per ricoprimenti aperti
+> - [ ] Compattezza in $\mathbb{R}^n$: Teorema di Heine-Borel
+> - [ ] Proprietà: Chiusi in compatti (sono compatti) e Compatti in Hausdorff (sono chiusi)
+> - [ ] Compattezza per successioni (Sequenziale) vs Compattezza topologica
+> - [ ] Esercizio: Insiemi compatti nella topologia discreta (solo i finiti)
+> 
+> **Estensioni**
+> - [ ] Lemma del Tubo (prodotto con un compatto)
+> - [ ] Teorema di Tychonoff (prodotto arbitrario di compatti)
+> - [ ] Compattificazione di Alexandroff (Compattificazione a un punto)
+> - [ ] Spazi localmente compatti
 
-> [!Done] 6 - Connessione
-> - [ ] Definizione di spazio connesso (assenza di separazioni)
-> - [ ] Unione di connessi con punto in comune
-> - [ ] Immagine continua di connessi e Teorema dei valori intermedi
-> - [ ] Connessione del prodotto (finito e infinito)
-> - [ ] Componenti connesse (da Esercitazioni)
-> - [ ] Connessione per archi (cammini): definizione e relazione con la connessione
-> - [ ] Il Seno del Topologo (connesso ma non per archi)
-
-> [!WARNING] 7 - Compattezza
-> - [ ] Definizione tramite ricoprimenti aperti
-> - [ ] Compattezza nei sottospazi e relazione con i chiusi
-> - [ ] Teorema di Heine-Borel (chiusi e limitati in $\mathbb{R}^n$)
-> - [ ] Compattezza e assiomi di separazione: Spazi di Hausdorff ($T_2$)
-> - [ ] Compattezza dell'immagine continua
-> - [ ] Lemma del Tubo (compattezza nel prodotto)
-> - [ ] Proprietà dell'intersezione finita (famiglie di chiusi)
-> - [ ] Compattificazione di Alexandroff (a un punto) (da Esercitazioni)
-> - [ ] Compattezza per punti di accumulazione vs Compattezza per successioni
+> [!bug]- **6. Connessione e Quozienti**
+> 
+> **Connessione**
+> - [ ] Spazi Connessi: definizione (separazione) e intervalli di $\mathbb{R}$
+> - [ ] Teorema del Valor Medio (versione topologica)
+> - [ ] Connessione per archi e relazione con la connessione
+> - [ ] Componenti Connesse e Componenti Connesse per Archi
+> - [ ] Esercizio: Curva del Seno del Topologo (Connessa ma non per archi)
+> 
+> **Topologia Quoziente**
+> - [ ] Mappa quoziente e topologia quoziente (proprietà universale)
+> - [ ] Spazi di identificazione (incollamenti)
+> - [ ] Esempi: Toro $\mathbb{T}^2$, Nastro di Möbius, Bottiglia di Klein
+> - [ ] Spazi Proiettivi $\mathbb{P}^n(\mathbb{R})$
+> - [ ] Esercizio: Riconoscere spazi quoziente (es. Quadrato con lati incollati)
 
 ---
 
@@ -250,7 +306,7 @@ dv.paragraph("<progress value='" + percent + "' max='100' style='" + barStyle + 
 
 ```
 ---
-tags: [Topologia, Definizioni]
+tags: [Topologia, Definizione]
 aliases: []
 icon: lucide-book-open
 ---
@@ -258,7 +314,7 @@ icon: lucide-book-open
   -> #Definizione 
 ```
 ---
-tags: [Topologia, Definizioni]
+tags: [Topologia, Proposizione]
 aliases: []
 icon: lucide-circle-check-big
 ---
@@ -266,7 +322,7 @@ icon: lucide-circle-check-big
 -> #Proposizione 
 ```
 ---
-tags: [Topologia, Teoremi]
+tags: [Topologia, Teorema]
 aliases: []
 icon: lucide-scroll-text
 ---

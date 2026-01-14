@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Definizione, Interno]
+tags: [Topologia, Definizione, Interni]
 aliases: [interno]
 icon: lucide-book-open
 ---

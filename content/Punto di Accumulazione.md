@@ -1,6 +1,10 @@
 ---
-tags: [Topologia, Definizione, Punti di Accumulazione]
-aliases: [punto di accumulazione]
+tags:
+  - Topologia
+  - Definizione
+  - Punti-di-Accumulazione
+aliases:
+  - punto di accumulazione
 icon: lucide-book-open
 ---
 

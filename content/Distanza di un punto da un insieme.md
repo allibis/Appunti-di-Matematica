@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Definizione, Metrica]
+tags: [Topologia, Definizione, Metriche]
 icon: lucide-book-open
 ---
 

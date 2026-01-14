@@ -1,5 +1,8 @@
 ---
-tags: [Topologia, Topologia Prodotto, Definizione]
+tags:
+  - Topologia
+  - Topologia-Prodotto
+  - Definizione
 aliases: []
 icon: lucide-book-open
 ---

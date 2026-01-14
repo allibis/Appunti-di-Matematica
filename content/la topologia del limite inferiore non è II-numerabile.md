@@ -2,8 +2,8 @@
 tags:
   - Topologia
   - Proposizione
-  - Topologia del limite inferiore
-  - Secondo Numerabile
+  - Topologia-del-Limite-Inferiore
+  - Secondo-Numerabile
 icon: lucide-lightbulb
 ---
 

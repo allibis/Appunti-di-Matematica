@@ -1,6 +1,10 @@
 ---
-tags: [Topologia, Box Topologia, Definizione]
-aliases: [box topologia]
+tags:
+  - Topologia
+  - Box-Topologia
+  - Definizione
+aliases:
+  - box topologia
 icon: lucide-book-open
 ---
 

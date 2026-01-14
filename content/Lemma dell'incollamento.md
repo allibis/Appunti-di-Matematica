@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Definizioni, Omeomorfismi]
+tags: [Topologia, Definizione, Omeomorfismi]
 aliases: [lemma dell'incollamento]
 icon: lucide-circle-check-big
 ---

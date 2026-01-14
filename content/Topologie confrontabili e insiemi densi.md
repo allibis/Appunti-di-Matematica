@@ -1,5 +1,8 @@
 ---
-tags: [Topologia, Proposizione, Insiemi densi]
+tags:
+  - Topologia
+  - Proposizione
+  - Insiemi-Densi
 icon: lucide-circle-check-big
 ---
 

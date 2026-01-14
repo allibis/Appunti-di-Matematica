@@ -1,6 +1,11 @@
 ---
-tags: [Topologia, Definizioni]
-aliases: [funzione chiusa, chiusa]
+tags:
+  - Topologia
+  - Definizione
+  - Mappe
+aliases:
+  - funzione chiusa
+  - chiusa
 icon: lucide-book-open
 ---
 

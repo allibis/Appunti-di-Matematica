@@ -18,7 +18,7 @@ views:
       - property: file.name
         direction: ASC
     columnSize:
-      file.name: 287
+      file.name: 349
       note.tags: 383
       note.aliases: 331
   - type: cards

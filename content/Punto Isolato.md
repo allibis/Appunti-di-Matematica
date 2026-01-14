@@ -1,6 +1,10 @@
 ---
-tags: [Topologia, Definizione, Punti isolati]
-aliases: [punto isolato]
+tags:
+  - Topologia
+  - Definizione
+  - Punti-Isolati
+aliases:
+  - punto isolato
 icon: lucide-book-open
 ---
 

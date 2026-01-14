@@ -1,7 +1,11 @@
 ---
 icon: lucide-book-open
-tags: [Topologia, Topologia-Prodotto, Definizione]
-aliases: [topologia prodotto]
+tags:
+  - Topologia
+  - Topologia-Prodotto
+  - Definizione
+aliases:
+  - topologia prodotto
 ---
 
 > [!def] Topologia Prodotto

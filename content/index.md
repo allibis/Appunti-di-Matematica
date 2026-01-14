@@ -1,11 +1,10 @@
 ---
-title: "Appunti di Geometria 4"
-description: "Appunti di Topologia generale"
-tags: 
-  - nograph
-  - index
+tags: [nograph]
 ---
 
+```table-of-contents
+	title: # Indice dei Contenuti
+```
 
 # 1. Topologia
 
@@ -20,14 +19,17 @@ tags:
 
 ![[Topologia Cofinita]]
 
+![[Topologia Euclidea]]
+
 ![[Topologia del Limite Inferiore]]
 
 > [!ex] Esempio di NON topologia
-> Sia $\tau=\{X\}\cup\{\varnothing\}\cup\{[-a,a]|a\in \mathbb{R}^+\}$
-> Considero la famiglia di elementi $\left\{ \left[ -1+\frac{1}{n},1+\frac{1}{n} \right] \right\}_{n\in \mathbb{N}}$.
+> Sia $\tau=\{X\}\cup\{\varnothing\}\cup\{[-a,a]|a\in \mathbb{R}^+\}$ <br>
+> Considero la famiglia di elementi $\left\{ \left[ -1+\frac{1}{n},1+\frac{1}{n} \right] \right\}_{n\in \mathbb{N}}$. <br>
 > Si ha che $\bigcup_{n\in \mathbb{N}}\left[ -1+\frac{1}{n},1+\frac{1}{n} \right]=\left]-1,1\right[\not\in\tau$ 
 > 
 > ![[esempio non topologia.excalidraw.dark.svg]]
+
 
 ![[Topologia con Seno]]
 
@@ -72,22 +74,7 @@ tags:
 > Osservo inoltre che $\displaystyle S(x,a)^C=X\setminus\underbrace{ S(x,a) }_{ \text{aperto} }=\bigcup^{a-1}_{i=1}S(x+i,a)$
 > Tale insieme è chiuso, in quanto complementare di aperto, e aperto poiché unione di aperti. In altre parole, tutti gli aperti sono chiusi.
 > Quindi $\displaystyle A=\bigcup_{p \text{ primo}}S(0,p)$ è chiuso per unione finita di chiusi e $A^C=\{-1,1\}$ è aperto. Ma questa è una contraddizione, in quanto gli aperti sono infiniti in $\tau$.
-%% 
-> 	```mehrmaid
-> 		flowchart RL
-> 		A("Suppongo che i numeri
-> 		 primi siano finiti 
-> 		 $\{p_{1}\dots p_{s}\}$") 
-> 		 -->
-> 		B("$\displaystyle A=\bigcup_{p \text{ primo}}S(0,p)$")
-> 		A-->C("$\displaystyle S(x,a)^C=X\setminus\underbrace{ S(x,a) }_{ \text{aperto} }=\bigcup^{a-1}_{i=1}S(x+i,a)$") --> D("ogni aperto è chiuso")
-> 		B & D --> 
-> 		F("$A$ è chiuso quindi 
-> 		$A^C=\{-1,1\}$ è aperto") --> 
-> 		G("ho trovato un aperto 
-> 		di cardinalità finita") --> E("Contraddizione")
-> 	```
-%%
+> 
 
 ![[Topologie confrontabili e basi]]
 
@@ -285,14 +272,47 @@ tags:
 
 ![[Distanza di un punto da un insieme]]
 
+![[Spazio Metrizzabile]]
+
 ---
 ## 6.2 _Topologie indotte da Metriche_
 ![[Topologia indotta da una metrica|Topologia indotta]]
 
 ![[Le topologie indotte sono I-numerabili]]
 
-![[Metriche e Confronto tra Topologie]]
+![[Lemma sulle Metriche e Confronto tra Topologie]]
 
 ![[Teorema sulla Metrica euclidea, Distanza Chebyshev e Topologia Prodotto]]
 
 ---
+
+## 6.3 _Metrica e Topologia Uniforme_
+
+> [!oss] Metriche e $\mathbb{R}^\omega$
+> Consideriamo $\mathbb{R}^\omega$, se cerchiamo di generalizzare $d(x,y)$ e $p(x,y)$ rischiamo che non siano ben definite. Infatti, posti $x=(x_{1},x_{2},\dots)$ e $y=(y_{1},y_{2},\dots)\in \mathbb{R}^\omega$: 
+> $d(x,y)=\sqrt{  \sum\limits_{i=1}^\infty |x_{i}-y_{i}|^2 }$ potrebbe divergere, proprio come $p(x,y)=\sup\limits_{i\in \mathbb{N}}\{|x_{i}-y_{i}|\}$.
+> ![[Divergenza successioni.excalidraw]]
+
+![[Metrica Uniforme]]
+
+![[Metrica Uniforme su R^J]]
+
+![[Topologia Uniforme]]
+
+![[Confronto tra Topologia Uniforme e Topologia Prodotto]]
+
+![[Teorema sulla Topologia Prodotto Indotta dalla D Metrica]]
+
+## 6.4 Continuità
+
+![[Teorema sulla Continuità di Mappe tra Spazi Metrici]]
+
+![[Lemma della Successione]]
+
+## 6.5 Convergenza
+
+![[Teorema Sulle Successioni Convergenti e Funzioni Continue]]
+
+![[Convergenza Uniforme]]
+
+![[Teorema del Limite Uniforme]]

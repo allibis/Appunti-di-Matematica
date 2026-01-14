@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Definizioni, Mappe]
+tags: [Topologia, Definizione, Mappe]
 aliases: []
 icon: lucide-book-open
 ---

@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Proprietà, Interno, Esterno, Frontiera]
+tags: [Topologia, Proprietà, Interni, Esterni, Frontiera]
 icon: lucide-pencil
 ---
 

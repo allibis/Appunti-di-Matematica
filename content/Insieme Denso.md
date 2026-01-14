@@ -1,6 +1,12 @@
 ---
-tags: [Topologia, Definizione, Insieme denso]
-aliases: [insieme denso, denso]
+tags:
+  - Topologia
+  - Definizione
+  - Insiemi
+  - Densi
+aliases:
+  - insieme denso
+  - denso
 icon: lucide-book-open
 ---
 

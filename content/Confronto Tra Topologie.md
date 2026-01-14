@@ -2,6 +2,7 @@
 tags:
   - Topologia
   - Definizione
+aliases: fine
 icon: lucide-book-open
 ---
 

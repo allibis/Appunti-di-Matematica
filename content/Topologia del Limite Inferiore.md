@@ -9,7 +9,7 @@ icon: lucide-book-open
 
 
 > [!def] Topologia del Limite Inferiore $\tau_{\mathscr{l}}$ 
-> Si può definire su $\mathbb{R}$ la seguente [[Topologia|topologia]]
+> Si può definire su $\mathbb{R}$ la seguente [[topologia]]
 > $\tau_{\mathscr{l}}=\left\{U\subseteq \mathbb{R}|\exists\{[a_{i},b_{i})\}_{i\in I},\text{t.c } U=\bigcup_{i\in I}[a_{i},b_{i})\right\}$
 ^def-topologia-lim-inf
 

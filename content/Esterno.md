@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Definizione, Esterno]
+tags: [Topologia, Definizione, Esterni]
 aliases: [esterno, punto esterno]
 icon: lucide-book-open
 ---

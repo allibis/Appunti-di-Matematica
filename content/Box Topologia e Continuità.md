@@ -1,5 +1,9 @@
 ---
-tags: [Topologia, Topologia Box, Funzioni Continue, Proposizione]
+tags:
+  - Topologia
+  - Topologia-Box
+  - Proposizione
+  - Continuità
 aliases: []
 icon: lucide-circle-check-big
 ---

@@ -2,7 +2,7 @@
 tags:
   - Topologia
   - Definizione
-  - Primo Numerabile
+  - Primo-Numerabile
 aliases:
   - primo-numerabile
   - I-numerabile

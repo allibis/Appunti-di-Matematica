@@ -2,7 +2,7 @@
 tags:
   - Topologia
   - Proposizione
-  - Topologia cofinita
+  - Topologia-Cofinita
 icon: lucide-lightbulb
 ---
 

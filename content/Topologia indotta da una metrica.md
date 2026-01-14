@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Definizione, Metrica]
+tags: [Topologia, Definizione, Metriche]
 aliases: [Topologia indotta, topologia indotta]
 icon: lucide-book-open
 ---

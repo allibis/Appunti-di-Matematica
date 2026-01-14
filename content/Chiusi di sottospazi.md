@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Definizioni, Chiusi, Sottospazi]
+tags: [Topologia, Definizione, Chiusi, Sottospazi]
 aliases: []
 icon: lucide-circle-check-big
 ---

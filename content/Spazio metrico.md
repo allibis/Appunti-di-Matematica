@@ -1,6 +1,11 @@
 ---
-tags: [Topologia, Definizione, Spazi metrici]
-aliases: [spazio metrico]
+tags:
+  - Topologia
+  - Definizione
+  - Spazi-Metrici
+  - Metriche
+aliases:
+  - spazio metrico
 icon: lucide-book-open
 ---
 

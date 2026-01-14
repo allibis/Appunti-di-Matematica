@@ -2,7 +2,7 @@
 tags:
   - Topologia
   - Definizione
-  - Secondo Numerabile
+  - Secondo-Numerabile
 aliases:
   - secondo-numerabile
   - II-numerabile

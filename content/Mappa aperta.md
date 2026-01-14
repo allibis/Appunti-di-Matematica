@@ -1,6 +1,11 @@
 ---
-tags: [Topologia, Definizioni]
-aliases: [Funzione aperta, aperta]
+tags:
+  - Topologia
+  - Definizione
+  - Mappe
+aliases:
+  - Funzione aperta
+  - aperta
 icon: lucide-book-open
 ---
 

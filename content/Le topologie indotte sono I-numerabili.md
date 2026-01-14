@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Proposizione, Metrica]
+tags: [Topologia, Proposizione, Metriche]
 icon: lucide-circle-check-big
 ---
 
