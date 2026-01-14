@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Appunti di Topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/</guid>
-    <description><![CDATA[ 1. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 21:46:01 GMT</pubDate>
-  </item><item>
-    <title>base di una topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/base-di-una-topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/base-di-una-topologia</guid>
-    <description><![CDATA[  Base di una Topologia Sia (X,\tau) uno spazio topologico, \beta \subseteq \tau è base della topologia \tau se \displaystyle\forall U\in \tau, \exists\{B_{i}\}_{i\in I}\mid U=\bigcup_{i\in I}B_{i} . ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:54:25 GMT</pubDate>
-  </item><item>
-    <title>esempio non topologia.excalidraw</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/excalidraw/esempio-non-topologia.excalidraw</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/excalidraw/esempio-non-topologia.excalidraw</guid>
+    <title>diagramma prop fondamentale.excalidraw</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/diagramma-prop-fondamentale.excalidraw</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/diagramma-prop-fondamentale.excalidraw</guid>
     <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:24:04 GMT</pubDate>
+    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
   </item><item>
-    <title>teorema del limite uniforme</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/teorema-del-limite-uniforme</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/teorema-del-limite-uniforme</guid>
-    <description><![CDATA[  Teorema del Limite Uniforme Sia f_{n} una successione di funzioni da X spazio topologico a Y spazio metrico. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:23:48 GMT</pubDate>
-  </item><item>
-    <title>topologia cofinita</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/topologia-cofinita</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/topologia-cofinita</guid>
-    <description><![CDATA[  Topologia Cofinita Dato X, la sua topologia cofinita è \tau = \{X\} \cup \{\varnothing\} \cup \{U_j | U^C è sottoinsieme finito di X\} Dim Dimostro che \tau = \{X\} \cup \{\varnothing\} \cup \{U_j | U^C è un sottoinsieme finito di X\} è una topologia su X. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 20:11:46 GMT</pubDate>
-  </item><item>
-    <title>topologia euclidea</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/topologia-euclidea</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/topologia-euclidea</guid>
-    <description><![CDATA[  Topologia Euclidea \mathcal{E} La topologia euclidea (o standard) su \mathbb{R} è: \mathcal{E}=\left\{U\subseteq \mathbb{R}|\exists\{(a_{i},b_{i})\}_{i\in I},\text{t.c } U=\bigcup_{i\in I}(a_{i},b_{i})\right\} Base di \mathcal{E} Una base per la topologia euclidea è \beta=\{(a,b)\mid a,b\in \mathbb... ]]></description>
-    <pubDate>Wed, 14 Jan 2026 19:56:48 GMT</pubDate>
-  </item><item>
-    <title>topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/topologia</guid>
-    <description><![CDATA[  Topologia Sia X un insieme e \tau \subseteq \mathcal{P}(X) una famiglia di sottoinsiemi di X con le seguenti proprietà: \varnothing \in \tau e X \in \tau La famiglia \tau è chiusa rispetto all’unione, ossia \forall A,B \in \tau: A\cup B \in \tau, e più in generale, data \{U_j\}_{j\in J} tale che \f... ]]></description>
-    <pubDate>Wed, 14 Jan 2026 18:37:44 GMT</pubDate>
-  </item><item>
-    <title>dashboard</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/dashboard</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/dashboard</guid>
-    <description><![CDATA[ 🔥 Heatmap Tracker // --- 1. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 17:55:29 GMT</pubDate>
-  </item><item>
-    <title>teorema di weierstrass m-test</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/teorema-di-weierstrass-m-test</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/teorema-di-weierstrass-m-test</guid>
-    <description><![CDATA[  Teorema di Weierstrass M-Test Sia X un insieme e sia (f_{i})_{i\in \mathbb{N}} una successione di funzioni f_{i}:X\to \mathbb{R} (o \mathbb{C}). ]]></description>
-    <pubDate>Wed, 14 Jan 2026 17:43:55 GMT</pubDate>
-  </item><item>
-    <title>esempio topologia seno.excalidraw</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/excalidraw/esempio-topologia-seno.excalidraw</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/excalidraw/esempio-topologia-seno.excalidraw</guid>
+    <title>disegno identità insiemi.excalidraw</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/disegno-identit%C3%A0-insiemi.excalidraw</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/disegno-identit%C3%A0-insiemi.excalidraw</guid>
     <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 16:17:24 GMT</pubDate>
+    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+  </item><item>
+    <title>divergenza successioni.excalidraw</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/divergenza-successioni.excalidraw</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/divergenza-successioni.excalidraw</guid>
+    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+  </item><item>
+    <title>drawing 2025-12-04 17.44.40.excalidraw</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/drawing-2025-12-04-17.44.40.excalidraw</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/drawing-2025-12-04-17.44.40.excalidraw</guid>
+    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+  </item><item>
+    <title>drawing 2025-12-12 18.08.55.excalidraw</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/drawing-2025-12-12-18.08.55.excalidraw</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/drawing-2025-12-12-18.08.55.excalidraw</guid>
+    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+  </item><item>
+    <title>esempio omeomorfismo.excalidraw</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/esempio-omeomorfismo.excalidraw</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/esempio-omeomorfismo.excalidraw</guid>
+    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+  </item><item>
+    <title>metriche equivalenti.excalidraw</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/metriche-equivalenti.excalidraw</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/metriche-equivalenti.excalidraw</guid>
+    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+  </item><item>
+    <title>palla aperta inf metrica.excalidraw</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/palla-aperta-inf-metrica.excalidraw</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/palla-aperta-inf-metrica.excalidraw</guid>
+    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+  </item><item>
+    <title>palla sferica.excalidraw</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/palla-sferica.excalidraw</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/palla-sferica.excalidraw</guid>
+    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+  </item><item>
+    <title>s(x,a).excalidraw</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/s(x,a).excalidraw</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/s(x,a).excalidraw</guid>
+    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
+    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
   </item>
     </channel>
   </rss>
