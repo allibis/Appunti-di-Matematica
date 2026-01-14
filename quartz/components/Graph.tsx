@@ -19,6 +19,11 @@ export interface D3Config {
   showTags: boolean
   focusOnHover?: boolean
   enableRadial?: boolean
+  // added new option
+  // defaultCentralSlug sets a custom central slug 
+  // if a page is not included because of the "nograph" tag
+  // default is "/"
+  defaultCentralSlug: string
 }
 
 interface GraphOptions {
@@ -41,6 +46,7 @@ const defaultOptions: GraphOptions = {
     removeTags: [],
     focusOnHover: false,
     enableRadial: false,
+    defaultCentralSlug: "/"
   },
   globalGraph: {
     drag: true,
@@ -56,6 +62,8 @@ const defaultOptions: GraphOptions = {
     removeTags: [],
     focusOnHover: true,
     enableRadial: true,
+    disableIndex: false,
+    defaultCentralSlug: "/"
   },
 }
 

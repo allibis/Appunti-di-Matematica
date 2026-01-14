@@ -1,8 +1,9 @@
 ---
-Tags:
+tags:
   - Topologia
   - Definizione
   - Basi
+  - nograph
 aliases:
   - base
   - basi

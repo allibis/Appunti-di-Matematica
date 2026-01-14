@@ -1,10 +1,8 @@
 ---
-tags: [nograph]
+title: Appunti di Topologia 
+tags: nograph
+slug: index
 ---
-
-```table-of-contents
-	title: # Indice dei Contenuti
-```
 
 # 1. Topologia
 

@@ -17,7 +17,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.PageTitle(),
+    Component.ArticleTitle(),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
@@ -27,7 +27,7 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.TagList(),
   ],
   left: [
-    Component.ArticleTitle(),
+    Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -39,6 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
         // { Component: Component.ReaderMode() },
       ],
     }),
+    // mostra la lista delle note se mi trovo in una nota, altrimenti mostra l'indice se mi trovo in sulla pagina principale
     Component.ConditionalRender({
       component: Component.Explorer({
         filterFn: (f) => !f.slug!.startsWith("Excalidraw/")
@@ -55,10 +56,12 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.Graph({
       localGraph:{
-        showTags: false
+        showTags: false,
+        defaultCentralSlug: "Topologia",
       },
       globalGraph:{
-        showTags: false
+        showTags: false,
+        defaultCentralSlug: "Topologia",
       }
     }
     ),

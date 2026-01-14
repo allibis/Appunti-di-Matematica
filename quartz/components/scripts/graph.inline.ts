@@ -17,7 +17,7 @@ import {
 import { Text, Graphics, Application, Container, Circle } from "pixi.js"
 import { Group as TweenGroup, Tween as Tweened } from "@tweenjs/tween.js"
 import { registerEscapeHandler, removeAllChildren } from "./util"
-import { FullSlug, SimpleSlug, getFullSlug, resolveRelative, simplifySlug } from "../../util/path"
+import { FullSlug, SimpleSlug, getFullSlug, resolveRelative, simplifySlug, slugTag } from "../../util/path"
 import { D3Config } from "../Graph"
 
 type GraphicsInfo = {
@@ -87,6 +87,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     showTags,
     focusOnHover,
     enableRadial,
+    disableIndex,
+    defaultCentralSlug,
 
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
@@ -97,28 +99,51 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     ]),  
   )
 
+
   
 
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
   const validLinks = new Set(data.keys())
 
+  // moved code up here so it can set a wl variable before the data element containing "nograph" as a tag gets deleted
+  const neighbourhood = new Set<SimpleSlug>()
+  let wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
+
+  // Check if current page has "nograph" tag  
+  const centralSlug = defaultCentralSlug as SimpleSlug; 
+  const currentPage = data.get(slug as SimpleSlug)  
+  const currentPageHasNoGraph = currentPage?.tags?.includes("nograph") ?? false  
+    
+  // Use central slug if current page has "nograph" tag or is main page 
+  // in that case it uses the defaultCentralSlug variable (added in Graph.tsx and set in quartz.layout.ts)
+  // this way i can easily prevent nodes from showing in the graph if they have a nograph tag in their frontmatter
+  if (currentPageHasNoGraph){  
+      wl = [centralSlug, "__SENTINEL"]  
+  }
+
+    // filters all pages containing "nograph"
+  for (const [slug, details] of data.entries()) {  
+    if (details.tags?.includes("nograph")) {  
+      data.delete(slug)  
+    }  
+  }
+
+  
   const tweens = new Map<string, TweenNode>()
   for (const [source, details] of data.entries()) {
     const outgoing = details.links ?? []
+    const localTags = details.tags
+        .filter((tag) => !removeTags.includes(tag))
+        .map((tag) => simplifySlug(("tags/" + tag) as FullSlug))
 
     for (const dest of outgoing) {
       if (validLinks.has(dest)) {
-        // Ignores all links with "/"
-        if(dest == "/" || source == "/") break
         links.push({ source: source, target: dest })
       }
     }
 
     if (showTags) {
-      const localTags = details.tags
-        .filter((tag) => !removeTags.includes(tag))
-        .map((tag) => simplifySlug(("tags/" + tag) as FullSlug))
 
       tags.push(...localTags.filter((tag) => !tags.includes(tag)))
 
@@ -128,15 +153,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
   }
 
-  // this sets a default central node if i'm on the / page
-  const centralSlug = "Topologia" as SimpleSlug; 
-  const neighbourhood = new Set<SimpleSlug>()
-  let wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
 
-  // added default central slug if page is / (main page)
-  if (slug === ("/" as SimpleSlug)){
-      wl = [centralSlug, "__SENTINEL"]
-  }
 
 
   if (depth >= 0) {
