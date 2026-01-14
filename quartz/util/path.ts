@@ -59,7 +59,7 @@ function sluggify(s: string): string {
     .split("/")
     .map((segment) =>
       segment
-        .toLowerCase() // added because for some reason it mixed lowecase to uppercase
+        // .toLowerCase() // added because for some reason it mixed lowecase to uppercase
         .replace(/\s/g, "-")
         .replace(/&/g, "-and-")
         .replace(/%/g, "-percent")
@@ -77,8 +77,8 @@ export function slugifyFilePath(fp: FilePath, excludeExt?: boolean): FullSlug {
   if (excludeExt || [".md", ".html", undefined].includes(ext)) {
     ext = ""
   }
-
   let slug = sluggify(withoutFileExt)
+
 
   // treat _index as index
   if (endsWith(slug, "_index")) {
