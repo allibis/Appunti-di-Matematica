@@ -1,3 +1,6 @@
+# Appunti di Topologia 
+<img src="./quartz/static/icon.png" style="width: 40%;">
+
 ## Il progetto
 Questo è un esperimento personale nato come soluzione alternativa alla rielaborazione "classica" degli appunti universitari. 
 
