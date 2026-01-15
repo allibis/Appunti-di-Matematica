@@ -6,6 +6,12 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Teorema sulla Metrica euclidea, Distanza Chebyshev e Topologia Prodotto</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulla-Metrica-euclidea,-Distanza-Chebyshev-e-Topologia-Prodotto</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulla-Metrica-euclidea,-Distanza-Chebyshev-e-Topologia-Prodotto</guid>
+    <description><![CDATA[  Teorema Le topologie indotte dalla metrica euclidea d e dalla metrica di chebyshev p sono uguali alla topologia prodotto su \mathbb{R}^n. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 23:16:32 GMT</pubDate>
+  </item><item>
     <title>British Rail Express Metric (SNCF Metrica)</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/British-Rail-Express-Metric-(SNCF-Metrica)</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/British-Rail-Express-Metric-(SNCF-Metrica)</guid>
@@ -58,12 +64,6 @@
     <link>https://allibis.github.io/Appunti-di-Topologia/Palla-aperta</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Palla-aperta</guid>
     <description><![CDATA[  Palla aperta Sia X\not=\varnothing e d(x,y) una metrica. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
-  </item><item>
-    <title>Proprietà fondamentale delle mappe</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-fondamentale-delle-mappe</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-fondamentale-delle-mappe</guid>
-    <description><![CDATA[  Proprietà Fondamentale Sia Z un insieme e siano date le mappe f_{x}:Z\to X, f_{y}:Z\to Y. ]]></description>
     <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
   </item>
     </channel>
