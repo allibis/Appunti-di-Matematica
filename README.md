@@ -9,3 +9,5 @@ Ogni definizione, teorema, proposizione e così via sono stati scritti in manier
 Poi, per poter mettere in ordine le informazioni e poterle rivedere in maniera sequenziale, le ho inserite tutte in un singolo file suddividendole in capitoli e paragrafi. 
 
 Ad un certo punto, navigando tra le documentazioni di Obsidian per personalizzare al meglio le mie note e cercare plugin utili, mi sono imbattuto in [Quartz](https://quartz.jzhao.xyz/). A quel punto ho deciso di fare un tentativo per trasformare le note in un sito web consultabile da chiunque. 
+
+Il sito è https://allibis.github.io/Appunti-di-Topologia/
