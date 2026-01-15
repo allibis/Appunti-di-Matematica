@@ -18,7 +18,10 @@
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/British-Rail-Express-Metric-(SNCF-Metrica)</loc>
-    <lastmod>2026-01-15T17:31:26.933Z</lastmod>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</loc>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-aperti</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -28,9 +31,6 @@
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-omeomorfismi</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</loc>
-    <lastmod>2026-01-15T16:37:25.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Basi-di-una-Topologia</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -42,7 +42,7 @@
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Chiusi-e-interni-di-spazi-topologici-(propriet%C3%A0)</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Chiuso</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -50,14 +50,14 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/Chiusura-di-un-insieme</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Confronto-tra-box-topologia-e-topologia-prodotto</loc>
-    <lastmod>2026-01-15T16:37:25.000Z</lastmod>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Confronto-Tra-Topologie</loc>
+    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Confronto-tra-Topologia-Uniforme-e-Topologia-Prodotto</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Confronto-Tra-Topologie</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Confronto-tra-box-topologia-e-topologia-prodotto</loc>
+    <lastmod>2026-01-15T16:37:25.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Continuit%C3%A0-della-funzione-identit%C3%A0</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -86,14 +86,11 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/I-singoletti-sono-Chiusi-Negli-Spazi-Hausdorff</loc>
     <lastmod>2026-01-15T16:37:25.000Z</lastmod>
   </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/</loc>
-    <lastmod>2026-01-15T16:37:25.000Z</lastmod>
-  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Insieme-Denso</loc>
     <lastmod>2026-01-15T16:37:25.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Insiemi-Limitati</loc>
-    <lastmod>2026-01-15T17:17:22.315Z</lastmod>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Interno</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -105,10 +102,7 @@
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/La-topologia-cofinita-non-%C3%A8-1-numerabile</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/la-topologia-del-limite-inferiore-non-%C3%A8-II-numerabile</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Le-topologie-indotte-sono-I-numerabili</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -123,7 +117,7 @@
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Mappa-Aperta</loc>
-    <lastmod>2026-01-11T21:43:56.249Z</lastmod>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Mappa-Chiusa</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -132,7 +126,7 @@
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Mappa-Quoziente</loc>
-    <lastmod>2026-01-15T22:16:39.003Z</lastmod>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Mappe-Continue-e-Basi</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -150,10 +144,10 @@
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Omeomorfismo</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Palla-aperta</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Prodotto-Cartesiano-della-Famiglia-Parametrizzata</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -164,19 +158,22 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/Proposizione-sull'intersezione-tra-Topologie</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-Interno,-Esterno-e-Frontiera</loc>
+    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-degli-Spazi-di-Hausdorff</loc>
     <lastmod>2026-01-15T16:37:25.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-fondamentale-delle-mappe</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-Interno,-Esterno-e-Frontiera</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Prove-varie</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Punti-di-Aderenza</loc>
+    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Punto-Isolato</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Punto-di-Accumulazione</loc>
@@ -185,28 +182,28 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/Punto-interno</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Punto-Isolato</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Regole-per-la-costruzione-delle-funzioni-continue</loc>
     <lastmod>2026-01-15T16:37:25.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Relazioni-di-Equivalenza-e-Mappe-Quozienti</loc>
-    <lastmod>2026-01-15T21:46:51.483Z</lastmod>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Sistema-fondamentale-di-intorni</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Spazio-metrico</loc>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Spazio-Metrizzabile</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Spazio-Metrizzabile</loc>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Spazio-metrico</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Spazio-topologico-Primo-numerabile</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Spazio-topologico-Secondo-numerabile</loc>
+    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Teorema-Sulle-Successioni-Convergenti-e-Funzioni-Continue</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Teorema-del-Limite-Uniforme</loc>
@@ -225,7 +222,7 @@
     <lastmod>2026-01-15T16:37:25.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulla-Metrica-euclidea,-Distanza-Chebyshev-e-Topologia-Prodotto</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulla-Topologia-Prodotto-Indotta-dalla-D-Metrica</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -233,14 +230,26 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulle-funzioni-continue-e-topologia-prodotto</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Teorema-Sulle-Successioni-Convergenti-e-Funzioni-Continue</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Banale</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Cofinita</loc>
     <lastmod>2026-01-15T16:37:25.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Discreta</loc>
+    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Euclidea</loc>
+    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Prodotto</loc>
+    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Relativa-a-una-Mappa-Quoziente</loc>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Uniforme</loc>
+    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-con-Seno</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -251,22 +260,7 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-di-Sottospazio</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Discreta</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Euclidea</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-indotta-da-una-metrica</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Prodotto</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Relativa-a-una-Mappa-Quoziente</loc>
-    <lastmod>2026-01-15T21:24:13.908Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Uniforme</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia</loc>
@@ -276,5 +270,11 @@
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Topologie-confrontabili-e-insiemi-densi</loc>
+    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/</loc>
+    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/la-topologia-del-limite-inferiore-non-%C3%A8-II-numerabile</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url></urlset>

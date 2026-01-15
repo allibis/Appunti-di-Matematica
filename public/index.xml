@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Mappa Quoziente</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Mappa-Quoziente</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Mappa-Quoziente</guid>
-    <description><![CDATA[  Mappa Quoziente p:(X,\tau)\to(Y,\tau&#039;) è una mappa quoziente se p è suriettiva e se \forall U\in Y: U\in \tau&#039;\iff p^{-1}(U)\in \tau Osservazione Se p:(X,\tau)\to (Y,\tau&#039;) è suriettiva, continua e aperta, allora p è una mappa quoziente Esempio di Mappa Quoziente S^1:=\{ (x,y)\in \ma... ]]></description>
-    <pubDate>Thu, 15 Jan 2026 22:16:39 GMT</pubDate>
-  </item><item>
-    <title>Relazioni di Equivalenza e Mappe Quozienti</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Relazioni-di-Equivalenza-e-Mappe-Quozienti</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Relazioni-di-Equivalenza-e-Mappe-Quozienti</guid>
-    <description><![CDATA[  Osservazione Sia X uno spazio topologico e \sim una relazione di equivalenza su X. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 21:46:51 GMT</pubDate>
-  </item><item>
-    <title>Topologia Relativa a una Mappa Quoziente</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Topologia-Relativa-a-una-Mappa-Quoziente</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Topologia-Relativa-a-una-Mappa-Quoziente</guid>
-    <description><![CDATA[  Teorema Sia (X,\tau) spazio topologico e Y insieme, sia p:X\to Y suriettiva. Allora \exists!\tau&#039; topologia tale che p è mappa quoziente. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 21:24:13 GMT</pubDate>
-  </item><item>
     <title>British Rail Express Metric (SNCF Metrica)</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/British-Rail-Express-Metric-(SNCF-Metrica)</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/British-Rail-Express-Metric-(SNCF-Metrica)</guid>
     <description><![CDATA[  British Rail Express Metric Sia X=\mathbb{R}^{2} e \delta:\mathbb{R}^2\to R definita come: \delta(x,y)=\begin{cases} \underline{0} &amp; \text{se }x=y \\ d(x,\underline{0})+y(y,\underline{0}) &amp; \text{se } x\not=y \end{cases} Si dimostra che soddisfa le proprietà di metrica. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 17:31:26 GMT</pubDate>
-  </item><item>
-    <title>Insiemi Limitati</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Insiemi-Limitati</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Insiemi-Limitati</guid>
-    <description><![CDATA[  Insieme Limitato Sia X insieme e d distanza su esso. Si dice che X è limitato se: \text{diam}(A)=\sup\{ d(x,y)\, \vert \,x,y\in X \}&lt;+\infty . ]]></description>
-    <pubDate>Thu, 15 Jan 2026 17:17:22 GMT</pubDate>
-  </item><item>
-    <title>Assiomi di Separazione</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Assiomi-di-Separazione</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Assiomi-di-Separazione</guid>
-    <description><![CDATA[  Assiomi di separazione T_{1} e T_{2} Sia (X,\tau) uno spazio topologico. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 16:37:25 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
   </item><item>
     <title>Caratterizzazione degli Spazi di Hausdorff</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</guid>
     <description><![CDATA[  Caratterizzazione degli Spazi di Hausdorff Sia X spazio topologico. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 16:37:25 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
   </item><item>
-    <title>Confronto tra box topologia e topologia prodotto</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Confronto-tra-box-topologia-e-topologia-prodotto</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Confronto-tra-box-topologia-e-topologia-prodotto</guid>
-    <description><![CDATA[  Proposizione \left( \mathbb{R}^\mathbb{N},\tau_{\text{prod}}\right) \subsetneq \left( \mathbb{R}^\mathbb{N},\tau_{\text{box}}\right), ossia la Box Topologia è più fine della Topologia Prodotto . ]]></description>
-    <pubDate>Thu, 15 Jan 2026 16:37:25 GMT</pubDate>
+    <title>Chiusi e interni di spazi topologici (proprietà)</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Chiusi-e-interni-di-spazi-topologici-(propriet%C3%A0)</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Chiusi-e-interni-di-spazi-topologici-(propriet%C3%A0)</guid>
+    <description><![CDATA[  Propriet Sia (X,\tau) uno spazio topologico e Y\subseteq X Se A\subseteq Y\implies\bar{A}^Y=\bar{A}^X\cap Y Int_{Y}(A)=Int_{X}(A\cup(X\setminus Y))\cap Y Dim Verifico la doppia inclusione (utilizzo il Teorema sui Punti di Aderenza 1.) \bar{A}^Y\subseteq \bar{A}^X\cap Y Sia p\in \bar{A}^Y\implies p\... ]]></description>
+    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
   </item><item>
-    <title>Hausdorff</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Hausdorff</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Hausdorff</guid>
-    <description><![CDATA[  Spazio Topologico di Hausdorff Uno spazio topologico X si dice di Hausdorff se \forall p,q\in X\, \vert \,p\not=q esiste un intorno aperto U di p e un intorno V di q tali che U\cap V=\varnothing (\mathbb{R},\mathcal{E}) e \mathbb{R}^2,\mathcal{E} sono di Hausdorff: . ]]></description>
-    <pubDate>Thu, 15 Jan 2026 16:37:25 GMT</pubDate>
+    <title>Insiemi Limitati</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Insiemi-Limitati</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Insiemi-Limitati</guid>
+    <description><![CDATA[  Insieme Limitato Sia X insieme e d distanza su esso. Si dice che X è limitato se: \text{diam}(A)=\sup\{ d(x,y)\, \vert \,x,y\in X \}&lt;+\infty . ]]></description>
+    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
   </item><item>
-    <title>I singoletti sono Chiusi Negli Spazi Hausdorff</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/I-singoletti-sono-Chiusi-Negli-Spazi-Hausdorff</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/I-singoletti-sono-Chiusi-Negli-Spazi-Hausdorff</guid>
-    <description><![CDATA[  Teorema Sia (X,\tau) uno spazio topologico di Hausdorff. Allora gli insiemi \{p\}\, \vert \,p\in X sono chiusi. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 16:37:25 GMT</pubDate>
+    <title>La topologia cofinita non è 1 numerabile</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/La-topologia-cofinita-non-%C3%A8-1-numerabile</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/La-topologia-cofinita-non-%C3%A8-1-numerabile</guid>
+    <description><![CDATA[  Proposizione La topologia cofinita non è primo-numerabile Dim Devo dimostrare che \forall x\in X NON esiste un sistema fondamentale di intorni numerabile. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+  </item><item>
+    <title>Mappa Aperta</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Mappa-Aperta</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Mappa-Aperta</guid>
+    <description><![CDATA[  Mappa Aperta Una funzione f:X\to Y si dice aperta se \forall A\subseteq X aperto si ha che f(A)\subseteq Y è aperto . ]]></description>
+    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+  </item><item>
+    <title>Mappa Quoziente</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Mappa-Quoziente</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Mappa-Quoziente</guid>
+    <description><![CDATA[  Mappa Quoziente p:(X,\tau)\to(Y,\tau&#039;) è una mappa quoziente se p è suriettiva e se \forall U\in Y: U\in \tau&#039;\iff p^{-1}(U)\in \tau Osservazione Se p:(X,\tau)\to (Y,\tau&#039;) è suriettiva, continua e aperta, allora p è una mappa quoziente Esempio di Mappa Quoziente S^1:=\{ (x,y)\in \ma... ]]></description>
+    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+  </item><item>
+    <title>Omeomorfismo</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Omeomorfismo</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Omeomorfismo</guid>
+    <description><![CDATA[  Omeomorfismo Siano (X,\tau),(Y,\tau&#039;) spazi topologici e f:X\to Y. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+  </item><item>
+    <title>Palla aperta</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Palla-aperta</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Palla-aperta</guid>
+    <description><![CDATA[  Palla aperta Sia X\not=\varnothing e d(x,y) una metrica. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+  </item><item>
+    <title>Proprietà fondamentale delle mappe</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-fondamentale-delle-mappe</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-fondamentale-delle-mappe</guid>
+    <description><![CDATA[  Proprietà Fondamentale Sia Z un insieme e siano date le mappe f_{x}:Z\to X, f_{y}:Z\to Y. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
   </item>
     </channel>
   </rss>
