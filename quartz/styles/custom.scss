@@ -41,6 +41,13 @@ blockquote{
   margin: 1em 0 !important;  
 }
 
+/* Fix per LaTeX all'interno dei Titoli (H1-H6) */
+.callout-title {
+  .katex {
+    // font-size: 1em !important;  /* Mantiene la dimensione coerente col testo del titolo */
+    color: inherit !important;  /* Eredita il colore del titolo (o rispetta il tuo \color{}) */
+  }
+}
 
 /* Rimozione del titolo del callout e ridimensionamento dei vari titoli dei paragrafi */
 .transclude-src {
