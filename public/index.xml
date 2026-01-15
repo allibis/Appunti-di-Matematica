@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Teoria di Geometria 4</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Teoria-di-Geometria-4</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Teoria-di-Geometria-4</guid>
-    <description><![CDATA[ 1. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 13:58:41 GMT</pubDate>
-  </item><item>
     <title>Aperto</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Aperto</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Aperto</guid>
     <description><![CDATA[  Definizione Data una topologia \tau, i suoi elementi si chiamano aperti. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
   </item><item>
     <title>Base di sottospazio</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Base-di-sottospazio</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Base-di-sottospazio</guid>
     <description><![CDATA[  Base di un sottospazio Se \beta è base per (X,\tau), allora \beta_{Y}=\{ B\cap Y\,\vert\,B\in \beta \} è base per il sottospazio (Y,\tau_{Y}) Dim Sia U\subseteq X e y\in U\cap Y Allora per la definizione di base \exists B\in \beta \,\vert\,y\in B\cap Y\subseteq U\cap Y. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
   </item><item>
     <title>Base di una Topologia</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Base-di-una-Topologia</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Base-di-una-Topologia</guid>
     <description><![CDATA[  Base di una Topologia Sia (X,\tau) uno spazio topologico, \beta \subseteq \tau è base della topologia \tau se \displaystyle\forall U\in \tau, \exists\{B_{i}\}_{i\in I}\mid U=\bigcup_{i\in I}B_{i} . ]]></description>
-    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
   </item><item>
     <title>Box Topologia e Continuità</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia-e-Continuit%C3%A0</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia-e-Continuit%C3%A0</guid>
     <description><![CDATA[  La Box Topologia non garantisce la continuità delle funzioni Consideriamo (\mathbb{R},\mathcal{E}) (topologia euclidea) e (\mathbb{R}^\mathbb{N},\tau_{\text{box}}) la box topologia. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
   </item><item>
     <title>Box Topologia</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia</guid>
     <description><![CDATA[  Box Topologia La box topologia su \mathbb{R}^\mathbb{N}=\{ (x_{1},x_{2},\dots,)\vert x_{i}\in \mathbb{R},\forall i\in \mathbb{N} \} è la topologia generata dalla base \displaystyle\beta=\left\{ \prod_{n\in N}U_{n} \middle \vert U_{n}\text{ aperto in } \mathbb{R}\right\} Su \mathbb{R}^n con n\in \ma... ]]></description>
-    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
   </item><item>
     <title>Caratterizzazione degli aperti</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-aperti</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-aperti</guid>
     <description><![CDATA[  Teorema Sia (X,\tau) uno spazio topologico. Sia A\subseteq X, allora: A è aperto di \tau\iff A è intorno di ogni suo punto. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
   </item><item>
     <title>Caratterizzazione degli insiemi densi</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-insiemi-densi</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-insiemi-densi</guid>
     <description><![CDATA[  Caratterizzazione degli insiemi densi Sia (X,\tau) spazio topologico e A\subseteq X. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
   </item><item>
     <title>Caratterizzazione degli omeomorfismi</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-omeomorfismi</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-omeomorfismi</guid>
     <description><![CDATA[  Proposizione Sia f:X\to Y una mappa tra spazi topologici. ]]></description>
-    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
   </item><item>
     <title>Caratterizzazione delle Basi di una Topologia</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Basi-di-una-Topologia</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Basi-di-una-Topologia</guid>
     <description><![CDATA[  Caratterizzazione delle Basi di una Topologia \beta è una base per \tau se verifica le seguenti proprietà: \forall x \in X: \exists B\in \beta \mid x\in B \forall B_{1},B_{2}\in \beta tali che B_{1}\cap B_{2} \not=\varnothing, \forall x\in B_{1}\cap B_{2}:\exists B\in \beta\mid x\in B\subseteq B_{1... ]]></description>
-    <pubDate>Wed, 14 Jan 2026 23:37:05 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
+  </item><item>
+    <title>Caratterizzazione delle Mappe Continue</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Mappe-Continue</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Mappe-Continue</guid>
+    <description><![CDATA[  Teorema Siano (X,\tau),(Y,\tau&#039;) spazi topologici e f:X\to Y. Allora vale la seguente equivalenza: a. f è continua globalmente b. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
   </item>
     </channel>
   </rss>
