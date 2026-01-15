@@ -80,6 +80,11 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
             const tags = coerceToArray(coalesceAliases(data, ["tags", "tag"]))
             if (tags) data.tags = [...new Set(tags.map((tag: string) => slugTag(tag)))]
 
+
+            // removed because aliases with same name as filename but different case
+            // e.g if "First Note.md" has inside an alias "first note"
+            // quartz would generate "first-note.html" because of the alias, breaking
+            // some links when deployed 
             // const aliases = coerceToArray(coalesceAliases(data, ["aliases", "alias"]))
             // if (aliases) {
             //   data.aliases = aliases // frontmatter
