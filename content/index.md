@@ -57,7 +57,7 @@ description: "Appunti di Topologia"
 > [!esempio]
 > Definisco $\forall a,x \in \mathbb{Z}:S(x,a)=\{x+ka\mid k\in \mathbb{Z}\}$.
 > 
-> ![[S(x,a).excalidraw|200]]
+> ![[S(x,a).excalidraw.svg|200]]
 > 1. $\displaystyle\mathbb{Z}=\bigcup_{x,a\in \mathbb{Z}}S(x,a)$
 > 2. Se $c\in S(x,a)\cap S(y,b)$ allora $c\in S(c,d)\subseteq S(x,a)\cap S(y,b)$ dove $d=mcm(a,b)$
 > 
@@ -67,7 +67,7 @@ description: "Appunti di Topologia"
 > [!dim] Dim
 > Supponiamo per assurdo che i numeri primi siano finiti $\{p_{1}\dots p_{s}\}$
 > Definisco $\displaystyle A=\bigcup_{p \text{ primo}}S(0,p)$ e $\tau=\{S(x,a)=\{x+ka\mid k\in \mathbb{Z}\}\}\subseteq \mathcal{P}(\mathbb{Z})$
-> ![[S(0,p).excalidraw|200]]
+> ![[S(0,p).excalidraw.svg|200]]
 > Allora $\mathbb{Z}\setminus A=A^C=\{-1,1\}$ Questo perché solo $-1,1$ non sono primi (per definizione) e non sono multipli di numeri primi. 
 > Osservo inoltre che $\displaystyle S(x,a)^C=X\setminus\underbrace{ S(x,a) }_{ \text{aperto} }=\bigcup^{a-1}_{i=1}S(x+i,a)$
 > Tale insieme è chiuso, in quanto complementare di aperto, e aperto poiché unione di aperti. In altre parole, tutti gli aperti sono chiusi.
@@ -242,7 +242,7 @@ description: "Appunti di Topologia"
 
 ---
 ## 5.2 Omeomorfismi
-![[Mappa aperta]]
+![[Mappa Aperta]]
 
 ![[Mappa Chiusa]]
 
@@ -272,6 +272,8 @@ description: "Appunti di Topologia"
 
 ![[Spazio Metrizzabile]]
 
+![[British Rail Express Metric (SNCF Metrica)]]
+
 ---
 ## 6.2 _Topologie indotte da Metriche_
 ![[Topologia indotta da una metrica|Topologia indotta]]
@@ -289,7 +291,7 @@ description: "Appunti di Topologia"
 > [!oss] Metriche e $\mathbb{R}^\omega$
 > Consideriamo $\mathbb{R}^\omega$, se cerchiamo di generalizzare $d(x,y)$ e $p(x,y)$ rischiamo che non siano ben definite. Infatti, posti $x=(x_{1},x_{2},\dots)$ e $y=(y_{1},y_{2},\dots)\in \mathbb{R}^\omega$: 
 > $d(x,y)=\sqrt{  \sum\limits_{i=1}^\infty |x_{i}-y_{i}|^2 }$ potrebbe divergere, proprio come $p(x,y)=\sup\limits_{i\in \mathbb{N}}\{|x_{i}-y_{i}|\}$.
-> ![[Divergenza successioni.excalidraw]]
+> ![[Diagrams/Divergenza successioni.excalidraw.svg]]
 
 ![[Metrica Uniforme]]
 
@@ -337,3 +339,4 @@ description: "Appunti di Topologia"
 
 ![[Proprietà degli Spazi di Hausdorff]]
 
+![[Caratterizzazione degli Spazi di Hausdorff]]

@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Caratterizzazione degli Spazi di Hausdorff</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</guid>
-    <description><![CDATA[  Caratterizzazione degli Spazi di Hausdorff Sia X spazio topologico. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 16:24:11 GMT</pubDate>
+    <title>Mappa Quoziente</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Mappa-Quoziente</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Mappa-Quoziente</guid>
+    <description><![CDATA[  Mappa Quoziente p:(X,\tau)\to(Y,\tau&#039;) è una mappa quoziente se p è suriettiva e se \forall U\in Y: U\in \tau&#039;\iff p^{-1}(U)\in \tau Osservazione Se p:(X,\tau)\to (Y,\tau&#039;) è suriettiva, continua e aperta, allora p è una mappa quoziente Esempio di Mappa Quoziente S^1:=\{ (x,y)\in \ma... ]]></description>
+    <pubDate>Thu, 15 Jan 2026 22:16:39 GMT</pubDate>
   </item><item>
-    <title>Proprietà degli Spazi di Hausdorff</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-degli-Spazi-di-Hausdorff</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-degli-Spazi-di-Hausdorff</guid>
-    <description><![CDATA[  Proprietà Il prodotto tra due spazi di Hausdorff è T_2 Ogni sottospazio di uno spazio T_2 è T_2 Dimostrazione della proprietà 1. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 16:16:09 GMT</pubDate>
+    <title>Relazioni di Equivalenza e Mappe Quozienti</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Relazioni-di-Equivalenza-e-Mappe-Quozienti</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Relazioni-di-Equivalenza-e-Mappe-Quozienti</guid>
+    <description><![CDATA[  Osservazione Sia X uno spazio topologico e \sim una relazione di equivalenza su X. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 21:46:51 GMT</pubDate>
+  </item><item>
+    <title>Topologia Relativa a una Mappa Quoziente</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Topologia-Relativa-a-una-Mappa-Quoziente</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Topologia-Relativa-a-una-Mappa-Quoziente</guid>
+    <description><![CDATA[  Teorema Sia (X,\tau) spazio topologico e Y insieme, sia p:X\to Y suriettiva. Allora \exists!\tau&#039; topologia tale che p è mappa quoziente. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 21:24:13 GMT</pubDate>
+  </item><item>
+    <title>British Rail Express Metric (SNCF Metrica)</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/British-Rail-Express-Metric-(SNCF-Metrica)</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/British-Rail-Express-Metric-(SNCF-Metrica)</guid>
+    <description><![CDATA[  British Rail Express Metric Sia X=\mathbb{R}^{2} e \delta:\mathbb{R}^2\to R definita come: \delta(x,y)=\begin{cases} \underline{0} &amp; \text{se }x=y \\ d(x,\underline{0})+y(y,\underline{0}) &amp; \text{se } x\not=y \end{cases} Si dimostra che soddisfa le proprietà di metrica. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 17:31:26 GMT</pubDate>
+  </item><item>
+    <title>Insiemi Limitati</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Insiemi-Limitati</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Insiemi-Limitati</guid>
+    <description><![CDATA[  Insieme Limitato Sia X insieme e d distanza su esso. Si dice che X è limitato se: \text{diam}(A)=\sup\{ d(x,y)\, \vert \,x,y\in X \}&lt;+\infty . ]]></description>
+    <pubDate>Thu, 15 Jan 2026 17:17:22 GMT</pubDate>
   </item><item>
     <title>Assiomi di Separazione</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Assiomi-di-Separazione</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Assiomi-di-Separazione</guid>
     <description><![CDATA[  Assiomi di separazione T_{1} e T_{2} Sia (X,\tau) uno spazio topologico. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 15:53:05 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 16:37:25 GMT</pubDate>
   </item><item>
-    <title>Teorema di Unicità del Limite</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-di-Unicit%C3%A0-del-Limite</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-di-Unicit%C3%A0-del-Limite</guid>
-    <description><![CDATA[  Teorema di Unicità del Limite Se (X,\tau) spazio topologico è di Hausdorff, allora ogni successione (x_{n})_{n\in \mathbb{N}} converge al più a un punto. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 15:47:53 GMT</pubDate>
+    <title>Caratterizzazione degli Spazi di Hausdorff</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</guid>
+    <description><![CDATA[  Caratterizzazione degli Spazi di Hausdorff Sia X spazio topologico. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 16:37:25 GMT</pubDate>
   </item><item>
-    <title>I singoletti sono Chiusi Negli Spazi Hausdorff</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/I-singoletti-sono-Chiusi-Negli-Spazi-Hausdorff</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/I-singoletti-sono-Chiusi-Negli-Spazi-Hausdorff</guid>
-    <description><![CDATA[  Teorema Sia (X,\tau) uno spazio topologico di Hausdorff. Allora gli insiemi \{p\}\, \vert \,p\in X sono chiusi. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 15:39:23 GMT</pubDate>
+    <title>Confronto tra box topologia e topologia prodotto</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Confronto-tra-box-topologia-e-topologia-prodotto</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Confronto-tra-box-topologia-e-topologia-prodotto</guid>
+    <description><![CDATA[  Proposizione \left( \mathbb{R}^\mathbb{N},\tau_{\text{prod}}\right) \subsetneq \left( \mathbb{R}^\mathbb{N},\tau_{\text{box}}\right), ossia la Box Topologia è più fine della Topologia Prodotto . ]]></description>
+    <pubDate>Thu, 15 Jan 2026 16:37:25 GMT</pubDate>
   </item><item>
     <title>Hausdorff</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Hausdorff</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Hausdorff</guid>
     <description><![CDATA[  Spazio Topologico di Hausdorff Uno spazio topologico X si dice di Hausdorff se \forall p,q\in X\, \vert \,p\not=q esiste un intorno aperto U di p e un intorno V di q tali che U\cap V=\varnothing (\mathbb{R},\mathcal{E}) e \mathbb{R}^2,\mathcal{E} sono di Hausdorff: . ]]></description>
-    <pubDate>Thu, 15 Jan 2026 15:32:14 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 16:37:25 GMT</pubDate>
   </item><item>
-    <title>Teoria di Topologia Generale</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/</guid>
-    <description><![CDATA[ Appunti di Topologia ]]></description>
-    <pubDate>Thu, 15 Jan 2026 14:39:40 GMT</pubDate>
-  </item><item>
-    <title>Aperto</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Aperto</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Aperto</guid>
-    <description><![CDATA[  Definizione Data una topologia \tau, i suoi elementi si chiamano aperti. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
-  </item><item>
-    <title>Base di sottospazio</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Base-di-sottospazio</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Base-di-sottospazio</guid>
-    <description><![CDATA[  Base di un sottospazio Se \beta è base per (X,\tau), allora \beta_{Y}=\{ B\cap Y\,\vert\,B\in \beta \} è base per il sottospazio (Y,\tau_{Y}) Dim Sia U\subseteq X e y\in U\cap Y Allora per la definizione di base \exists B\in \beta \,\vert\,y\in B\cap Y\subseteq U\cap Y. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
-  </item><item>
-    <title>Base di una Topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Base-di-una-Topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Base-di-una-Topologia</guid>
-    <description><![CDATA[  Base di una Topologia Sia (X,\tau) uno spazio topologico, \beta \subseteq \tau è base della topologia \tau se \displaystyle\forall U\in \tau, \exists\{B_{i}\}_{i\in I}\mid U=\bigcup_{i\in I}B_{i} . ]]></description>
-    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
+    <title>I singoletti sono Chiusi Negli Spazi Hausdorff</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/I-singoletti-sono-Chiusi-Negli-Spazi-Hausdorff</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/I-singoletti-sono-Chiusi-Negli-Spazi-Hausdorff</guid>
+    <description><![CDATA[  Teorema Sia (X,\tau) uno spazio topologico di Hausdorff. Allora gli insiemi \{p\}\, \vert \,p\in X sono chiusi. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 16:37:25 GMT</pubDate>
   </item>
     </channel>
   </rss>

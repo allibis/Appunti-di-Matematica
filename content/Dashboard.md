@@ -239,13 +239,13 @@ window.renderChart(chartData, this.container);
 > - [p] **Teorema del Limite Uniforme**: il limite uniforme di funzioni continue è continuo
 > - [p] **M-Test di Weierstrass** per la convergenza uniforme di serie di funzioni
 > - [ ] Spazi Metrizzabili: definizione e Teorema di metrizzabilità di Urysohn (cenni)
-> - [ ] Teorema: Ogni spazio metrico è Normale ($T_4$) e I-numerabile
+> - [p] Teorema: Ogni spazio metrico è Normale ($T_4$) e I-numerabile
 
 > [!check]- **4. Assiomi di Separazione e Teoremi Avanzati**
 > 
 > **Gerarchia di Separazione**
-> - [x] Assiomi $T_0$ (Kolmogorov) e $T_1$ (Fréchet)
-> - [x] Assioma $T_2$ (Hausdorff): unicità del limite
+> - [p] Assiomi $T_0$ (Kolmogorov) e $T_1$ (Fréchet)
+> - [p] Assioma $T_2$ (Hausdorff): unicità del limite
 > - [ ] Assiomi $T_3$ (Regolari) e $T_4$ (Normali)
 > - [ ] Esercizio: La topologia cofinita è $T_1$ ma non $T_2$
 > - [ ] Esercizio: La retta di Sorgenfrey è Normale ($T_4$) ma il suo quadrato $\mathbb{R}_l^2$ no

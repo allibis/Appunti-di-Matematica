@@ -23,7 +23,7 @@ icon: lucide-scroll-text
 > Quindi se $d(x,y)<\varepsilon\implies p(x,y)\leq d(x,y)<\varepsilon$ da cui $B_{d}(x,\varepsilon)\subseteq B_{p}(x,\varepsilon)$ 
 > (non il viceversa perché se $p(x,y)<\varepsilon$ non è detto che $d(x,y)<\varepsilon$ quindi non tutti i punti di $B_{p}$ sono anche punti di $B_{d}$ a parità di $\varepsilon$)
 > Viceversa se $p(x,y)<\varepsilon\implies d(x,y)< \frac{\varepsilon}{\sqrt{ n }}$ quindi $B_{p}(x,\varepsilon)\subseteq B_{d}\left( x, \frac{\varepsilon}{\sqrt{ n }} \right)$
-> ![[Metriche equivalenti.excalidraw]]
+> ![[Metriche equivalenti.excalidraw.svg]]
 > Dimostro ora che la topologia indotta da $p$ è uguale alla topologia prodotto. 
 > Sia $B=(a_{1},b_{1})\times(a_{2},b_{2})\times\dots \times(a_{n},b_{n})$ e sia $x=(x_{1},x_{2},\dots,x_{n})\in B$
 > Allora $\forall i=1\dots n,\exists\varepsilon_{i}>0\, \vert \,(x_{i}-\varepsilon_{i},x_{i}+\varepsilon_{i})\subseteq(a_{i},b_{i})$

@@ -15,7 +15,7 @@ icon: lucide-lightbulb
 > Nella topologia cofinita, questi insiemi sono del tipo $\mathbb{R}\setminus\{p_{1}\dots p_{k}  \}$
 > Considero $\displaystyle G:=\bigcup_{n\in \mathbb{N}}\complement_{\mathbb{R}}U_{n}$, ossia l'insieme dei punti esclusi dagli intorni di $\mathcal{U}$
 > 
-> ![[topologia cofinita non 1 numerabile.excalidraw]]
+> ![[topologia cofinita non 1 numerabile.excalidraw.svg]]
 > Osservo che:
 > 1. $G$ è al più numerabile 
 > 2. $0\not\in G$

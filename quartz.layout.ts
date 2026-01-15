@@ -39,17 +39,18 @@ export const defaultContentPageLayout: PageLayout = {
         // { Component: Component.ReaderMode() },
       ],
     }),
+    
     // mostra la lista delle note se mi trovo in una nota, altrimenti mostra l'indice se mi trovo in sulla pagina principale
-    Component.ConditionalRender({
+    Component.DesktopOnly(Component.ConditionalRender({
       component: Component.Explorer({
         filterFn: (f) => !f.slug!.startsWith("Excalidraw/")
       }),
       condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ConditionalRender({
+    })),
+    Component.DesktopOnly(Component.ConditionalRender({
       component: Component.TableOfContents(),
       condition: (page) => page.fileData.slug === "index",
-    })
+    }))
     
 
   ],

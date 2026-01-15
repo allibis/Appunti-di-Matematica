@@ -12,12 +12,12 @@ icon: lucide-book-open
 > Le palle aperte sono della [[Metrica#^def-metrica-euclidea|distanza euclidea]] tipo $B_{r}(x)=\{ y\in \mathbb{R}^2\mid d_{2}(x,y)<r \}$ con $r>0$.
 > Nel piano cartesiano sono rappresentate dai punti che si trovano all'interno di una circonferenza di centro $x$ e raggio $r$
 > 
-> ![[Palla sferica.excalidraw|300]]
+> ![[Palla sferica.excalidraw.svg|300]]
 
 > [!ex] $\infty$-metrica
 > Gli aperti della $\infty$-[[Metrica#^def-inf-metrica|metrica]] in $\mathbb{R}^2$ sono dei quadrati 
 > 
-> ![[Palla aperta inf metrica.excalidraw]]
+> ![[Palla aperta inf metrica.excalidraw.svg]]
 
 ^es-metrica-euclidea
 

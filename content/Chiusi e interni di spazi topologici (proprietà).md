@@ -25,4 +25,4 @@ icon: lucide-pencil
 > 1. $\displaystyle Int_{Y}(A)=\bigcup_{\begin{gather}U\in \tau_{Y} \\ U\subseteq A\end{gather}}U$$\displaystyle=\bigcup_{\begin{gather}V\in \tau \\ V\cap Y\subseteq A\end{gather}}(V\cap Y)$. 
 >    Osservo che $V\cap Y\subseteq A\iff V\subseteq A\cup (X\setminus Y)$ (figura sotto)
 >    $\displaystyle Y\cap \bigcup_{\begin{gather}V\in \tau \\ V\cap Y\subseteq A\end{gather}}V=$$\displaystyle Y\cap \bigcup_{\begin{gather}V\in \tau \\ V\subseteq A\cup (X\setminus Y)\end{gather}}V=Int_{X}(A\cup(X\setminus Y))$
-> ![[Disegno Identità Insiemi.excalidraw]]
+> ![[Diagrams/Disegno Identità Insiemi.excalidraw.svg]]
