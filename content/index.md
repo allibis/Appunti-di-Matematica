@@ -1,5 +1,4 @@
 ---
-slug: index
 tags: nograph
 ---
 
