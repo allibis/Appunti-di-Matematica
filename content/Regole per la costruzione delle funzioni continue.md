@@ -6,7 +6,7 @@ icon: lucide-circle-check-big
 
 > [!prop] Regole per la costruzione delle funzioni continue
 > Siano $(X,\tau),(Y,\tau')$ due [[Topologia|spazi topologici]]:
-> 1. Se $f:X\to Y$ è [[Continua|continua]], allora $f$ è continua.
+> 1. Se $f:X\to Y$ è [[Mappa Continua|funzione continua]], allora $f$ è continua.
 > 2. Se $B\subseteq X$, allora $j:(B,\tau_{B})\to X$ tale che $\forall b\in B:j(b)=b$ è continua
 > 3. Sia $(Z,\tau'')$ è spazio topologico, e $f:X\to Y,g:Y\to Z$ sono funzioni continue, allora $g\circ f$ è continua
 

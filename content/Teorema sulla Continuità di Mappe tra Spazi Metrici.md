@@ -14,7 +14,7 @@ icon: lucide-scroll-text
 > Dunque $y\in B(x,\delta) \implies f(y)\in f^{-1}(B(f(x),\varepsilon))$
 > 
 > Suppongo che valga la condizione metrica $\varepsilon-\delta$. Voglio dimostrare che $f$ è continua in senso topologico.
-> Sia $V$ un [[Insieme Aperto|aperto]] di $Y$. Considero la [[Controimmagine|controimmagine]] $U=f^{-1}(V)$.
+> Sia $V$ un [[Aperto|aperto]] di $Y$. Considero la controimmagine $U=f^{-1}(V)$.
 > Devo dimostrare che $U$ è aperto in $X$, ovvero che per ogni suo punto esiste un intorno contenuto in $U$.
 > 
 > Sia $x\in U$. Per definizione $f(x)\in V$.

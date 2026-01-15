@@ -6,11 +6,47 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Caratterizzazione degli Spazi di Hausdorff</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</guid>
+    <description><![CDATA[  Caratterizzazione degli Spazi di Hausdorff Sia X spazio topologico. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 16:24:11 GMT</pubDate>
+  </item><item>
+    <title>Proprietà degli Spazi di Hausdorff</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-degli-Spazi-di-Hausdorff</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-degli-Spazi-di-Hausdorff</guid>
+    <description><![CDATA[  Proprietà Il prodotto tra due spazi di Hausdorff è T_2 Ogni sottospazio di uno spazio T_2 è T_2 Dimostrazione della proprietà 1. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 16:16:09 GMT</pubDate>
+  </item><item>
+    <title>Assiomi di Separazione</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Assiomi-di-Separazione</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Assiomi-di-Separazione</guid>
+    <description><![CDATA[  Assiomi di separazione T_{1} e T_{2} Sia (X,\tau) uno spazio topologico. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 15:53:05 GMT</pubDate>
+  </item><item>
+    <title>Teorema di Unicità del Limite</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-di-Unicit%C3%A0-del-Limite</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-di-Unicit%C3%A0-del-Limite</guid>
+    <description><![CDATA[  Teorema di Unicità del Limite Se (X,\tau) spazio topologico è di Hausdorff, allora ogni successione (x_{n})_{n\in \mathbb{N}} converge al più a un punto. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 15:47:53 GMT</pubDate>
+  </item><item>
+    <title>I singoletti sono Chiusi Negli Spazi Hausdorff</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/I-singoletti-sono-Chiusi-Negli-Spazi-Hausdorff</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/I-singoletti-sono-Chiusi-Negli-Spazi-Hausdorff</guid>
+    <description><![CDATA[  Teorema Sia (X,\tau) uno spazio topologico di Hausdorff. Allora gli insiemi \{p\}\, \vert \,p\in X sono chiusi. ]]></description>
+    <pubDate>Thu, 15 Jan 2026 15:39:23 GMT</pubDate>
+  </item><item>
+    <title>Hausdorff</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Hausdorff</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Hausdorff</guid>
+    <description><![CDATA[  Spazio Topologico di Hausdorff Uno spazio topologico X si dice di Hausdorff se \forall p,q\in X\, \vert \,p\not=q esiste un intorno aperto U di p e un intorno V di q tali che U\cap V=\varnothing (\mathbb{R},\mathcal{E}) e \mathbb{R}^2,\mathcal{E} sono di Hausdorff: . ]]></description>
+    <pubDate>Thu, 15 Jan 2026 15:32:14 GMT</pubDate>
+  </item><item>
     <title>Teoria di Topologia Generale</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/</guid>
     <description><![CDATA[ Appunti di Topologia ]]></description>
-    <pubDate>Thu, 15 Jan 2026 14:09:43 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 14:39:40 GMT</pubDate>
   </item><item>
     <title>Aperto</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Aperto</link>
@@ -28,42 +64,6 @@
     <link>https://allibis.github.io/Appunti-di-Topologia/Base-di-una-Topologia</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Base-di-una-Topologia</guid>
     <description><![CDATA[  Base di una Topologia Sia (X,\tau) uno spazio topologico, \beta \subseteq \tau è base della topologia \tau se \displaystyle\forall U\in \tau, \exists\{B_{i}\}_{i\in I}\mid U=\bigcup_{i\in I}B_{i} . ]]></description>
-    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
-  </item><item>
-    <title>Box Topologia e Continuità</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia-e-Continuit%C3%A0</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia-e-Continuit%C3%A0</guid>
-    <description><![CDATA[  La Box Topologia non garantisce la continuità delle funzioni Consideriamo (\mathbb{R},\mathcal{E}) (topologia euclidea) e (\mathbb{R}^\mathbb{N},\tau_{\text{box}}) la box topologia. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
-  </item><item>
-    <title>Box Topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia</guid>
-    <description><![CDATA[  Box Topologia La box topologia su \mathbb{R}^\mathbb{N}=\{ (x_{1},x_{2},\dots,)\vert x_{i}\in \mathbb{R},\forall i\in \mathbb{N} \} è la topologia generata dalla base \displaystyle\beta=\left\{ \prod_{n\in N}U_{n} \middle \vert U_{n}\text{ aperto in } \mathbb{R}\right\} Su \mathbb{R}^n con n\in \ma... ]]></description>
-    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
-  </item><item>
-    <title>Caratterizzazione degli aperti</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-aperti</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-aperti</guid>
-    <description><![CDATA[  Teorema Sia (X,\tau) uno spazio topologico. Sia A\subseteq X, allora: A è aperto di \tau\iff A è intorno di ogni suo punto. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
-  </item><item>
-    <title>Caratterizzazione degli insiemi densi</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-insiemi-densi</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-insiemi-densi</guid>
-    <description><![CDATA[  Caratterizzazione degli insiemi densi Sia (X,\tau) spazio topologico e A\subseteq X. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
-  </item><item>
-    <title>Caratterizzazione degli omeomorfismi</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-omeomorfismi</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-omeomorfismi</guid>
-    <description><![CDATA[  Proposizione Sia f:X\to Y una mappa tra spazi topologici. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
-  </item><item>
-    <title>Caratterizzazione delle Basi di una Topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Basi-di-una-Topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Basi-di-una-Topologia</guid>
-    <description><![CDATA[  Caratterizzazione delle Basi di una Topologia \beta è una base per \tau se verifica le seguenti proprietà: \forall x \in X: \exists B\in \beta \mid x\in B \forall B_{1},B_{2}\in \beta tali che B_{1}\cap B_{2} \not=\varnothing, \forall x\in B_{1}\cap B_{2}:\exists B\in \beta\mid x\in B\subseteq B_{1... ]]></description>
     <pubDate>Thu, 15 Jan 2026 14:00:36 GMT</pubDate>
   </item>
     </channel>

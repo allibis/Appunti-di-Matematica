@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "it-IT",
     baseUrl: "allibis.github.io/Appunti-di-Topologia",
-    ignorePatterns: ["private", "templates", ".obsidian", ".excalidraw"],
+    ignorePatterns: ["private", "templates", ".obsidian", ".excalidraw", "Excalidraw"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

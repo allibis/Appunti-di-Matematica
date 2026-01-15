@@ -3,7 +3,7 @@ tags:
   - Topologia
   - Definizione
   - Insiemi
-  - Densi
+  - Insiemi-Densi
 aliases:
   - insieme denso
   - denso

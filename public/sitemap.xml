@@ -2,6 +2,9 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/Aperto</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Assiomi-di-Separazione</loc>
+    <lastmod>2026-01-15T15:53:05.815Z</lastmod>
+  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Base-di-sottospazio</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
@@ -13,6 +16,9 @@
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Box-Topologia</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</loc>
+    <lastmod>2026-01-15T16:24:11.675Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-aperti</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -56,53 +62,11 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/Convergenza-Uniforme</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Dashboard</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Distanza-di-un-punto-da-un-insieme</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Esterno</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/Diagramma-prop-fondamentale.excalidraw</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/Disegno-Identit%C3%A0-Insiemi.excalidraw</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/Divergenza-successioni.excalidraw</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/Drawing-2025-12-04-17.44.40.excalidraw</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/Drawing-2025-12-12-18.08.55.excalidraw</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/Esempio-Omeomorfismo.excalidraw</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/Metriche-equivalenti.excalidraw</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/Palla-aperta-inf-metrica.excalidraw</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/Palla-sferica.excalidraw</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/S(x,a).excalidraw</loc>
-    <lastmod>2026-01-15T14:00:36.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/esempio-non-topologia.excalidraw</loc>
-    <lastmod>2026-01-14T20:24:04.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/esempio-topologia-seno.excalidraw</loc>
-    <lastmod>2026-01-14T16:17:24.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Excalidraw/topologia-cofinita-non-1-numerabile.excalidraw</loc>
-    <lastmod>2026-01-14T16:17:24.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Formula-di-De-Morgan</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -112,6 +76,12 @@
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Gruppo-degli-Automorfismi</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Hausdorff</loc>
+    <lastmod>2026-01-15T15:32:14.130Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/I-singoletti-sono-Chiusi-Negli-Spazi-Hausdorff</loc>
+    <lastmod>2026-01-15T15:39:23.553Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Insieme-Denso</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -182,6 +152,9 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-Interno,-Esterno-e-Frontiera</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-degli-Spazi-di-Hausdorff</loc>
+    <lastmod>2026-01-15T16:16:09.364Z</lastmod>
+  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-fondamentale-delle-mappe</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
@@ -223,6 +196,9 @@
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Teorema-del-Limite-Uniforme</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Teorema-di-Unicit%C3%A0-del-Limite</loc>
+    <lastmod>2026-01-15T15:47:53.737Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Teorema-di-Weierstrass-M-Test</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -282,7 +258,7 @@
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/</loc>
-    <lastmod>2026-01-15T14:09:43.000Z</lastmod>
+    <lastmod>2026-01-15T14:39:40.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/la-topologia-del-limite-inferiore-non-%C3%A8-II-numerabile</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>

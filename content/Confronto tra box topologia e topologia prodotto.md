@@ -2,7 +2,7 @@
 tags:
   - Topologia
   - Box-Topologia
-  - TopologiapProdotto
+  - Topologia-Prodotto
   - Proposizione
 aliases: []
 inlinks:

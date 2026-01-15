@@ -4,6 +4,7 @@ title: "Teoria di Topologia Generale"
 description: "Appunti di Topologia"
 ---
 
+
 # 1. Topologia
 
 ## 1.1 _Definizione di Topologia_
@@ -17,16 +18,16 @@ description: "Appunti di Topologia"
 
 ![[Topologia Cofinita]]
 
-![[Topologia Euclidea#^def-topologia-euclidea]]
+![[Topologia Euclidea]]
 
-![[Topologia del Limite Inferiore#^def-topologia-lim-inf]]
+![[Topologia del Limite Inferiore]]
 
 > [!ex] Esempio di NON topologia
 > Sia $\tau=\{X\}\cup\{\varnothing\}\cup\{[-a,a]|a\in \mathbb{R}^+\}$
 > Considero la famiglia di elementi $\left\{ \left[ -1+\frac{1}{n},1+\frac{1}{n} \right] \right\}_{n\in \mathbb{N}}$.
 > Si ha che $\bigcup_{n\in \mathbb{N}}\left[ -1+\frac{1}{n},1+\frac{1}{n} \right]=\left]-1,1\right[\not\in\tau$ 
 > 
-> ![[esempio non topologia.excalidraw]]
+> ![[Diagrams/esempio non topologia.excalidraw.svg]]
 
 ![[Topologia con Seno]]
 
@@ -300,11 +301,15 @@ description: "Appunti di Topologia"
 
 ![[Teorema sulla Topologia Prodotto Indotta dalla D Metrica]]
 
+---
+
 ## 6.4 Continuità
 
 ![[Teorema sulla Continuità di Mappe tra Spazi Metrici]]
 
 ![[Lemma della Successione]]
+
+---
 
 ## 6.5 Convergenza
 
@@ -313,3 +318,22 @@ description: "Appunti di Topologia"
 ![[Convergenza Uniforme]]
 
 ![[Teorema del Limite Uniforme]]
+
+---
+
+## 7. Spazi di Haussdorf e Assiomi di Separazione
+
+### 7.1 Definizione
+
+![[Hausdorff]]
+
+![[Assiomi di Separazione]]
+
+### 7.2 Proprietà 
+
+![[Teorema di Unicità del Limite]]
+
+![[I singoletti sono Chiusi Negli Spazi Hausdorff]]
+
+![[Proprietà degli Spazi di Hausdorff]]
+

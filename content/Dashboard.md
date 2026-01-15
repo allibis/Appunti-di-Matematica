@@ -244,8 +244,8 @@ window.renderChart(chartData, this.container);
 > [!check]- **4. Assiomi di Separazione e Teoremi Avanzati**
 > 
 > **Gerarchia di Separazione**
-> - [ ] Assiomi $T_0$ (Kolmogorov) e $T_1$ (Fréchet)
-> - [ ] Assioma $T_2$ (Hausdorff): unicità del limite
+> - [x] Assiomi $T_0$ (Kolmogorov) e $T_1$ (Fréchet)
+> - [x] Assioma $T_2$ (Hausdorff): unicità del limite
 > - [ ] Assiomi $T_3$ (Regolari) e $T_4$ (Normali)
 > - [ ] Esercizio: La topologia cofinita è $T_1$ ma non $T_2$
 > - [ ] Esercizio: La retta di Sorgenfrey è Normale ($T_4$) ma il suo quadrato $\mathbb{R}_l^2$ no

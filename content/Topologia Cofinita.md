@@ -7,14 +7,16 @@ aliases:
 icon: lucide-book-open
 ---
 > [!def] Topologia Cofinita
-Dato $X$, la sua **[[Topologia|topologia]] cofinita** è $\tau = \{X\} \cup \{\varnothing\} \cup \{U_j | U^C$ è sottoinsieme finito di  $X\}$ 
+> Dato $X$, la sua **[[Topologia|topologia]] cofinita** è $\tau = \{X\} \cup \{\varnothing\} \cup \{U_j | U^C$ è sottoinsieme finito di  $X\}$ 
 ^def-topologia-cofinita
 
 > [!dim]
 > Dimostro che $\tau = \{X\} \cup \{\varnothing\} \cup \{U_j | U^C$ è un sottoinsieme finito di $X\}$ è una topologia su $X$.
 > 1. $\varnothing,X\in \tau$
 > 2. Sia ${U_{j}}_{j\in J}$ una famiglia di elementi non banali di $\tau$. Allora $\forall j\in J: |U_{j}^C|<+\infty$. 
-> Grazie alla prima [[Formula di De Morgan]] si ha che $$(\bigcup_{j\in J}U_{j})=\bigcap_{j\in J}(U_{j}^C) \subseteq U_{j}^C$. \implies |(\bigcup_{j\in J}U_{j})|\leq|U_{j}^C| <+\infty$$
+> Grazie alla prima [[Formula di De Morgan]] si ha che 
+> $\displaystyle \left(\bigcup_{j\in J}U_{j}\right)=\bigcap_{j\in J}\left(U_{j}^C\right) \subseteq U_{j}^C$ 
+> $\displaystyle \implies \left|\left(\bigcup_{j\in J}U_{j}\right)\right|\leq \left|U_{j}^C\right| <+\infty$
 > Dunque l'unione dei $U_{j}$ è un aperto di $\tau$
 > 2. Siano $A,B \in \tau \implies |A^C|<+\infty$ e $|B^C| <+\infty$. 
 > Dunque $|(A \cap B)^C|=|A^C\cup B^C|=|A^C|+|B^C|<+\infty$
