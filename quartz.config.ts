@@ -68,37 +68,6 @@ const config: QuartzConfig = {
       }),
       Plugin.ObsidianFlavoredMarkdown({
         enableInHtmlEmbed: false,
-        callouts: {
-          // Teorema -> Pergamena
-          teorema: "ScrollText",
-          teo: "ScrollText",
-          
-          // Definizione -> Libro Aperto
-          definizione: "BookOpen",
-          def: "BookOpen",
-          
-          // Dimostrazione -> Penna (Strumento Penna)
-          dimostrazione: "PenTool",
-          dim: "PenTool",
-          
-          // Osservazione -> Lampadina
-          osservazione: "Lightbulb",
-          oss: "Lightbulb",
-          obs: "Lightbulb",
-          
-          // Esempio -> Taccuino
-          esempio: "NotebookText",
-          es: "NotebookText",
-          ex: "NotebookText",
-          
-          // Proposizione -> Spunta Cerchiata
-          proposizione: "CircleCheck",
-          prop: "CircleCheck",
-          
-          // Todo -> Avviso
-          todo: "MessageSquareWarning",
-          TODO: "MessageSquareWarning",
-        },
       }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),

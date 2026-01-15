@@ -24,7 +24,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     
     // Component.ContentMeta(),
-    // Component.TagList(),
+    Component.TagList(),
   ],
   left: [
     Component.PageTitle(),
@@ -36,7 +36,6 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        // { Component: Component.ReaderMode() },
       ],
     }),
     
