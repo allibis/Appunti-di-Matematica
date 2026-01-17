@@ -3,7 +3,7 @@ tags:
   - Topologia
   - Proposizione
   - Topologia-Cofinita
-icon: lucide-lightbulb
+icon: lucide-circle-check-big
 ---
 
 > [!prop] Proposizione

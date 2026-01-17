@@ -340,3 +340,28 @@ description: "Appunti di Topologia"
 ![[Proprietà degli Spazi di Hausdorff]]
 
 ![[Caratterizzazione degli Spazi di Hausdorff]]
+
+# 8. Quozienti
+
+## 8.1  Mappa quoziente e Relazioni di Equivalenza
+
+![[Mappa Quoziente]]
+
+![[Insieme Saturo rispetto a una Relazione]]
+
+## 8.2 Topologia Quoziente
+![[Topologia Relativa a una Mappa Quoziente]]
+
+![[Topologia Quoziente]]
+
+![[Costruzione delle Funzioni Composte]]
+
+![[Unicità della Topologia Quoziente]]
+
+![[Esempio sull'unicità della Topologia Quoziente]]
+
+![[Toro]]
+
+## 8.3 Pushout
+
+![[Incollamento di spazi (pushout)]]

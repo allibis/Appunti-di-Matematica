@@ -30,4 +30,3 @@ icon: lucide-scroll-text
 > Quindi, scelto $\varepsilon=\min\{\varepsilon_{1},\dots,\varepsilon_{n}\}$ risulta che $B_{p}(x,\varepsilon)\subseteq B$.
 > (Ossia: $(x_{1}-\varepsilon,x_{1}+\varepsilon)\times\dots \times(x_{n}-\varepsilon,x_{n}+\varepsilon)\subseteq(a_{1},b_{1})\times\dots \times(a_{n},b_{n})$)
 > Per l'altra inclusione mi basta prendere $\varepsilon=\max{\varepsilon_{i}}$
-> 

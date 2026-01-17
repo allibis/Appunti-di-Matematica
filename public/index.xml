@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Teoria di Topologia Generale</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/</guid>
-    <description><![CDATA[ Appunti di Topologia ]]></description>
-    <pubDate>Thu, 15 Jan 2026 23:36:41 GMT</pubDate>
+    <title>Incollamento di spazi (pushout)</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Incollamento-di-spazi-(pushout)</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Incollamento-di-spazi-(pushout)</guid>
+    <description><![CDATA[  Incollamento di spazio É possibile “incollare” due spazi topologici X e Y lungo l’immagine di un “sottoinsieme” comune A mediante due mappe continue f:A\to X,g:A\to Y. ]]></description>
+    <pubDate>Sat, 17 Jan 2026 18:58:14 GMT</pubDate>
   </item><item>
-    <title>Teorema sulla Metrica euclidea, Distanza Chebyshev e Topologia Prodotto</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulla-Metrica-euclidea,-Distanza-Chebyshev-e-Topologia-Prodotto</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulla-Metrica-euclidea,-Distanza-Chebyshev-e-Topologia-Prodotto</guid>
-    <description><![CDATA[  Teorema Le topologie indotte dalla metrica euclidea d e dalla metrica di chebyshev p sono uguali alla topologia prodotto su \mathbb{R}^n. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 23:16:32 GMT</pubDate>
+    <title>Proprietà Universale</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-Universale</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-Universale</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 17 Jan 2026 17:52:13 GMT</pubDate>
   </item><item>
-    <title>British Rail Express Metric (SNCF Metrica)</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/British-Rail-Express-Metric-(SNCF-Metrica)</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/British-Rail-Express-Metric-(SNCF-Metrica)</guid>
-    <description><![CDATA[  British Rail Express Metric Sia X=\mathbb{R}^{2} e \delta:\mathbb{R}^2\to R definita come: \delta(x,y)=\begin{cases} \underline{0} &amp; \text{se }x=y \\ d(x,\underline{0})+y(y,\underline{0}) &amp; \text{se } x\not=y \end{cases} Si dimostra che soddisfa le proprietà di metrica. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+    <title>Toro</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Toro</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Toro</guid>
+    <description><![CDATA[  Toro Definizione 1 L’insieme \mathbb{T}^n:=\underbrace{ S^1\times\dots \times S^1 }_{ n \text{ volte} } è chiamato toro Definizione 2 (versione astratta) Sia I=[0,1]. ]]></description>
+    <pubDate>Sat, 17 Jan 2026 16:37:07 GMT</pubDate>
   </item><item>
-    <title>Caratterizzazione degli Spazi di Hausdorff</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</guid>
-    <description><![CDATA[  Caratterizzazione degli Spazi di Hausdorff Sia X spazio topologico. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+    <title>Proposizione sulla Topologia Quoziente e Spazi Hausdorff</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Proposizione-sulla-Topologia-Quoziente-e-Spazi-Hausdorff</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Proposizione-sulla-Topologia-Quoziente-e-Spazi-Hausdorff</guid>
+    <description><![CDATA[  Proposizione Sia X uno spazio topologico di Hausdorff e sia \mathcal{R} una relazione di equivalenza su X con {}^{X}\!/_{\mathcal{R}} topologia quoziente Sia inoltre \pi:X\to {}^{X}\!/_{\mathcal{R}} aperta. ]]></description>
+    <pubDate>Sat, 17 Jan 2026 15:44:34 GMT</pubDate>
   </item><item>
-    <title>Chiusi e interni di spazi topologici (proprietà)</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Chiusi-e-interni-di-spazi-topologici-(propriet%C3%A0)</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Chiusi-e-interni-di-spazi-topologici-(propriet%C3%A0)</guid>
-    <description><![CDATA[  Propriet Sia (X,\tau) uno spazio topologico e Y\subseteq X Se A\subseteq Y\implies\bar{A}^Y=\bar{A}^X\cap Y Int_{Y}(A)=Int_{X}(A\cup(X\setminus Y))\cap Y Dim Verifico la doppia inclusione (utilizzo il Teorema sui Punti di Aderenza 1.) \bar{A}^Y\subseteq \bar{A}^X\cap Y Sia p\in \bar{A}^Y\implies p\... ]]></description>
-    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+    <title>Esempio sull&#039;unicità della Topologia Quoziente</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Esempio-sull'unicit%C3%A0-della-Topologia-Quoziente</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Esempio-sull'unicit%C3%A0-della-Topologia-Quoziente</guid>
+    <description><![CDATA[  Esempio 1 (X,\tau)=([0,1],\mathcal{E}_{[0,1]}) Sia \sim una relazione di equivalenza tale che \forall t,s\in[0,1]: t\sim s\iff x=s \,\vee\ t,s\in \{ 0,1 \} (ossia identifica i bordi del segmento) Consideriamo f_{1}:X\to S^1 tale che t\longmapsto e^{ 2\pi ti } (dall’esempio della mappa quoziente) f_... ]]></description>
+    <pubDate>Sat, 17 Jan 2026 15:37:09 GMT</pubDate>
   </item><item>
-    <title>Insiemi Limitati</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Insiemi-Limitati</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Insiemi-Limitati</guid>
-    <description><![CDATA[  Insieme Limitato Sia X insieme e d distanza su esso. Si dice che X è limitato se: \text{diam}(A)=\sup\{ d(x,y)\, \vert \,x,y\in X \}&lt;+\infty . ]]></description>
-    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+    <title>Unicità della Topologia Quoziente</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Unicit%C3%A0-della-Topologia-Quoziente</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Unicit%C3%A0-della-Topologia-Quoziente</guid>
+    <description><![CDATA[  Unicità della Topologia Quoziente Sia (X,\tau) uno spazio topologico e siano f_{1}:(X,\tau)\to(Y_{1},\tau_{1}) f_{2}:(X,\tau)\to(Y_{2},\tau_{2}) Se \forall x,x&#039;\in \tau:f_{1}(x)=f_{1}(x&#039;)\iff f_{2}(x)=f_{2}(x&#039;), ossia vale (1) in entrambe le direzioni Allora \exists!\phi:Y_{1}\to Y_{... ]]></description>
+    <pubDate>Sat, 17 Jan 2026 14:52:21 GMT</pubDate>
   </item><item>
-    <title>La topologia cofinita non è 1 numerabile</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/La-topologia-cofinita-non-%C3%A8-1-numerabile</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/La-topologia-cofinita-non-%C3%A8-1-numerabile</guid>
-    <description><![CDATA[  Proposizione La topologia cofinita non è primo-numerabile Dim Devo dimostrare che \forall x\in X NON esiste un sistema fondamentale di intorni numerabile. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+    <title>Costruzione delle Funzioni Composte</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Costruzione-delle-Funzioni-Composte</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Costruzione-delle-Funzioni-Composte</guid>
+    <description><![CDATA[  Osservazione Considero f:X\to Y mappa quoziente e sia \alpha:X\to Z. ]]></description>
+    <pubDate>Fri, 16 Jan 2026 16:44:27 GMT</pubDate>
   </item><item>
-    <title>Mappa Aperta</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Mappa-Aperta</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Mappa-Aperta</guid>
-    <description><![CDATA[  Mappa Aperta Una funzione f:X\to Y si dice aperta se \forall A\subseteq X aperto si ha che f(A)\subseteq Y è aperto . ]]></description>
-    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+    <title>Topologia Quoziente</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Topologia-Quoziente</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Topologia-Quoziente</guid>
+    <description><![CDATA[  Topologia Quoziente Sia X uno spazio topologico e \sim una relazione di equivalenza su X. ]]></description>
+    <pubDate>Fri, 16 Jan 2026 16:12:39 GMT</pubDate>
   </item><item>
-    <title>Mappa Quoziente</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Mappa-Quoziente</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Mappa-Quoziente</guid>
-    <description><![CDATA[  Mappa Quoziente p:(X,\tau)\to(Y,\tau&#039;) è una mappa quoziente se p è suriettiva e se \forall U\in Y: U\in \tau&#039;\iff p^{-1}(U)\in \tau Osservazione Se p:(X,\tau)\to (Y,\tau&#039;) è suriettiva, continua e aperta, allora p è una mappa quoziente Esempio di Mappa Quoziente S^1:=\{ (x,y)\in \ma... ]]></description>
-    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+    <title>Continuità delle funzioni composte a mappe quozienti</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Continuit%C3%A0-delle-funzioni-composte-a-mappe-quozienti</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Continuit%C3%A0-delle-funzioni-composte-a-mappe-quozienti</guid>
+    <description><![CDATA[  Proposizione Siano f:(X,\tau)\to(Y,\tau&#039;) mappa quoziente e sia g:(Y,\tau&#039;)\to(Z,\tau&#039;&#039;) Allora g è continua \iff g\circ f è continua \implies Supponiamo g continua, f è mappa quoziente quindi è continua. ]]></description>
+    <pubDate>Fri, 16 Jan 2026 15:30:29 GMT</pubDate>
   </item><item>
-    <title>Omeomorfismo</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Omeomorfismo</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Omeomorfismo</guid>
-    <description><![CDATA[  Omeomorfismo Siano (X,\tau),(Y,\tau&#039;) spazi topologici e f:X\to Y. ]]></description>
-    <pubDate>Thu, 15 Jan 2026 22:42:55 GMT</pubDate>
+    <title>Caratterizzazione degli Insiemi Saturi per Mappe Quozienti</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Insiemi-Saturi-per-Mappe-Quozienti</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Insiemi-Saturi-per-Mappe-Quozienti</guid>
+    <description><![CDATA[  Mappe quozienti Se \pi:X\to {}^{X}\!/_{\sim} tale che x\longmapsto\pi(x)=[x]_{\sim} Se V\subseteq X vale la seguente equivalenza: V è \mathcal{R}-saturo V=\pi ^{-1}(\pi(V)) 1. ]]></description>
+    <pubDate>Fri, 16 Jan 2026 15:21:21 GMT</pubDate>
   </item>
     </channel>
   </rss>

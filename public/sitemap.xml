@@ -20,6 +20,9 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/British-Rail-Express-Metric-(SNCF-Metrica)</loc>
     <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Insiemi-Saturi-per-Mappe-Quozienti</loc>
+    <lastmod>2026-01-16T15:21:21.515Z</lastmod>
+  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Spazi-di-Hausdorff</loc>
     <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
@@ -31,6 +34,9 @@
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-omeomorfismi</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-della-Topologia-Quoziente</loc>
+    <lastmod>2026-01-16T14:38:35.563Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Basi-di-una-Topologia</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -62,11 +68,20 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/Continuit%C3%A0-della-funzione-identit%C3%A0</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Continuit%C3%A0-delle-funzioni-composte-a-mappe-quozienti</loc>
+    <lastmod>2026-01-16T15:30:29.390Z</lastmod>
+  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Convergenza-Uniforme</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Costruzione-delle-Funzioni-Composte</loc>
+    <lastmod>2026-01-16T16:44:27.739Z</lastmod>
+  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Distanza-di-un-punto-da-un-insieme</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Esempio-sull'unicit%C3%A0-della-Topologia-Quoziente</loc>
+    <lastmod>2026-01-17T15:37:09.365Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Esterno</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -86,8 +101,14 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/I-singoletti-sono-Chiusi-Negli-Spazi-Hausdorff</loc>
     <lastmod>2026-01-15T16:37:25.000Z</lastmod>
   </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Incollamento-di-spazi-(pushout)</loc>
+    <lastmod>2026-01-17T18:58:14.132Z</lastmod>
+  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Insieme-Denso</loc>
     <lastmod>2026-01-15T16:37:25.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Insieme-Saturo-rispetto-a-una-Relazione</loc>
+    <lastmod>2026-01-16T14:25:58.965Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Insiemi-Limitati</loc>
     <lastmod>2026-01-15T22:42:55.000Z</lastmod>
@@ -158,8 +179,14 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/Proposizione-sull'intersezione-tra-Topologie</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Proposizione-sulla-Topologia-Quoziente-e-Spazi-Hausdorff</loc>
+    <lastmod>2026-01-17T15:44:34.795Z</lastmod>
+  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-Interno,-Esterno-e-Frontiera</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-Universale</loc>
+    <lastmod>2026-01-17T17:52:13.395Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-degli-Spazi-di-Hausdorff</loc>
     <lastmod>2026-01-15T16:37:25.000Z</lastmod>
@@ -184,9 +211,6 @@
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Regole-per-la-costruzione-delle-funzioni-continue</loc>
     <lastmod>2026-01-15T16:37:25.000Z</lastmod>
-  </url><url>
-    <loc>https://allibis.github.io/Appunti-di-Topologia/Relazioni-di-Equivalenza-e-Mappe-Quozienti</loc>
-    <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Sistema-fondamentale-di-intorni</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
@@ -245,6 +269,9 @@
     <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Prodotto</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
   </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Quoziente</loc>
+    <lastmod>2026-01-16T16:12:39.973Z</lastmod>
+  </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Topologia-Relativa-a-una-Mappa-Quoziente</loc>
     <lastmod>2026-01-15T22:42:55.000Z</lastmod>
   </url><url>
@@ -271,6 +298,12 @@
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/Topologie-confrontabili-e-insiemi-densi</loc>
     <lastmod>2026-01-15T14:00:36.000Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Toro</loc>
+    <lastmod>2026-01-17T16:37:07.685Z</lastmod>
+  </url><url>
+    <loc>https://allibis.github.io/Appunti-di-Topologia/Unicit%C3%A0-della-Topologia-Quoziente</loc>
+    <lastmod>2026-01-17T14:52:21.124Z</lastmod>
   </url><url>
     <loc>https://allibis.github.io/Appunti-di-Topologia/</loc>
     <lastmod>2026-01-15T23:36:41.000Z</lastmod>

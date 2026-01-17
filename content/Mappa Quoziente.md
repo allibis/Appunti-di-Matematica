@@ -1,6 +1,6 @@
 ---
 tags: [Topologia, Definizione, Mappe, Quoziente]
-aliases: []
+aliases: [mappa quoziente]
 icon: lucide-book-open
 ---
 
