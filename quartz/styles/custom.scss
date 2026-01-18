@@ -89,3 +89,10 @@ ol, ul {
 .left, .center, .right{
   padding-top: 2vh !important;
 }
+
+.toc {  
+  .toc-content {  
+    max-height: calc(100vh - 12rem) !important; // Adjust height as needed  
+    overflow-y: auto !important;  
+  }  
+}
