@@ -362,6 +362,38 @@ description: "Appunti di Topologia"
 
 ![[Toro]]
 
+---
+
 ## 8.3 Pushout
 
 ![[Incollamento di spazi (pushout)]]
+
+![[Orecchino Hawaiiano]]
+
+---
+
+## 8.4 Mappe quozienti e Sottospazi
+
+![[Teorema sulle Mappe Quozienti per Topologie Indotte]]
+
+---
+
+# 9. Spazi Connessi
+
+## 9.1 Definizione e Proprietà
+
+![[Spazio Connesso]]
+
+![[Insiemi Clopen e Spazi Connessi]]
+
+![[Teorema sull'immagine di spazi connessi mediante funzioni continue]]
+
+## 9.2 Sottospazi e Prodotti
+
+![[Lemma sugli Spazi Connessi e Sottospazi]]
+
+![[Teorema su Sottospazi Connessi aventi un punto in comune]]
+
+![[Prodotto di Spazi Connessi]]
+
+

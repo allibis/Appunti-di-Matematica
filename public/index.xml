@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Incollamento di spazi (pushout)</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Incollamento-di-spazi-(pushout)</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Incollamento-di-spazi-(pushout)</guid>
-    <description><![CDATA[  Incollamento di spazio É possibile “incollare” due spazi topologici X e Y lungo l’immagine di un “sottoinsieme” comune A mediante due mappe continue f:A\to X,g:A\to Y. ]]></description>
-    <pubDate>Sat, 17 Jan 2026 18:58:14 GMT</pubDate>
+    <title>Prodotto di Spazi Connessi</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Prodotto-di-Spazi-Connessi</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Prodotto-di-Spazi-Connessi</guid>
+    <description><![CDATA[  Teorema Il prodotto finito di spazi connessi è connesso Dimostrazione per due spazi connessi Considero X,Y spazi connessi e il loro prodotto X \times Y. ]]></description>
+    <pubDate>Sun, 18 Jan 2026 18:05:47 GMT</pubDate>
   </item><item>
-    <title>Proprietà Universale</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-Universale</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-Universale</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 17 Jan 2026 17:52:13 GMT</pubDate>
+    <title>Teorema sull&#039;immagine di spazi connessi mediante funzioni continue</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-sull'immagine-di-spazi-connessi-mediante-funzioni-continue</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-sull'immagine-di-spazi-connessi-mediante-funzioni-continue</guid>
+    <description><![CDATA[  Teorema L’immagine di spazi connessi mediante funzioni continue è connesso. Dim Siano X uno spazio topologico connesso e f:X\to Y continua. ]]></description>
+    <pubDate>Sun, 18 Jan 2026 17:36:44 GMT</pubDate>
   </item><item>
-    <title>Toro</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Toro</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Toro</guid>
-    <description><![CDATA[  Toro Definizione 1 L’insieme \mathbb{T}^n:=\underbrace{ S^1\times\dots \times S^1 }_{ n \text{ volte} } è chiamato toro Definizione 2 (versione astratta) Sia I=[0,1]. ]]></description>
-    <pubDate>Sat, 17 Jan 2026 16:37:07 GMT</pubDate>
+    <title>Spazio Connesso</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Spazio-Connesso</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Spazio-Connesso</guid>
+    <description><![CDATA[  Spazio Connesso Sia X spazio topologico e siano A,B\subseteq X tali che A\cup B=X Se non è possibile fare una separazione, allora X è connesso, ossia se: A,B sono aperti in X e A,B\not=\varnothing A\cap B=\varnothing A\cup B=X . ]]></description>
+    <pubDate>Sun, 18 Jan 2026 17:27:26 GMT</pubDate>
   </item><item>
-    <title>Proposizione sulla Topologia Quoziente e Spazi Hausdorff</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Proposizione-sulla-Topologia-Quoziente-e-Spazi-Hausdorff</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Proposizione-sulla-Topologia-Quoziente-e-Spazi-Hausdorff</guid>
-    <description><![CDATA[  Proposizione Sia X uno spazio topologico di Hausdorff e sia \mathcal{R} una relazione di equivalenza su X con {}^{X}\!/_{\mathcal{R}} topologia quoziente Sia inoltre \pi:X\to {}^{X}\!/_{\mathcal{R}} aperta. ]]></description>
-    <pubDate>Sat, 17 Jan 2026 15:44:34 GMT</pubDate>
+    <title>Teorema su Sottospazi Connessi aventi un punto in comune</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-su-Sottospazi-Connessi-aventi-un-punto-in-comune</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-su-Sottospazi-Connessi-aventi-un-punto-in-comune</guid>
+    <description><![CDATA[  Teorema L’unione di una collezione di sottospazi connessi di uno spazio topologico X aventi un punto in comune è connessa. ]]></description>
+    <pubDate>Sun, 18 Jan 2026 17:24:28 GMT</pubDate>
   </item><item>
-    <title>Esempio sull&#039;unicità della Topologia Quoziente</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Esempio-sull'unicit%C3%A0-della-Topologia-Quoziente</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Esempio-sull'unicit%C3%A0-della-Topologia-Quoziente</guid>
-    <description><![CDATA[  Esempio 1 (X,\tau)=([0,1],\mathcal{E}_{[0,1]}) Sia \sim una relazione di equivalenza tale che \forall t,s\in[0,1]: t\sim s\iff x=s \,\vee\ t,s\in \{ 0,1 \} (ossia identifica i bordi del segmento) Consideriamo f_{1}:X\to S^1 tale che t\longmapsto e^{ 2\pi ti } (dall’esempio della mappa quoziente) f_... ]]></description>
-    <pubDate>Sat, 17 Jan 2026 15:37:09 GMT</pubDate>
+    <title>Lemma sugli Spazi Connessi e Sottospazi</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Lemma-sugli-Spazi-Connessi-e-Sottospazi</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Lemma-sugli-Spazi-Connessi-e-Sottospazi</guid>
+    <description><![CDATA[  Lemma Sia X uno spazio topologico, se C,D formano una separazione e Y\subseteq X è un sottospazio topologico connesso, allora Y\subseteq C oppure Y\subseteq D. ]]></description>
+    <pubDate>Sun, 18 Jan 2026 17:09:32 GMT</pubDate>
   </item><item>
-    <title>Unicità della Topologia Quoziente</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Unicit%C3%A0-della-Topologia-Quoziente</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Unicit%C3%A0-della-Topologia-Quoziente</guid>
-    <description><![CDATA[  Unicità della Topologia Quoziente Sia (X,\tau) uno spazio topologico e siano f_{1}:(X,\tau)\to(Y_{1},\tau_{1}) f_{2}:(X,\tau)\to(Y_{2},\tau_{2}) Se \forall x,x&#039;\in \tau:f_{1}(x)=f_{1}(x&#039;)\iff f_{2}(x)=f_{2}(x&#039;), ossia vale (1) in entrambe le direzioni Allora \exists!\phi:Y_{1}\to Y_{... ]]></description>
-    <pubDate>Sat, 17 Jan 2026 14:52:21 GMT</pubDate>
+    <title>Insiemi Clopen e Spazi Connessi</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Insiemi-Clopen-e-Spazi-Connessi</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Insiemi-Clopen-e-Spazi-Connessi</guid>
+    <description><![CDATA[  Osservazione X è connesso \iff gli unici insiemi clopen (aperti e chiusi) sono X e \varnothing. ]]></description>
+    <pubDate>Sun, 18 Jan 2026 16:54:26 GMT</pubDate>
   </item><item>
-    <title>Costruzione delle Funzioni Composte</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Costruzione-delle-Funzioni-Composte</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Costruzione-delle-Funzioni-Composte</guid>
-    <description><![CDATA[  Osservazione Considero f:X\to Y mappa quoziente e sia \alpha:X\to Z. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 16:44:27 GMT</pubDate>
+    <title>Teorema sulle Mappe Quozienti per Topologie Indotte</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulle-Mappe-Quozienti-per-Topologie-Indotte</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulle-Mappe-Quozienti-per-Topologie-Indotte</guid>
+    <description><![CDATA[  Mappa Quoziente e Topologia Indotta Sia A\subseteq X un qualsiasi insieme e p:X\to Y una mappa quoziente. ]]></description>
+    <pubDate>Sun, 18 Jan 2026 16:12:14 GMT</pubDate>
   </item><item>
-    <title>Topologia Quoziente</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Topologia-Quoziente</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Topologia-Quoziente</guid>
-    <description><![CDATA[  Topologia Quoziente Sia X uno spazio topologico e \sim una relazione di equivalenza su X. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 16:12:39 GMT</pubDate>
-  </item><item>
-    <title>Continuità delle funzioni composte a mappe quozienti</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Continuit%C3%A0-delle-funzioni-composte-a-mappe-quozienti</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Continuit%C3%A0-delle-funzioni-composte-a-mappe-quozienti</guid>
-    <description><![CDATA[  Proposizione Siano f:(X,\tau)\to(Y,\tau&#039;) mappa quoziente e sia g:(Y,\tau&#039;)\to(Z,\tau&#039;&#039;) Allora g è continua \iff g\circ f è continua \implies Supponiamo g continua, f è mappa quoziente quindi è continua. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 15:30:29 GMT</pubDate>
+    <title>Orecchino Hawaiiano</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Orecchino-Hawaiiano</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Orecchino-Hawaiiano</guid>
+    <description><![CDATA[  Orecchino Hawaiiano Considero l’insieme di cerchi con centro \left( \frac{1}{n}, 0 \right), e raggio \frac{1}{n} Definisco X:=\bigcup \limits_{n\in \mathbb{N}} \{ (x,y)\in \mathbb{R}\,\vert \, \underbrace{ \left(x-\frac{1}{n}\right)^{2}+y^{2}=\frac{1}{n^{2}} }_{ C_{n} } \} X può essere definito com... ]]></description>
+    <pubDate>Sun, 18 Jan 2026 14:35:57 GMT</pubDate>
   </item><item>
     <title>Caratterizzazione degli Insiemi Saturi per Mappe Quozienti</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Insiemi-Saturi-per-Mappe-Quozienti</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-Insiemi-Saturi-per-Mappe-Quozienti</guid>
     <description><![CDATA[  Mappe quozienti Se \pi:X\to {}^{X}\!/_{\sim} tale che x\longmapsto\pi(x)=[x]_{\sim} Se V\subseteq X vale la seguente equivalenza: V è \mathcal{R}-saturo V=\pi ^{-1}(\pi(V)) 1. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 15:21:21 GMT</pubDate>
+    <pubDate>Sat, 17 Jan 2026 20:07:49 GMT</pubDate>
+  </item><item>
+    <title>Caratterizzazione della Topologia Quoziente</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-della-Topologia-Quoziente</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-della-Topologia-Quoziente</guid>
+    <description><![CDATA[  Caratterizzazione della Topologia Quoziente Sia (X,\tau) uno spazio topologico e sia \mathcal{R} una relazione di equivalenza. ]]></description>
+    <pubDate>Sat, 17 Jan 2026 20:07:49 GMT</pubDate>
   </item>
     </channel>
   </rss>

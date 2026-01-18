@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Definizione]
+tags: [Topologia, Definizione, Pushout, Quoziente]
 ---
 
 > [!def] Incollamento di spazio

@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Definizione, Mappe, Quoziente]
+tags: [Topologia, Definizione, Mappe, Quoziente, Sottospazi]
 aliases: [mappa quoziente]
 icon: lucide-book-open
 ---
