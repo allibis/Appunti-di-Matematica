@@ -1,98 +1,174 @@
 @use "./base.scss";
+@use "variables.scss" as *;
 
-blockquote{
-  border-left: 0;
-  padding-left: 0;
+/* ============================================================
+   1. GLOBAL UI & SCROLLBARS
+   ============================================================ */
+/* Applica lo stile custom a TUTTE le barre di scorrimento del sito */
+::-webkit-scrollbar {
+  width: 5px;  /* Larghezza verticale */
+  height: 5px; /* Altezza orizzontale (es. blocchi di codice/latex) */
 }
 
-// Fix LaTeX newlines in callouts - comprehensive solution  
-.callout {  
-  // Target all possible KaTeX display elements  
-  .callout-content {  
-    .katex-display,  
-    .katex .katex-display,  
-    mjx-container[jax="CHTML"][display="true"] {  
-      display: block !important;  
-      margin: 1em 0 !important;  
-      overflow-x: auto !important;  
-      overflow-y: hidden !important;  
-      text-align: center !important;  
-    }  
-      
-    // Force block display on any element containing display math  
-    *:has(.katex-display, mjx-container[display="true"]) {  
-      display: block !important;  
-      margin-bottom: 1em !important;  
-    }  
-      
-    // Ensure paragraphs break after display math  
-    p {  
-      &:has(.katex-display, mjx-container[display="true"]) {  
-        margin-bottom: 1em !important;  
-        display: block !important;  
-      }  
-    }  
-  }  
-}  
-  
-// Global override for KaTeX display in any context  
-.katex-display {  
-  display: block !important;  
-  margin: 1em 0 !important;  
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-/* Fix per LaTeX all'interno dei Titoli (H1-H6) */
-.callout-title {
-  .katex {
-    // font-size: 1em !important;  /* Mantiene la dimensione coerente col testo del titolo */
-    color: inherit !important;  /* Eredita il colore del titolo (o rispetta il tuo \color{}) */
+::-webkit-scrollbar-thumb {
+  background-color: var(--lightgray); /* Colore base (grigio chiaro) */
+  border-radius: 10px;
+  border: 1px solid transparent; /* Crea un padding visivo */
+  background-clip: content-box;
+
+  &:hover {
+    background-color: var(--secondary); /* Diventa del colore del tema all'hover */
   }
 }
 
-/* Rimozione del titolo del callout e ridimensionamento dei vari titoli dei paragrafi */
+/* Compatibilità Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--lightgray) transparent;
+}
+
+/* ============================================================
+   2. LAYOUT GENERALE
+   ============================================================ */
+.page {
+  max-width: none !important; /* Espande la pagina */
+}
+
+@media all and ($desktop) {
+  #quartz-body {
+    column-gap: 2px !important;
+    row-gap: 2px !important;
+  }
+}
+
+/* ============================================================
+   3. TIPOGRAFIA & BASE ELEMENTS
+   ============================================================ */
+blockquote {
+  border-left: 0;
+  padding-left: 0;
+  
+  h1 {
+    font-size: 1.2em;
+  }
+  
+  /* Nasconde i titoli negli embed (transclusioni) per evitare ripetizioni */
+  &.transclude h1 {
+    display: none;
+  }
+}
+
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.3em; }
+
+/* Liste */
+ol, ul {
+  margin-top: -1em; /* Nota: attenzione che non si sovrapponga al testo precedente */
+}
+
+/* Link Interni */
+a.internal {
+  color: var(--darkgray);
+}
+
+/* ============================================================
+   4. LATEX & MATH FIXES
+   ============================================================ */
+/* Fix completo per i newline di LaTeX dentro i Callout e blocchi */
+.callout {
+  .callout-content {
+    /* Targettiamo tutti i possibili contenitori MathJax/Katex */
+    .katex-display,
+    .katex .katex-display,
+    mjx-container[jax="CHTML"][display="true"] {
+      display: block !important;
+      margin: 1em 0 !important;
+      overflow-x: auto !important;
+      overflow-y: hidden !important;
+      text-align: center !important;
+    }
+
+    /* Forza il block display sul contenitore padre */
+    *:has(.katex-display, mjx-container[display="true"]) {
+      display: block !important;
+      margin-bottom: 1em !important;
+    }
+
+    /* Assicura che i paragrafi vadano a capo dopo la matematica */
+    p:has(.katex-display, mjx-container[display="true"]) {
+      margin-bottom: 1em !important;
+      display: block !important;
+    }
+  }
+}
+
+/* Override globale per KaTeX display */
+.katex-display {
+  display: block !important;
+  margin: 1em 0 !important;
+}
+
+/* LaTeX dentro i titoli dei Callout e H1-H6 */
+.callout-title .katex,
+h1 .katex, h2 .katex, h3 .katex {
+  color: inherit !important;
+  font-size: 1em !important; 
+}
+
+/* ============================================================
+   5. COMPONENTI (Transcludes, Callouts)
+   ============================================================ */
 .transclude-src {
   display: none;
 }
 
-h1 {
-  font-size: 1.5em;
-}
-
-h2{
-  font-size: 1.3em;
-}
-
-blockquote h1 {
-  font-size: 1.2em;
-}
-
-/* Rimuozione i titoli degli embed per evitare ripetizioni */
-blockquote.transclude h1 {
-  display: none;
-}
-
-
-.callout-title{
+.callout-title {
   padding-bottom: 0.2rem;
 }
 
-/* Aggiusta il colore del font del link */
-a.internal{
-  color: var(--darkgray);
+/* ============================================================
+   6. TOC (TABLE OF CONTENTS) - FLEXBOX FIX
+   ============================================================ */
+
+/* A. Blocchiamo la colonna laterale destra */
+.sidebar.right {
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden !important; /* Impedisce alla sidebar intera di scrollare */
+  
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  padding-bottom: 0 !important;
 }
 
-// TODO: aggiustare le liste 
-ol, ul {
-  margin-top: -1em;
+/* B. Il TOC diventa "elastico" e scrollabile */
+.toc {
+  /* Flex magic: occupa tutto lo spazio verticale rimanente */
+  flex: 1 1 auto !important;
+  min-height: 0 !important; 
+  max-height: none !important;
+  
+  display: flex !important;
+  flex-direction: column !important;
+  
+  /* Attiva lo scroll SOLO qui */
+  overflow-y: auto !important;
+  
+  margin-bottom: 0.5rem !important;
+  padding-right: 10px;
 }
 
-.left, .center, .right{
-  padding-top: 2vh !important;
-}
-
-.toc {  
-  .toc-content {  
-    max-height: calc(100vh - 25rem) !important; // Adjust height as needed  
-    overflow-y: auto !important;  
-  }  
+/* C. Reset degli elementi interni al TOC per evitare doppie scrollbar */
+/* Fondamentale: sovrascrive 'ul.overflow' di base.scss */
+.toc ul.overflow,
+.toc .toc-content,
+.toc ul {
+  overflow-y: visible !important; /* Disabilita scroll interno */
+  max-height: none !important;
+  padding-bottom: 3rem !important; /* Spazio extra in fondo per comodità */
 }

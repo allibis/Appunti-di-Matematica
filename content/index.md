@@ -392,8 +392,32 @@ description: "Appunti di Topologia"
 
 ![[Lemma sugli Spazi Connessi e Sottospazi]]
 
-![[Teorema su Sottospazi Connessi aventi un punto in comune]]
+![[Teorema sull'Unione di Spazi Connessi]]
 
 ![[Prodotto di Spazi Connessi]]
 
+> [!es] Esercizio $\mathbb{R}^\omega$ con Box Topology
+> Dimostro che $(\mathbb{R}^\omega,\tau_{\text{box}})$ non è [[Spazio Connesso|connesso]]
+> Mi basta trovare due insiemi disgiunti non vuoti che separano $\mathbb{R}^\omega$.
+> Considero:
+> - $A$ l'insieme delle successioni limitate
+> - $B$ l'insieme delle successioni non limitate
+> Risulta che i due insiemi sono disgiunti e aperti per la [[Box Topologia]]:
+> dato un punto $a=(a_{1},a_{2},\dots)\in \mathbb{R}^\omega$ è possibile considerare un intorno $U=(a_{1}-1,a_{1}+1)\times(a_{2}-1,a_{2}-1)\times\dots$. 
+> Se $a$ è limitato, allora $U\subseteq A$, se $a$ non è limitato, allora $U\subseteq B$.
+> Dunque ho trovato una [[Spazio Connesso|separazione]] rispetto alla box topology dunque $\mathbb{R}^\omega$ non è connesso
+
+> [!es] $\mathbb{R}^\omega$ con Topologia Prodotto
+> Dimostriamo che $(R^\omega,\tau_\text{prod})$ è [[Spazio Connesso|connesso]].
+> Consideriamo $\forall n\in \mathbb{N}: \widetilde{\mathbb{R}}^n=\{ (x_{1},\dots,x_{n},0,0,\dots) \}$ 
+> e la funzione $\varphi:\widetilde{\mathbb{R}}^n\to \mathbb{R}^n$ che associa
+> $\forall(x_{1},\dots,x_{n},0,0,\dots)\longmapsto(x_{1},\dots,x_{n})$
+> Tale funzione è continua (in quanto lo sono le sue componenti in virtù del [[Teorema sulle funzioni continue e topologia prodotto]])
+> Inoltre ogni $\widetilde{\mathbb{R}}^n\simeq \mathbb{R}^n$ è connesso, in quanto $\mathbb{R}^n$ è [[Prodotto di Spazi Connessi]] finito.
+> Inoltre tutti gli $\widetilde{\mathbb{R}}^n$ contengono il punto $(0,0,\dots)\in \mathbb{R}^\omega$, pertanto la loro unione $\bigcup \limits_{n\in \mathbb{N}}\widetilde{\mathbb{R}}^n=\mathbb{R}^\infty$ è connessa per il [[Teorema sull'Unione di Spazi Connessi]] è connessa.
+> (Ricordo che $\mathbb{R}^\infty$ contiene solo successioni che ad un certo punto finiscono)
+> Sia $a=(a_{1},a_{2},\dots)\in \mathbb{R}^\omega$ e sia $U=\prod\limits_{i}U_{i}$ intorno di $a$ per la topologia prodotto.
+> Risulta che $U_{i}=\mathbb{R}$ definitivamente da un certo $N$ in poi.
+> Considerato il punto $x=(a_{1},\dots,a_{N},0,0\dots)\in \mathbb{R}^\infty$. Tale punto appartiene a $U$ in quanto $x_{i}\in U_{i},\forall i$ 
+> Abbiamo dimostrato dunque che per ogni punto di $\mathbb{R}^\omega$ esiste un intorno $U$ che interseca $\mathbb{R}^\infty$, ossia tutti i punti di $\mathbb{R}^\omega$ sono punti di aderenza per $R^\infty$ e quindi $\overline{\mathbb{R}}^\infty=R^\omega$ dunque $\mathbb{R}^\omega$ è connesso rispetto alla topologia prodotto.
 

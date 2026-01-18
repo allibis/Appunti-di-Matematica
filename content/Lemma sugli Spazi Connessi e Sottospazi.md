@@ -2,7 +2,7 @@
 tags:
   - Topologia
   - Proposizione
-  - Spazi-Connessi
+  - Connessi
   - Sottospazi
 aliases: []
 icon: lucide-circle-check-big

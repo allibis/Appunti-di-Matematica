@@ -9,7 +9,6 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/allibis",
-
     },
   }),
 }
@@ -17,6 +16,18 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    Component.MobileOnly(
+      Component.Flex({
+        components: [
+          {
+            Component: Component.Search(),
+            grow: true,
+          },
+          { Component: Component.Darkmode() },
+        ],
+        direction: "column",
+      }),
+    ),
     Component.ArticleTitle(),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
@@ -26,52 +37,60 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.TagList(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    // Component.ContentMeta(),
-  
   ],
+
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    }),
-    
-    // mostra la lista delle note se mi trovo in una nota, altrimenti mostra l'indice se mi trovo in sulla pagina principale
-    Component.DesktopOnly(Component.ConditionalRender({
-      component: Component.Explorer({
-        filterFn: (f) => !f.slug!.startsWith("Excalidraw/")
+    Component.DesktopOnly(
+      Component.Flex({
+        components: [
+          {
+            Component: Component.Search(),
+            grow: true,
+          },
+          { Component: Component.Darkmode() },
+        ],
       }),
-      condition: (page) => page.fileData.slug !== "index",
-    })),
-    Component.DesktopOnly(Component.ConditionalRender({
-      component: Component.TableOfContents(),
-      condition: (page) => page.fileData.slug === "index",
-    }))
-    
+    ),
 
+    // mostra la lista delle note se mi trovo in una nota, altrimenti mostra l'indice se mi trovo in sulla pagina principale
+    Component.DesktopOnly(
+      Component.ConditionalRender({
+        component: Component.Explorer({
+          filterFn: (f) => !f.slug!.startsWith("Excalidraw/"),
+        }),
+        condition: (page) => page.fileData.slug !== "index",
+      }),
+    ),
+    Component.DesktopOnly(
+      Component.ConditionalRender({
+        component: Component.TableOfContents(),
+        condition: (page) => page.fileData.slug === "index",
+      }),
+    ),
   ],
   right: [
     Component.Graph({
-      localGraph:{
+      localGraph: {
         showTags: false,
         defaultCentralSlug: "Topologia",
       },
-      globalGraph:{
+      globalGraph: {
         showTags: false,
         defaultCentralSlug: "Topologia",
-      }
-    }
+      },
+    }),
+    Component.DesktopOnly(
+      Component.ConditionalRender({
+        component: Component.Explorer({
+          filterFn: (f) => !f.slug!.startsWith("Excalidraw/") || !f.slug.includes("index"),
+        }),
+        condition: (page) => page.fileData.slug === "index",
+      }),
     ),
-    Component.Backlinks(),
+    Component.Backlinks({}),
   ],
-  
-
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -89,7 +108,6 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-
   ],
   right: [],
 }

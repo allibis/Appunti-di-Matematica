@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Osservazione, Aperti, Chiusi, Spazi-Connessi]
+tags: [Topologia, Osservazione, Aperti, Chiusi, Connessi]
 aliases: []
 icon: lucide-book-open
 ---

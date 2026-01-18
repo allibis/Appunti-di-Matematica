@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Teorema, Spazi-Connessi]
+tags: [Topologia, Teorema, Connessi]
 aliases: []
 icon: lucide-scroll-text
 ---
@@ -12,7 +12,7 @@ icon: lucide-scroll-text
 > Sia $(a,b)\in X \times Y$
 > Osservo che $X \times \{ b \}\simeq X$ (omeomorfo) e $\{ a \}\times Y\simeq Y$ pertanto sono connessi.
 > Definisco $\forall x\in X: T_{x}:=(X \times \{ b \})\cup(\{ a \}\times Y)$
-> In virtù del [[Teorema su Sottospazi Connessi aventi un punto in comune]] risulta che $T_{x}$ è connesso.
+> In virtù del [[Teorema sull'Unione di Spazi Connessi]] risulta che $T_{x}$ è connesso.
 > Pertanto, $X \times Y=\bigcup\limits_{x\in X}T_{x}$ è connesso.
 
 > [!dim] Dimostrazione per $n$ spazi connessi

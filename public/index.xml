@@ -6,6 +6,30 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Immagine degli Spazi Connessi per Archi mediante Funzione Continua</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Immagine-degli-Spazi-Connessi-per-Archi-mediante-Funzione-Continua</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Immagine-degli-Spazi-Connessi-per-Archi-mediante-Funzione-Continua</guid>
+    <description><![CDATA[  Proposizione Sia f:X\to Y una mappa continua e X connesso per archi. Allora f(X)\subseteq Y è connesso per archi . ]]></description>
+    <pubDate>Sun, 18 Jan 2026 23:43:33 GMT</pubDate>
+  </item><item>
+    <title>Connessione per Archi</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Connessione-per-Archi</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Connessione-per-Archi</guid>
+    <description><![CDATA[  Cammino o Arco Dato X spazio topologico, e due punti x,y\in X un cammino o arco è una mappa continua f:[a,b]\to X tale che f(a)=x,f(b)=y Spazio Connesso per Archi Uno spazio topologico X è detto connesso per archi se per ogni coppia x,y\in X esiste un cammino. ]]></description>
+    <pubDate>Sun, 18 Jan 2026 23:42:35 GMT</pubDate>
+  </item><item>
+    <title>Teorema dei Valori Intermedi</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-dei-Valori-Intermedi</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-dei-Valori-Intermedi</guid>
+    <description><![CDATA[  Teorema dei Valori Intermedi Sia f:X\to(\mathbb{R},\mathcal{E}) una funzione continua dove X è connesso. ]]></description>
+    <pubDate>Sun, 18 Jan 2026 23:07:33 GMT</pubDate>
+  </item><item>
+    <title>Teorema sull&#039;Unione di Spazi Connessi</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-sull'Unione-di-Spazi-Connessi</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-sull'Unione-di-Spazi-Connessi</guid>
+    <description><![CDATA[  Teorema L’unione di una collezione di sottospazi connessi di uno spazio topologico X aventi un punto in comune è connessa. ]]></description>
+    <pubDate>Sun, 18 Jan 2026 22:30:55 GMT</pubDate>
+  </item><item>
     <title>Incollamento di spazi (pushout)</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Incollamento-di-spazi-(pushout)</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Incollamento-di-spazi-(pushout)</guid>
@@ -40,30 +64,6 @@
     <link>https://allibis.github.io/Appunti-di-Topologia/Prodotto-di-Spazi-Connessi</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Prodotto-di-Spazi-Connessi</guid>
     <description><![CDATA[  Teorema Il prodotto finito di spazi connessi è connesso Dimostrazione per due spazi connessi Considero X,Y spazi connessi e il loro prodotto X \times Y. ]]></description>
-    <pubDate>Sun, 18 Jan 2026 18:08:09 GMT</pubDate>
-  </item><item>
-    <title>Spazio Connesso</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Spazio-Connesso</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Spazio-Connesso</guid>
-    <description><![CDATA[  Spazio Connesso Sia X spazio topologico e siano A,B\subseteq X tali che A\cup B=X Se non è possibile fare una separazione, allora X è connesso, ossia se: A,B sono aperti in X e A,B\not=\varnothing A\cap B=\varnothing A\cup B=X . ]]></description>
-    <pubDate>Sun, 18 Jan 2026 18:08:09 GMT</pubDate>
-  </item><item>
-    <title>Teorema su Sottospazi Connessi aventi un punto in comune</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-su-Sottospazi-Connessi-aventi-un-punto-in-comune</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-su-Sottospazi-Connessi-aventi-un-punto-in-comune</guid>
-    <description><![CDATA[  Teorema L’unione di una collezione di sottospazi connessi di uno spazio topologico X aventi un punto in comune è connessa. ]]></description>
-    <pubDate>Sun, 18 Jan 2026 18:08:09 GMT</pubDate>
-  </item><item>
-    <title>Teorema sull&#039;immagine di spazi connessi mediante funzioni continue</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-sull'immagine-di-spazi-connessi-mediante-funzioni-continue</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-sull'immagine-di-spazi-connessi-mediante-funzioni-continue</guid>
-    <description><![CDATA[  Teorema L’immagine di spazi connessi mediante funzioni continue è connesso. Dim Siano X uno spazio topologico connesso e f:X\to Y continua. ]]></description>
-    <pubDate>Sun, 18 Jan 2026 18:08:09 GMT</pubDate>
-  </item><item>
-    <title>Teorema sulle Mappe Quozienti per Topologie Indotte</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulle-Mappe-Quozienti-per-Topologie-Indotte</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulle-Mappe-Quozienti-per-Topologie-Indotte</guid>
-    <description><![CDATA[  Mappa Quoziente e Topologia Indotta Sia A\subseteq X un qualsiasi insieme e p:X\to Y una mappa quoziente. ]]></description>
     <pubDate>Sun, 18 Jan 2026 18:08:09 GMT</pubDate>
   </item>
     </channel>

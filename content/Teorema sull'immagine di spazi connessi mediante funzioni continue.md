@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Teorema, Continuità, Spazi-Connessi]
+tags: [Topologia, Teorema, Continuità, Connessi]
 aliases: []
 icon: lucide-scroll-text
 ---

@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Definizione, Spazi-Connessi]
+tags: [Topologia, Definizione, Connessi]
 aliases: [connesso, spazio connesso, separazione]
 icon: lucide-book-open
 ---
