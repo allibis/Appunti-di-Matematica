@@ -30,11 +30,29 @@ li.section-li {
   }
 }
 
-// modifications in popover context
-.popover .section {
-  grid-template-columns: fit-content(8em) 1fr !important;
 
-  & > .tags {
-    display: none;
-  }
+// removed for aestetics
+// modifications in popover context
+// .popover .section {
+//   grid-template-columns: fit-content(8em) 1fr !important;
+
+//   & > .tags {
+//     display: none;
+//   }
+// }
+
+// added to place tag-list under the page name isntead of beign on the right
+li.section-li {  
+  margin-bottom: 1em;  
+  
+  & > .section {  
+    display: grid;  
+    grid-template-columns: 1fr; // Single column now  
+    // Remove the old 3-column layout  
+  }  
+}
+
+// Align tags to the left in page lists  
+.section-li > .section > .tags {  
+  justify-content: flex-start !important;  
 }

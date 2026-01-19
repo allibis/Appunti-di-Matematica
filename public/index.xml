@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Proiezioni Canoniche</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Proiezioni-Canoniche</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Proiezioni-Canoniche</guid>
-    <description><![CDATA[  Proiezione Canonica Sia \{X_{\alpha}\}_{\alpha\in I} una famiglia indicizzata di insiemi. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 12:02:28 GMT</pubDate>
+    <title>Uno Spazio di Hausdorff Compatto Privo di Punti Isolati non é Numerabile</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Uno-Spazio-di-Hausdorff-Compatto-Privo-di-Punti-Isolati-non-%C3%A9-Numerabile</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Uno-Spazio-di-Hausdorff-Compatto-Privo-di-Punti-Isolati-non-%C3%A9-Numerabile</guid>
+    <description><![CDATA[  Teorema Sia X uno spazio topologico di Hausdorff compatto. Se X non ha punti isolati, allora non é numerabile. ]]></description>
+    <pubDate>Mon, 19 Jan 2026 21:17:34 GMT</pubDate>
   </item><item>
-    <title>La Topologia Prodotto è Connessa</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/La-Topologia-Prodotto-%C3%A8-Connessa</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/La-Topologia-Prodotto-%C3%A8-Connessa</guid>
-    <description><![CDATA[  \mathbb{R}^\omega con Topologia Prodotto Dimostriamo che (R^\omega,\tau_\text{prod}) è connesso. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 11:59:42 GMT</pubDate>
+    <title>Punti Isolati</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Punti-Isolati</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Punti-Isolati</guid>
+    <description><![CDATA[  Punto Isolato Se X è uno spazio topologico, x è un suo punto isolato se \{ x \} è aperto. ]]></description>
+    <pubDate>Mon, 19 Jan 2026 21:17:05 GMT</pubDate>
   </item><item>
-    <title>La Box Topology non è Connessa</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/La-Box-Topology-non-%C3%A8-Connessa</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/La-Box-Topology-non-%C3%A8-Connessa</guid>
-    <description><![CDATA[  Esercizio \mathbb{R}^\omega con Box Topology Dimostro che (\mathbb{R}^\omega,\tau_{\text{box}}) non è connesso Mi basta trovare due insiemi disgiunti non vuoti che separano \mathbb{R}^\omega. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 11:58:48 GMT</pubDate>
+    <title>I Compatti lo sono anche Per Punti di Accumulazione</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/I-Compatti-lo-sono-anche-Per-Punti-di-Accumulazione</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/I-Compatti-lo-sono-anche-Per-Punti-di-Accumulazione</guid>
+    <description><![CDATA[  Teorema Se X è compatto, allora lo è anche per punti di accumulazione Non vale il viceversa . ]]></description>
+    <pubDate>Mon, 19 Jan 2026 21:09:38 GMT</pubDate>
   </item><item>
-    <title>I Numeri Primi sono Infiniti</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/I-Numeri-Primi-sono-Infiniti</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/I-Numeri-Primi-sono-Infiniti</guid>
-    <description><![CDATA[  I numeri primi sono infiniti Dim Supponiamo per assurdo che i numeri primi siano finiti \{p_{1}\dots p_{s}\} Definisco \displaystyle A=\bigcup_{p \text{ primo}}S(0,p) e \tau=\{S(x,a)=\{x+ka\mid k\in \mathbb{Z}\}\}\subseteq \mathcal{P}(\mathbb{Z}) Allora \mathbb{Z}\setminus A=A^C=\{-1,1\} Questo per... ]]></description>
-    <pubDate>Mon, 19 Jan 2026 11:57:20 GMT</pubDate>
+    <title>Compatto per Punti di Accumulazione</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Compatto-per-Punti-di-Accumulazione</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Compatto-per-Punti-di-Accumulazione</guid>
+    <description><![CDATA[  Spazio Compatto per Punti di Accumulazione Sia X uno spazio topologico. ]]></description>
+    <pubDate>Mon, 19 Jan 2026 21:08:17 GMT</pubDate>
   </item><item>
-    <title>Esempi di Chiusi in Topologie Diverse</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Esempi-di-Chiusi-in-Topologie-Diverse</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Esempi-di-Chiusi-in-Topologie-Diverse</guid>
-    <description><![CDATA[  In \mathbb{R} Consideriamo A_{1}=(0,+\infty), A_{2}=\{ 1,2 \}, A_{3}=\mathbb{N}, A_{4}=\mathbb{Q}. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 11:55:10 GMT</pubDate>
+    <title>Caratterizzazione della Compattezza tramite Proprietà di Intersezione Finita</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-della-Compattezza-tramite-Propriet%C3%A0-di-Intersezione-Finita</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-della-Compattezza-tramite-Propriet%C3%A0-di-Intersezione-Finita</guid>
+    <description><![CDATA[  Teorema Sia X uno spazio topologico, allora vale la seguente equivalenza: X è compatto Ogni collezione \mathcal{C} di chiusi di X che ha la Proprietà di Intersezione Finita verifica la proprietà: \bigcap \limits_{C\in \mathcal{C}}C\not=\varnothing Dim Provo l’equivalenza delle negazioni: Sia \mathc... ]]></description>
+    <pubDate>Mon, 19 Jan 2026 20:50:20 GMT</pubDate>
   </item><item>
-    <title>Esempio di Confronto tra Topologie</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Esempio-di-Confronto-tra-Topologie</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Esempio-di-Confronto-tra-Topologie</guid>
-    <description><![CDATA[  Esempio La base per la Topologia Euclidea su \mathbb{R} è \beta=\{(a,b)\mid a,b\in \mathbb{R}, a&lt;b\} La base per la Topologia del Limite Inferiore \mathbb{R}_{\mathscr{l}} è \beta&#039;=\{[a,b) | a,b\in \mathbb{R}, a&lt;b\} La K-topologia su \mathbb{R} è generata dalla base \beta&#039;&#039;=\{(... ]]></description>
-    <pubDate>Mon, 19 Jan 2026 11:53:25 GMT</pubDate>
+    <title>La Proiezione Parallela a un Compatto è Chiusa</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/La-Proiezione-Parallela-a-un-Compatto-%C3%A8-Chiusa</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/La-Proiezione-Parallela-a-un-Compatto-%C3%A8-Chiusa</guid>
+    <description><![CDATA[  Proposizione Siano X,Y spazi topologici con Y compatto. ]]></description>
+    <pubDate>Mon, 19 Jan 2026 20:36:27 GMT</pubDate>
   </item><item>
-    <title>Componenti Connesse per Archi</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Componenti-Connesse-per-Archi</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Componenti-Connesse-per-Archi</guid>
-    <description><![CDATA[  Definizione Poiché la connessione per archi è una relazione di equivalenza, le relative classi di equivalenza sono componenti connesse e prendono il nome di componenti connesse per archi . ]]></description>
-    <pubDate>Mon, 19 Jan 2026 11:32:03 GMT</pubDate>
+    <title>Teorema di Heine-Boriel</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-di-Heine-Boriel</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-di-Heine-Boriel</guid>
+    <description><![CDATA[  Teorema di Heine-Boriel Sia K\subseteq \mathbb{R}^n, allora: K è compatto \iff K è chiuso e limitato \implies Sappiamo che \mathbb{R}^n è uno spazio di Hausdorff. ]]></description>
+    <pubDate>Mon, 19 Jan 2026 20:07:46 GMT</pubDate>
   </item><item>
-    <title>Teorema sulle Componenti Connesse</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulle-Componenti-Connesse</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-sulle-Componenti-Connesse</guid>
-    <description><![CDATA[  Teorema Le componenti connesse di X sono sottoinsiemi connessi di X, disgiunti tra loro, la cui unione è X e tali che ogni sottoinsieme connesso di X ne interseca esattamente una di esse. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 11:31:04 GMT</pubDate>
+    <title>Il prodotto finito di Compatti é Compatto</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Il-prodotto-finito-di-Compatti-%C3%A9-Compatto</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Il-prodotto-finito-di-Compatti-%C3%A9-Compatto</guid>
+    <description><![CDATA[  Teorema Il prodotto finito di spazi topologici compatti é compatto . ]]></description>
+    <pubDate>Mon, 19 Jan 2026 18:42:20 GMT</pubDate>
   </item><item>
-    <title>Componenti Connesse</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Componenti-Connesse</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Componenti-Connesse</guid>
-    <description><![CDATA[  Componenti Connesse Sia X spazio topologico e sia \sim una relazione di equivalenza tale che: x\sim y\iff \exists un sottoinsieme connesso che contiene x,y. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 11:30:45 GMT</pubDate>
+    <title>Proprietà di Intersezione Finita</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-di-Intersezione-Finita</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-di-Intersezione-Finita</guid>
+    <description><![CDATA[  Proprietà di Intersezione Finita Una collezione \mathcal{C} di sottoinsiemi di uno spazio topologico X ha la proprietà di intersezione finita se: \forall sottofamiglia finita \{ C_{1},..,C_{n} \}\subseteq \mathcal{C} si ha che \bigcap \limits_{i=1}^nC_{n}\not=\varnothing. ]]></description>
+    <pubDate>Mon, 19 Jan 2026 18:36:22 GMT</pubDate>
   </item><item>
-    <title>La Connessione per Archi è una Relazione di Equivalenza</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/La-Connessione-per-Archi-%C3%A8-una-Relazione-di-Equivalenza</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/La-Connessione-per-Archi-%C3%A8-una-Relazione-di-Equivalenza</guid>
-    <description><![CDATA[  Proposizione La relazione di equivalenza \sim tale che x\sim y se \exists un cammino tra di essi è una relazione di equivalenza. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 11:17:57 GMT</pubDate>
+    <title>Teorema del Grafico Chiuso per spazi compatti</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-del-Grafico-Chiuso-per-spazi-compatti</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-del-Grafico-Chiuso-per-spazi-compatti</guid>
+    <description><![CDATA[  Proposizione Sia f:X\to Y con X spazio topologico e Y compatto Se il grafico di f: \mathcal{T}_{f}:=\{ (x,f(x))\in X \times Y\, \vert \,x\in X \} è chiuso in X \times Y allora f è continua . ]]></description>
+    <pubDate>Mon, 19 Jan 2026 18:32:46 GMT</pubDate>
   </item>
     </channel>
   </rss>

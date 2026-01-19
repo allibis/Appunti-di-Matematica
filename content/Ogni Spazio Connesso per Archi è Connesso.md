@@ -2,7 +2,7 @@
 tags:
   - Topologia
   - Proposizione
-  - Connesso
+  - Connessi
   - Archi
 aliases: []
 icon: lucide-circle-check-big

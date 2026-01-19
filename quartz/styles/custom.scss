@@ -104,6 +104,10 @@ a.internal {
       display: block !important;
     }
   }
+  border-style: double;
+  border-width: 0 .5vw 0 .5vw;
+  border-radius: .0;
+  
 }
 
 /* Override globale per KaTeX display */

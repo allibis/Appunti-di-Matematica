@@ -1,5 +1,5 @@
 ---
-tags: [Topologia, Teorema, Mappa, Quoziente]
+tags: [Topologia, Teorema, Mappe, Quoziente]
 aliases: []
 icon: lucide-scroll-text
 ---

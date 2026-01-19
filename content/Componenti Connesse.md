@@ -2,7 +2,7 @@
 tags:
   - Topologia
   - Definizione
-  - Connesso
+  - Connessi
   - Componenti-Connesse
 aliases: [componenti connesse]
 icon: lucide-book-open

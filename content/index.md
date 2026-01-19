@@ -376,3 +376,67 @@ description: "Appunti di Topologia"
 ![[Teorema sulle Componenti Connesse]]
 
 ![[Componenti Connesse per Archi]]
+
+---
+
+# 10. Spazi Compatti
+
+## 10.1 Ricoprimenti e Definizione di Compatto
+
+![[Ricoprimento]]
+
+![[Compatto]]
+
+![[Esempi di Compatti e non Compatti]]
+
+---
+
+## 10.2 Sottospazi di Spazi Compatti
+
+![[Lemma sui Sottospazi Compatti]]
+
+![[Teorema Sui Sottospazi Chiusi Dei Compatti]]
+
+![[I Sottospazi Compatti di Spazi T2 sono Chiusi]]
+
+---
+
+## 10.3 Mappe e Spazi Compatti
+
+![[Teorema sull'immagine di compatti mediante funzioni continue]]
+
+![[La Biiezione continua da compatto a Hausdorff è un omeomorfismo]]
+
+---
+
+## 10.4 Prodotto di Compatti
+
+![[Lemma del Tubo]]
+
+![[La Proiezione Parallela a un Compatto è Chiusa]]
+
+![[Il prodotto finito di Compatti é Compatto]]
+
+![[Teorema del Grafico Chiuso per spazi compatti]]
+
+![[Teorema di Heine-Boriel]]
+
+---
+
+## 10.5 Proprietà Di Intersezione Finita
+
+![[Proprietà di Intersezione Finita]]
+
+![[Caratterizzazione della Compattezza tramite Proprietà di Intersezione Finita]]
+
+![[Uno Spazio di Hausdorff Compatto Privo di Punti Isolati non é Numerabile]]
+
+---
+
+## 10.6 Compattezza per Punti di Accumulazione
+
+![[Punti Isolati]]
+
+![[Compatto per Punti di Accumulazione]]
+
+![[I Compatti lo sono anche Per Punti di Accumulazione]]
