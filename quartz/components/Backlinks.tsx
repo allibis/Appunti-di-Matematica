@@ -6,11 +6,13 @@ import { classNames } from "../util/lang"
 import OverflowListFactory from "./OverflowList"
 
 interface BacklinksOptions {
-  hideWhenEmpty: boolean
+  hideWhenEmpty: boolean,
+  ignoreIndex: boolean,
 }
 
 const defaultOptions: BacklinksOptions = {
   hideWhenEmpty: true,
+  ignoreIndex: false,
 }
 
 export default ((opts?: Partial<BacklinksOptions>) => {
@@ -24,10 +26,12 @@ export default ((opts?: Partial<BacklinksOptions>) => {
     cfg,
   }: QuartzComponentProps) => {
     const slug = simplifySlug(fileData.slug!)
-    const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug))
+    // added filter for index page if ignoreindex is true
+    const backlinkFiles = allFiles.filter((file) => file.slug?.includes("index") && options.ignoreIndex ? null : file.links?.includes(slug))
     if (options.hideWhenEmpty && backlinkFiles.length == 0) {
       return null
     }
+
     return (
       <div class={classNames(displayClass, "backlinks")}>
         <h3>{i18n(cfg.locale).components.backlinks.title}</h3>

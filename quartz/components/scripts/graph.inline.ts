@@ -98,9 +98,6 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     ]),  
   )
 
-
-  
-
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
   const validLinks = new Set(data.keys())
