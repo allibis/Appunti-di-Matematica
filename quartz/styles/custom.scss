@@ -172,3 +172,9 @@ h1 .katex, h2 .katex, h3 .katex {
   max-height: none !important;
   padding-bottom: 3rem !important; /* Spazio extra in fondo per comodità */
 }
+
+/* Limita la larghezza delle immagini nelle note per non spaccare il layout */
+img[src$=".svg"] {
+  max-width: 100%; /* Non uscire mai dal contenitore */
+  height: auto;
+}

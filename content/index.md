@@ -60,35 +60,13 @@ description: "Appunti di Topologia"
 > ![[S(x,a).excalidraw.svg|200]]
 > 1. $\displaystyle\mathbb{Z}=\bigcup_{x,a\in \mathbb{Z}}S(x,a)$
 > 2. Se $c\in S(x,a)\cap S(y,b)$ allora $c\in S(c,d)\subseteq S(x,a)\cap S(y,b)$ dove $d=mcm(a,b)$
-> 
+ 
 
-> [!teorema] I numeri primi sono infiniti
-
-> [!dim] Dim
-> Supponiamo per assurdo che i numeri primi siano finiti $\{p_{1}\dots p_{s}\}$
-> Definisco $\displaystyle A=\bigcup_{p \text{ primo}}S(0,p)$ e $\tau=\{S(x,a)=\{x+ka\mid k\in \mathbb{Z}\}\}\subseteq \mathcal{P}(\mathbb{Z})$
-> ![[S(0,p).excalidraw.svg|200]]
-> Allora $\mathbb{Z}\setminus A=A^C=\{-1,1\}$ Questo perché solo $-1,1$ non sono primi (per definizione) e non sono multipli di numeri primi. 
-> Osservo inoltre che $\displaystyle S(x,a)^C=X\setminus\underbrace{ S(x,a) }_{ \text{aperto} }=\bigcup^{a-1}_{i=1}S(x+i,a)$
-> Tale insieme è chiuso, in quanto complementare di aperto, e aperto poiché unione di aperti. In altre parole, tutti gli aperti sono chiusi.
-> Quindi $\displaystyle A=\bigcup_{p \text{ primo}}S(0,p)$ è chiuso per unione finita di chiusi e $A^C=\{-1,1\}$ è aperto. Ma questa è una contraddizione, in quanto gli aperti sono infiniti in $\tau$.
-> 
+![[I Numeri Primi sono Infiniti]]
 
 ![[Topologie confrontabili e basi]]
 
-> [!es] Esempio
-> La base per la [[Topologia Euclidea]] su $\mathbb{R}$ è $\beta=\{(a,b)\mid a,b\in \mathbb{R}, a<b\}$
-> La base per la [[Topologia del Limite Inferiore]] $\mathbb{R}_{\mathscr{l}}$ è $\beta'=\{[a,b) | a,b\in \mathbb{R}, a<b\}$
-> La **K-topologia** su $\mathbb{R}$ è generata dalla base $\beta''=\{(a,b)\mid a,b\in \mathbb{R},a<b\}\cup\{(a,b)\setminus K\}$ con $K=\{\frac{1}{n}\mid n\in \mathbb{Z}^+\}$
-> 
-> | Topologia | Confronto |
-> | :---: | :---: |
-> |  $\mathbb{R}$ vs $\mathbb{R}_{\mathscr{l}}$   | $\mathbb{R}\subseteq \mathbb{R}_{\mathscr{l}}$    |
-> |  $\mathbb{R}$ vs $\mathbb{R}_{K}$   | $\mathbb{R}\subseteq \mathbb{R}_{{K}}$ |
-> |$\mathbb{R}_{{\mathscr{l}}}$ vs $\mathbb{R}_{K}$ | non confrontabili |
-> Applico la [[Topologie confrontabili e basi|proposizione precedente]] per dimostrare che $\mathbb{R}\subseteq \mathbb{R}_{\mathscr{l}}$: 
-> Prendo $B=(a,b)\in \beta$ e $x\in B$ arbitrari. Si ha che $\exists B'=[x,b)\subseteq(a,b)$, da cui la tesi.
-> Viceversa, se considero $B'=[x,b)\in \beta'$, $\nexists(a,b)\in \beta\mid x\in(a,b)\subseteq[x,b)$
+![[Esempio di Confronto tra Topologie]]
 
 ---
 ## 1.5 _Intorni e Sistemi Fondamentali di Intorni_
@@ -145,26 +123,7 @@ description: "Appunti di Topologia"
 > $x\in A\implies x\in \bar{A}$.
 > Se $x\in D(A)$ allora $\forall U\in \tau,x\in U \mid (U\cap A)\setminus\{x\}\not=\varnothing\implies U\cap A\not=\varnothing$.  Per cui $x$ è di aderenza, e quindi per il [[Teorema sui Punti di Aderenza]] $x\in \bar{A}$
 
-> [!es] In $\mathbb{R}$
-> Consideriamo $A_{1}=(0,+\infty), A_{2}=\{ 1,2 \}, A_{3}=\mathbb{N}, A_{4}=\mathbb{Q}$.
-> Calcolarne $Int(A_{i}), \bar{A_{i}}$ in $(\mathbb{R},\mathcal{E}), (\mathbb{R},\mathcal{P}(X)),(\mathbb{R},\tau_{cof}),(\mathbb{R},\tau_{\mathscr{l}})$
-> 
-> 1. In $(\mathbb{R},\mathcal{E})$
->    $Int(A_{1})=A_{1}$, $\bar{A_{1}}=[0,+\infty)$
->    $Int(A_{2})=\varnothing$, $\bar{A_{2}}=A_{2}$
->    $Int(A_{3})=\varnothing$, $\bar{A_{3}}=A_{3}$
->    $Int(A_{4})=\varnothing$: infatti $\forall q\in Q:\exists\varepsilon>0\mid(q-\varepsilon,q+\varepsilon)\not \subseteq \mathbb{Q}$. 
-> 2. In $(\mathbb{R},\mathcal{P}(\mathbb{R}))$
->    $\forall i\in\{1,2,3,4\}:  Int(A_{i})=A_{i},\bar{A_{i}}=A_{i}$
-> 3. $(\mathbb{R},\tau_{cof})$
->    Ricordiamo che $\tau_{cof}=\{ \varnothing \}\cup \{ A\subseteq\mathbb{R}\mid \complement_{X}A \text{ è finito} \}$.
->   Se $r$ fosse interno a $A_{1}=(0,+\infty)$ allora esisterebbe $W\in \tau_{cof}\mid x\in W\subseteq A_{1}$. Tale $W$ è del tipo $\mathbb{R}\setminus\{p_{1}\dots p_{k}\}\not\subseteq A_{1}\implies A_{1}$ non ha punti interni. Pertanto $Int (A_{1})=\varnothing$
->   I chiusi di $\tau_{cof}$ sono chiusi oppure sono  uguali a $\mathbb{R}$. L'unico chiuso che contiene $A_{1}$ è $\mathbb{R}$, quindi $\bar{A_{1}}=\mathbb{R}$
->   Considero $A_{2}$. Nella topologia cofinita, non esistono aperti contenuti in $A_{2}$, quindi $Int(A_{2})=\varnothing$. Osservo inoltre che $\complement_{\mathbb{R}}A_{2}=\mathbb{R}\setminus\{ 1,2 \}$ è aperto in $\tau_{cof}$, quindi $A_{2}$ è chiuso, di conseguenza $A_{2}=\bar{A_{2}}$.
->   $A_{3}=\mathbb{N}$. $\forall n\in \mathbb{N},n\not\in Int(\mathbb{N})$. Questo perché $\forall U\in \tau _{cof}\mid n\in U: U\not\subseteq \mathbb{N}\implies Int(\mathbb{N})=\varnothing$.
->   Analogamente ad $A_{2}$, risulta che $\bar{A_{3}}=\mathbb{R}$.
->   Osservo che $Int(\mathbb{Q})=\varnothing$ in virtù dello stesso ragionamento seguito per $A_{3}$.
->   L'unico chiuso che contiene $\mathbb{Q}$ è $\mathbb{R}\implies \bar{\mathbb{Q}}=\mathbb{R}$
+![[Esempi di Chiusi in Topologie Diverse]]
 
 ---
 ## 2.4 _Insiemi densi_
@@ -201,7 +160,7 @@ description: "Appunti di Topologia"
 
 ![[Prodotto Cartesiano della Famiglia Parametrizzata]]
 
-![[Proiezione]]
+![[Proiezioni Canoniche]]
 
 ![[Box Topologia]]
 
@@ -333,7 +292,7 @@ description: "Appunti di Topologia"
 
 ### 7.2 Proprietà 
 
-![[Teorema di Unicità del Limite]]
+![[Teorema di Unicità del Limite in Spazi di Hausdorff]]
 
 ![[I singoletti sono Chiusi Negli Spazi Hausdorff]]
 
@@ -396,28 +355,24 @@ description: "Appunti di Topologia"
 
 ![[Prodotto di Spazi Connessi]]
 
-> [!es] Esercizio $\mathbb{R}^\omega$ con Box Topology
-> Dimostro che $(\mathbb{R}^\omega,\tau_{\text{box}})$ non è [[Spazio Connesso|connesso]]
-> Mi basta trovare due insiemi disgiunti non vuoti che separano $\mathbb{R}^\omega$.
-> Considero:
-> - $A$ l'insieme delle successioni limitate
-> - $B$ l'insieme delle successioni non limitate
-> Risulta che i due insiemi sono disgiunti e aperti per la [[Box Topologia]]:
-> dato un punto $a=(a_{1},a_{2},\dots)\in \mathbb{R}^\omega$ è possibile considerare un intorno $U=(a_{1}-1,a_{1}+1)\times(a_{2}-1,a_{2}-1)\times\dots$. 
-> Se $a$ è limitato, allora $U\subseteq A$, se $a$ non è limitato, allora $U\subseteq B$.
-> Dunque ho trovato una [[Spazio Connesso|separazione]] rispetto alla box topology dunque $\mathbb{R}^\omega$ non è connesso
+![[La Box Topology non è Connessa]]
 
-> [!es] $\mathbb{R}^\omega$ con Topologia Prodotto
-> Dimostriamo che $(R^\omega,\tau_\text{prod})$ è [[Spazio Connesso|connesso]].
-> Consideriamo $\forall n\in \mathbb{N}: \widetilde{\mathbb{R}}^n=\{ (x_{1},\dots,x_{n},0,0,\dots) \}$ 
-> e la funzione $\varphi:\widetilde{\mathbb{R}}^n\to \mathbb{R}^n$ che associa
-> $\forall(x_{1},\dots,x_{n},0,0,\dots)\longmapsto(x_{1},\dots,x_{n})$
-> Tale funzione è continua (in quanto lo sono le sue componenti in virtù del [[Teorema sulle funzioni continue e topologia prodotto]])
-> Inoltre ogni $\widetilde{\mathbb{R}}^n\simeq \mathbb{R}^n$ è connesso, in quanto $\mathbb{R}^n$ è [[Prodotto di Spazi Connessi]] finito.
-> Inoltre tutti gli $\widetilde{\mathbb{R}}^n$ contengono il punto $(0,0,\dots)\in \mathbb{R}^\omega$, pertanto la loro unione $\bigcup \limits_{n\in \mathbb{N}}\widetilde{\mathbb{R}}^n=\mathbb{R}^\infty$ è connessa per il [[Teorema sull'Unione di Spazi Connessi]] è connessa.
-> (Ricordo che $\mathbb{R}^\infty$ contiene solo successioni che ad un certo punto finiscono)
-> Sia $a=(a_{1},a_{2},\dots)\in \mathbb{R}^\omega$ e sia $U=\prod\limits_{i}U_{i}$ intorno di $a$ per la topologia prodotto.
-> Risulta che $U_{i}=\mathbb{R}$ definitivamente da un certo $N$ in poi.
-> Considerato il punto $x=(a_{1},\dots,a_{N},0,0\dots)\in \mathbb{R}^\infty$. Tale punto appartiene a $U$ in quanto $x_{i}\in U_{i},\forall i$ 
-> Abbiamo dimostrato dunque che per ogni punto di $\mathbb{R}^\omega$ esiste un intorno $U$ che interseca $\mathbb{R}^\infty$, ossia tutti i punti di $\mathbb{R}^\omega$ sono punti di aderenza per $R^\infty$ e quindi $\overline{\mathbb{R}}^\infty=R^\omega$ dunque $\mathbb{R}^\omega$ è connesso rispetto alla topologia prodotto.
+![[La Topologia Prodotto è Connessa]]
 
+## 9.3 Spazi Connessi per Archi
+
+![[Connessione per Archi]]
+
+![[Immagine degli Spazi Connessi per Archi mediante Funzione Continua]]
+
+![[Ogni Spazio Connesso per Archi è Connesso]]
+
+![[La Connessione per Archi è una Relazione di Equivalenza]]
+
+## 9.4 Componenti connesse
+
+![[Componenti Connesse]]
+
+![[Teorema sulle Componenti Connesse]]
+
+![[Componenti Connesse per Archi]]

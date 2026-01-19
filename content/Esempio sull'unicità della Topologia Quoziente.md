@@ -1,5 +1,6 @@
 ---
 tags: [Topologia, Esempi, Mappe, Quoziente]
+icon: lucide-notebook-text
 ---
 
 > [!ex] Esempio 1
