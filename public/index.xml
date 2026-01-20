@@ -6,6 +6,30 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Esempi di Chiusi in Topologie Diverse</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Esempi-di-Chiusi-in-Topologie-Diverse</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Esempi-di-Chiusi-in-Topologie-Diverse</guid>
+    <description><![CDATA[  In \mathbb{R} Consideriamo A_{1}=(0,+\infty), A_{2}=\{ 1,2 \}, A_{3}=\mathbb{N}, A_{4}=\mathbb{Q}. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 15:00:12 GMT</pubDate>
+  </item><item>
+    <title>Esterno</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Esterno</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Esterno</guid>
+    <description><![CDATA[  Punto esterno Sia (X,\tau) spazio topologico e A\subseteq X. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 15:00:12 GMT</pubDate>
+  </item><item>
+    <title>Interno</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Interno</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Interno</guid>
+    <description><![CDATA[  Interno di un insieme Sia (X,\tau) uno spazio topologico e A\subseteq X. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 15:00:12 GMT</pubDate>
+  </item><item>
+    <title>Proprietà Interno, Esterno e Frontiera</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-Interno,-Esterno-e-Frontiera</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-Interno,-Esterno-e-Frontiera</guid>
+    <description><![CDATA[  Proprietà Sia (X,\tau) spazio topologico e A,B\subseteq X. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 15:00:12 GMT</pubDate>
+  </item><item>
     <title>Chiusi e interni di spazi topologici (proprietà)</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Chiusi-e-interni-di-spazi-topologici-(propriet%C3%A0)</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Chiusi-e-interni-di-spazi-topologici-(propriet%C3%A0)</guid>
@@ -40,30 +64,6 @@
     <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Mappe-Continue</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Mappe-Continue</guid>
     <description><![CDATA[  Teorema Siano (X,\tau),(Y,\tau&#039;) spazi topologici e f:X\to Y. Allora vale la seguente equivalenza: a. f è continua globalmente b. ]]></description>
-    <pubDate>Tue, 20 Jan 2026 08:55:58 GMT</pubDate>
-  </item><item>
-    <title>Lemma dell&#039;Incollamento</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Lemma-dell'Incollamento</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Lemma-dell'Incollamento</guid>
-    <description><![CDATA[  Lemma dell&#039;Incollamento Sia X=A\cup B, dove A,B sono chiusi in X Siano f:A\to Y e g:B\to Y funzioni continue tali che \forall x\in A\cap B:f(x)=g(x). ]]></description>
-    <pubDate>Tue, 20 Jan 2026 08:55:58 GMT</pubDate>
-  </item><item>
-    <title>Metrica</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Metrica</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Metrica</guid>
-    <description><![CDATA[  Metrica Sia X\not=\varnothing un insieme. ]]></description>
-    <pubDate>Tue, 20 Jan 2026 08:55:58 GMT</pubDate>
-  </item><item>
-    <title>Teorema del Limite Uniforme</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-del-Limite-Uniforme</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-del-Limite-Uniforme</guid>
-    <description><![CDATA[  Teorema del Limite Uniforme Sia f_{n} una successione di funzioni da X spazio topologico a Y spazio metrico. ]]></description>
-    <pubDate>Tue, 20 Jan 2026 08:55:58 GMT</pubDate>
-  </item><item>
-    <title>Teoria di Topologia Generale</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/</guid>
-    <description><![CDATA[ Appunti di Topologia ]]></description>
     <pubDate>Tue, 20 Jan 2026 08:55:58 GMT</pubDate>
   </item>
     </channel>
