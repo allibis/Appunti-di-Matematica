@@ -22,7 +22,7 @@ icon: lucide-pencil
 >      Sia $p \in \overline{A}^X\cap Y$ e sia $U\in \tau_{Y} \,\vert\, p\in U$. Allora $\exists \widetilde{U}\in \tau\,\vert\,U=\widetilde{U}\cap Y$. 
 >      Poiché $p$ interno ad $A$ (rispetto $X$), si ha che $U\cap A=\widetilde{U}\cap Y\cap A\not=\varnothing$
 >      Quindi $p\in \overline{A}^Y$ perché verifica la proprietà di punto interno.
-> 1. $\displaystyle Int_{Y}(A)=\bigcup_{\begin{gather}U\in \tau_{Y} \\ U\subseteq A\end{gather}}U$$\displaystyle=\bigcup_{\begin{gather}V\in \tau \\ V\cap Y\subseteq A\end{gather}}(V\cap Y)$. 
+> 1. $\displaystyle Int_{Y}(A)=\bigcup_{\substack{U\in \tau_{Y} \\ U\subseteq A}}U$$\displaystyle=\!\!\!\!\!\bigcup_{\substack{V\in \tau \\ V\cap Y\subseteq A}}\!\!\!\!(V\cap Y)$. 
 >    Osservo che $V\cap Y\subseteq A\iff V\subseteq A\cup (X\setminus Y)$ (figura sotto)
->    $\displaystyle Y\cap \bigcup_{\begin{gather}V\in \tau \\ V\cap Y\subseteq A\end{gather}}V=$$\displaystyle Y\cap \bigcup_{\begin{gather}V\in \tau \\ V\subseteq A\cup (X\setminus Y)\end{gather}}V=Int_{X}(A\cup(X\setminus Y))$
+>    $\displaystyle Y\cap \!\!\!\!\bigcup_{\substack{V\in \tau \\ V\cap Y\subseteq A}}V=$$\displaystyle Y\cap\!\!\!\!\!\!\!\! \bigcup_{\substack{V\in \tau \\ V\subseteq A\cup (X\setminus Y)}}\!\!\!\!\!\!\!\!\!V=Int_{X}(A\cup(X\setminus Y))$
 > ![[Diagrams/Disegno Identità Insiemi.excalidraw.svg]]
