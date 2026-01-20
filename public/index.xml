@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Appunti di Topologia</title>
+      <link>https://allibis.github.io/Appunti-di-Topologia</link>
+      <description>Ultime 10 note on Appunti di Topologia</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>British Rail Express Metric (SNCF Metrica)</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/British-Rail-Express-Metric-(SNCF-Metrica)</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/British-Rail-Express-Metric-(SNCF-Metrica)</guid>
+    <description><![CDATA[  British Rail Express Metric Sia X=\mathbb{R}^{2} e \delta:\mathbb{R}^2\to R definita come: \delta(x,y)=\begin{cases} \underline{0} &amp; \text{se }x=y \\ d(x,\underline{0})+y(y,\underline{0}) &amp; \text{se } x\not=y \end{cases} Si dimostra che soddisfa le proprietà di metrica. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:55:58 GMT</pubDate>
+  </item><item>
+    <title>Caratterizzazione delle Mappe Continue</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Mappe-Continue</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Mappe-Continue</guid>
+    <description><![CDATA[  Teorema Siano (X,\tau),(Y,\tau&#039;) spazi topologici e f:X\to Y. Allora vale la seguente equivalenza: a. f è continua globalmente b. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:55:58 GMT</pubDate>
+  </item><item>
+    <title>La Connessione per Archi è una Relazione di Equivalenza</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/La-Connessione-per-Archi-%C3%A8-una-Relazione-di-Equivalenza</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/La-Connessione-per-Archi-%C3%A8-una-Relazione-di-Equivalenza</guid>
+    <description><![CDATA[  Proposizione La relazione di equivalenza \sim tale che x\sim y se \exists un cammino tra di essi è una relazione di equivalenza. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:55:58 GMT</pubDate>
+  </item><item>
+    <title>Lemma dell&#039;Incollamento</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Lemma-dell'Incollamento</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Lemma-dell'Incollamento</guid>
+    <description><![CDATA[  Lemma dell&#039;Incollamento Sia X=A\cup B, dove A,B sono chiusi in X Siano f:A\to Y e g:B\to Y funzioni continue tali che \forall x\in A\cap B:f(x)=g(x). ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:55:58 GMT</pubDate>
+  </item><item>
+    <title>Metrica</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Metrica</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Metrica</guid>
+    <description><![CDATA[  Metrica Sia X\not=\varnothing un insieme. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:55:58 GMT</pubDate>
+  </item><item>
+    <title>Teorema del Limite Uniforme</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-del-Limite-Uniforme</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-del-Limite-Uniforme</guid>
+    <description><![CDATA[  Teorema del Limite Uniforme Sia f_{n} una successione di funzioni da X spazio topologico a Y spazio metrico. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:55:58 GMT</pubDate>
+  </item><item>
+    <title>Teoria di Topologia Generale</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/</guid>
+    <description><![CDATA[ Appunti di Topologia ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:55:58 GMT</pubDate>
+  </item><item>
+    <title>Caratterizzazione degli insiemi densi</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-insiemi-densi</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-insiemi-densi</guid>
+    <description><![CDATA[  Caratterizzazione degli insiemi densi Sia (X,\tau) spazio topologico e A\subseteq X. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:20:46 GMT</pubDate>
+  </item><item>
+    <title>Chiusi e interni di spazi topologici (proprietà)</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Chiusi-e-interni-di-spazi-topologici-(propriet%C3%A0)</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Chiusi-e-interni-di-spazi-topologici-(propriet%C3%A0)</guid>
+    <description><![CDATA[  Propriet Sia (X,\tau) uno spazio topologico e Y\subseteq X Se A\subseteq Y\implies\overline{A}^Y=\overline{A}^X\cap Y Int_{Y}(A)=Int_{X}(A\cup(X\setminus Y))\cap Y Dim Verifico la doppia inclusione (utilizzo il Teorema sui Punti di Aderenza 1.) \overline{A}^Y\subseteq \overline{A}^X\cap Y Sia p\in ... ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:20:46 GMT</pubDate>
+  </item><item>
+    <title>Chiusura di un insieme</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Chiusura-di-un-insieme</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Chiusura-di-un-insieme</guid>
+    <description><![CDATA[  Chiusura di un insieme Siano (X,\tau) uno spazio topologico e A\in\tau. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:20:46 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
