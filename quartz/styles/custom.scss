@@ -108,6 +108,10 @@ a.internal {
   border-width: 0 .5vw 0 .5vw;
   border-radius: .0;
   
+  &[data-callout="dimostrazione"],
+  &[data-callout="dim"] {
+    border-left: 0.5vw double;
+  }
 }
 
 /* Override globale per KaTeX display */
@@ -131,7 +135,7 @@ h1 .katex, h2 .katex, h3 .katex {
 }
 
 .callout-title {
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.5rem;
 }
 
 /* ============================================================

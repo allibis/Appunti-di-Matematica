@@ -23,7 +23,7 @@ icon: lucide-book-open
 ^dim-topologia-cofinita
 
 > [!es] Esempio
-> In $\mathbb{R}$, gli aperti sono del tipo $\mathbb{R}\setminus \{p_{1}\dots p_{k}\}$
+> In $(\mathbb{R},\tau_{\text{cof}})$, gli aperti sono del tipo $\mathbb{R}\setminus \{p_{1}\dots p_{k}\}$
 ^top-cof-aperti
 
 

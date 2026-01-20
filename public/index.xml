@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Uno Spazio di Hausdorff Compatto Privo di Punti Isolati non é Numerabile</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Uno-Spazio-di-Hausdorff-Compatto-Privo-di-Punti-Isolati-non-%C3%A9-Numerabile</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Uno-Spazio-di-Hausdorff-Compatto-Privo-di-Punti-Isolati-non-%C3%A9-Numerabile</guid>
-    <description><![CDATA[  Teorema Sia X uno spazio topologico di Hausdorff compatto. Se X non ha punti isolati, allora non é numerabile. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 21:17:34 GMT</pubDate>
-  </item><item>
-    <title>Punti Isolati</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Punti-Isolati</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Punti-Isolati</guid>
-    <description><![CDATA[  Punto Isolato Se X è uno spazio topologico, x è un suo punto isolato se \{ x \} è aperto. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 21:17:05 GMT</pubDate>
-  </item><item>
-    <title>I Compatti lo sono anche Per Punti di Accumulazione</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/I-Compatti-lo-sono-anche-Per-Punti-di-Accumulazione</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/I-Compatti-lo-sono-anche-Per-Punti-di-Accumulazione</guid>
-    <description><![CDATA[  Teorema Se X è compatto, allora lo è anche per punti di accumulazione Non vale il viceversa . ]]></description>
-    <pubDate>Mon, 19 Jan 2026 21:09:38 GMT</pubDate>
+    <title>Caratterizzazione della Compattezza tramite Proprietà di Intersezione Finita</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-della-Compattezza-tramite-Propriet%C3%A0-di-Intersezione-Finita</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-della-Compattezza-tramite-Propriet%C3%A0-di-Intersezione-Finita</guid>
+    <description><![CDATA[  Teorema Sia X uno spazio topologico, allora vale la seguente equivalenza: X è compatto Ogni collezione \mathcal{C} di chiusi di X che ha la Proprietà di Intersezione Finita verifica la proprietà: \bigcap \limits_{C\in \mathcal{C}}C\not=\varnothing Dim Provo l’equivalenza delle negazioni: Sia \mathc... ]]></description>
+    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
   </item><item>
     <title>Compatto per Punti di Accumulazione</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Compatto-per-Punti-di-Accumulazione</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Compatto-per-Punti-di-Accumulazione</guid>
     <description><![CDATA[  Spazio Compatto per Punti di Accumulazione Sia X uno spazio topologico. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 21:08:17 GMT</pubDate>
+    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
   </item><item>
-    <title>Caratterizzazione della Compattezza tramite Proprietà di Intersezione Finita</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-della-Compattezza-tramite-Propriet%C3%A0-di-Intersezione-Finita</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-della-Compattezza-tramite-Propriet%C3%A0-di-Intersezione-Finita</guid>
-    <description><![CDATA[  Teorema Sia X uno spazio topologico, allora vale la seguente equivalenza: X è compatto Ogni collezione \mathcal{C} di chiusi di X che ha la Proprietà di Intersezione Finita verifica la proprietà: \bigcap \limits_{C\in \mathcal{C}}C\not=\varnothing Dim Provo l’equivalenza delle negazioni: Sia \mathc... ]]></description>
-    <pubDate>Mon, 19 Jan 2026 20:50:20 GMT</pubDate>
+    <title>Compatto</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Compatto</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Compatto</guid>
+    <description><![CDATA[  Spazio Topologico Compatto Uno spazio topologico si dice compatto se ogni ricoprimento aperto di X contiene un sottoricoprimento finito che ricopre ancora X. ]]></description>
+    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
   </item><item>
-    <title>La Proiezione Parallela a un Compatto è Chiusa</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/La-Proiezione-Parallela-a-un-Compatto-%C3%A8-Chiusa</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/La-Proiezione-Parallela-a-un-Compatto-%C3%A8-Chiusa</guid>
-    <description><![CDATA[  Proposizione Siano X,Y spazi topologici con Y compatto. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 20:36:27 GMT</pubDate>
+    <title>Componenti Connesse</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Componenti-Connesse</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Componenti-Connesse</guid>
+    <description><![CDATA[  Componenti Connesse Sia X spazio topologico e sia \sim una relazione di equivalenza tale che: x\sim y\iff \exists un sottoinsieme connesso che contiene x,y. ]]></description>
+    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
   </item><item>
-    <title>Teorema di Heine-Boriel</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-di-Heine-Boriel</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-di-Heine-Boriel</guid>
-    <description><![CDATA[  Teorema di Heine-Boriel Sia K\subseteq \mathbb{R}^n, allora: K è compatto \iff K è chiuso e limitato \implies Sappiamo che \mathbb{R}^n è uno spazio di Hausdorff. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 20:07:46 GMT</pubDate>
+    <title>Esempi di Compatti e non Compatti</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Esempi-di-Compatti-e-non-Compatti</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Esempi-di-Compatti-e-non-Compatti</guid>
+    <description><![CDATA[  \mathbb{R} non è compatto Consideriamo la famiglia di insiemi \mathcal{A}=\{ (n,n+2),n\in \mathbb{Z} \}. ]]></description>
+    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
+  </item><item>
+    <title>I Compatti lo sono anche Per Punti di Accumulazione</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/I-Compatti-lo-sono-anche-Per-Punti-di-Accumulazione</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/I-Compatti-lo-sono-anche-Per-Punti-di-Accumulazione</guid>
+    <description><![CDATA[  Teorema Se X è compatto, allora lo è anche per punti di accumulazione Non vale il viceversa . ]]></description>
+    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
+  </item><item>
+    <title>I Sottospazi Compatti di Spazi T2 sono Chiusi</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/I-Sottospazi-Compatti-di-Spazi-T2-sono-Chiusi</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/I-Sottospazi-Compatti-di-Spazi-T2-sono-Chiusi</guid>
+    <description><![CDATA[  Teorema Ogni sottospazio compatto di uno spazio di Hausdorff è chiuso. Dimostrazione Provo che X\setminus Y è aperto. Sia x_{0}\in X\setminus Y. ]]></description>
+    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
   </item><item>
     <title>Il prodotto finito di Compatti é Compatto</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Il-prodotto-finito-di-Compatti-%C3%A9-Compatto</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Il-prodotto-finito-di-Compatti-%C3%A9-Compatto</guid>
     <description><![CDATA[  Teorema Il prodotto finito di spazi topologici compatti é compatto . ]]></description>
-    <pubDate>Mon, 19 Jan 2026 18:42:20 GMT</pubDate>
+    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
   </item><item>
-    <title>Proprietà di Intersezione Finita</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-di-Intersezione-Finita</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Propriet%C3%A0-di-Intersezione-Finita</guid>
-    <description><![CDATA[  Proprietà di Intersezione Finita Una collezione \mathcal{C} di sottoinsiemi di uno spazio topologico X ha la proprietà di intersezione finita se: \forall sottofamiglia finita \{ C_{1},..,C_{n} \}\subseteq \mathcal{C} si ha che \bigcap \limits_{i=1}^nC_{n}\not=\varnothing. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 18:36:22 GMT</pubDate>
+    <title>La Biiezione continua da compatto a Hausdorff è un omeomorfismo</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/La-Biiezione-continua-da-compatto-a-Hausdorff-%C3%A8-un-omeomorfismo</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/La-Biiezione-continua-da-compatto-a-Hausdorff-%C3%A8-un-omeomorfismo</guid>
+    <description><![CDATA[  Teorema Sia f:X\to Y una mappa continua biiettiva. ]]></description>
+    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
   </item><item>
-    <title>Teorema del Grafico Chiuso per spazi compatti</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Teorema-del-Grafico-Chiuso-per-spazi-compatti</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Teorema-del-Grafico-Chiuso-per-spazi-compatti</guid>
-    <description><![CDATA[  Proposizione Sia f:X\to Y con X spazio topologico e Y compatto Se il grafico di f: \mathcal{T}_{f}:=\{ (x,f(x))\in X \times Y\, \vert \,x\in X \} è chiuso in X \times Y allora f è continua . ]]></description>
-    <pubDate>Mon, 19 Jan 2026 18:32:46 GMT</pubDate>
+    <title>La Proiezione Parallela a un Compatto è Chiusa</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/La-Proiezione-Parallela-a-un-Compatto-%C3%A8-Chiusa</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/La-Proiezione-Parallela-a-un-Compatto-%C3%A8-Chiusa</guid>
+    <description><![CDATA[  Proposizione Siano X,Y spazi topologici con Y compatto. ]]></description>
+    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
   </item>
     </channel>
   </rss>
