@@ -27,7 +27,7 @@ icon: lucide-book-open
 ^dim-prop-interno
 
 > [!es] Esempi di interni in $(\mathbb{R},\mathcal{E})$
-> 1. Se $A={1,2}$ allora $Int(A)=\varnothing$
+> 1. Se $A=\{1,2\}$ allora $Int(A)=\varnothing$
 > 2. Se $A=\left[1,2\right]$ allora $Int(A)=\left( 1,2 \right)$
 
 > [!prop] Proposizione

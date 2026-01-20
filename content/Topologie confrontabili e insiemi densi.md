@@ -17,5 +17,5 @@ icon: lucide-circle-check-big
 
 > [!ex] Controesempio
 > Considero $X=\mathbb{R}$ e le topologie $\mathcal{E}, \mathcal{P}(\mathbb{R})$. La topologia discreta è più fine della topologia euclidea. 
-> Sappiamo che $\mathbb{Q}$ è denso in $(\mathbb{R},\mathcal{E})$. Tuttavia $\bar{\mathbb{Q}}=\mathbb{Q}$ in $\mathcal{P}(\mathbb{R})$
+> Sappiamo che $\mathbb{Q}$ è denso in $(\mathbb{R},\mathcal{E})$. Tuttavia $\overline{\mathbb{Q}}=\mathbb{Q}$ in $\mathcal{P}(\mathbb{R})$
 ^ex-prop-densi-top-confrontabili

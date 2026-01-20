@@ -19,8 +19,8 @@ icon: lucide-book-open
 > 3. NON sono intorni di $0$: $[-2,-1], \{0\},\varnothing$
 ^esempi-intorno-R
 
-> [!ex] Esempi di intorni in $\mathbb{R}_{\mathscr{l}}$
-> 1. Sono intorni di 0: $[0,1)$ (perché è un aperto di $\mathbb{R}_{\mathscr{l}}$), $[-1,1]$
+> [!ex] Esempi di intorni in $\mathbb{R}_{\ell}$
+> 1. Sono intorni di 0: $[0,1)$ (perché è un aperto di $\mathbb{R}_{\ell}$), $[-1,1]$
 > 2. Non sono intorni di 0: $(-1,0], [-2,-1], (0,+\infty),\{0\}$
 
 > [!ex] Nella topologia discreta $(X,\mathcal{P}(X))$

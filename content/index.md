@@ -117,11 +117,11 @@ description: "Appunti di Topologia"
 > $\left\{  \frac{1}{n} ,n\in \mathbb{Z}  \right\}$ contiene solo punti isolati.
 
 > [!prop] Proposizione
-> Sia $(X,\tau)$ [[Topologia|spazio topologico]] e $A\subseteq X$. Allora $\bar{A}=A\cap D(A)$
+> Sia $(X,\tau)$ [[Topologia|spazio topologico]] e $A\subseteq X$. Allora $\overline{A}=A\cap D(A)$
 
 > [!dim]
-> $x\in A\implies x\in \bar{A}$.
-> Se $x\in D(A)$ allora $\forall U\in \tau,x\in U \mid (U\cap A)\setminus\{x\}\not=\varnothing\implies U\cap A\not=\varnothing$.  Per cui $x$ è di aderenza, e quindi per il [[Teorema sui Punti di Aderenza]] $x\in \bar{A}$
+> $x\in A\implies x\in \overline{A}$.
+> Se $x\in D(A)$ allora $\forall U\in \tau,x\in U \mid (U\cap A)\setminus\{x\}\not=\varnothing\implies U\cap A\not=\varnothing$.  Per cui $x$ è di aderenza, e quindi per il [[Teorema sui Punti di Aderenza]] $x\in \overline{A}$
 
 ![[Esempi di Chiusi in Topologie Diverse]]
 

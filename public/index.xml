@@ -6,6 +6,12 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Esempio di Confronto tra Topologie</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Esempio-di-Confronto-tra-Topologie</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Esempio-di-Confronto-tra-Topologie</guid>
+    <description><![CDATA[  Esempio La base per la Topologia Euclidea su \mathbb{R} è \beta=\{(a,b)\mid a,b\in \mathbb{R}, a&lt;b\} La base per la Topologia del Limite Inferiore \mathbb{R}_{\ell} è \beta&#039;=\{[a,b) | a,b\in \mathbb{R}, a&lt;b\} La K-topologia su \mathbb{R} è generata dalla base \beta&#039;&#039;=\{(a,b)\mi... ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:04:46 GMT</pubDate>
+  </item><item>
     <title>Caratterizzazione delle Basi di una Topologia</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Basi-di-una-Topologia</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Basi-di-una-Topologia</guid>
@@ -58,12 +64,6 @@
     <link>https://allibis.github.io/Appunti-di-Topologia/I-Sottospazi-Compatti-di-Spazi-T2-sono-Chiusi</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/I-Sottospazi-Compatti-di-Spazi-T2-sono-Chiusi</guid>
     <description><![CDATA[  Teorema Ogni sottospazio compatto di uno spazio di Hausdorff è chiuso. Dimostrazione Provo che X\setminus Y è aperto. Sia x_{0}\in X\setminus Y. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
-  </item><item>
-    <title>Il prodotto finito di Compatti é Compatto</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Il-prodotto-finito-di-Compatti-%C3%A9-Compatto</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Il-prodotto-finito-di-Compatti-%C3%A9-Compatto</guid>
-    <description><![CDATA[  Teorema Il prodotto finito di spazi topologici compatti é compatto . ]]></description>
     <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
   </item>
     </channel>
