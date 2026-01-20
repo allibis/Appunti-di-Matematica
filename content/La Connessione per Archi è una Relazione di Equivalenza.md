@@ -16,8 +16,5 @@ icon: lucide-circle-check-big
 > [!dim] Transitiva
 > Supponiamo $x\sim y$ e $y\sim z$, ossia esistono due cammini $\gamma$ e $\gamma'$ 
 > Definisco la mappa $\gamma'':[0,2]\to X$ tale che:
-> $$\gamma''(t)=\begin{cases}
-\gamma(t) &t\in[0,1] \\
-\gamma'(t-1) &t\in[1,2]
-\end{cases}$$
+> $$\gamma''(t)=\begin{cases} \gamma(t) &t\in[0,1] \\ \gamma'(t-1) &t\in[1,2] \end{cases}$$
 > Tale mappa è ben definita perché $\gamma(1)=\gamma'(0)$ ed è continua per il [[Lemma dell'Incollamento]] e $\gamma''(0)=x,\gamma''(2)=z$ pertanto $x\sim z$. 

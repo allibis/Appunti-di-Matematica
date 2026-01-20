@@ -6,12 +6,8 @@ tags: [Topologia, Definizione, Pushout, Quoziente]
 > É possibile "incollare" due [[Topologia|spazi topologici]] $X$ e $Y$ lungo l'immagine di un "sottoinsieme" comune $A$ mediante due [[Mappa Continua|mappe continue]] $f:A\to X,g:A\to Y$.
 > Definisco la relazione di equivalenza $\sim$ è definita identificando $f(a)\sim g(a) \forall a\in A$, il pushout $X\cup_{A}Y={}^{(X\sqcup Y)}\!/_{\sim}$
 > Si possono definire due applicazioni continue:
-> $$ \begin{align}
-i_{X}:X\to X&\cup_{A}Y \\
-&\longmapsto\text{un modo per incollare spazi topologici} \\
-i_{Y}:Y\to X&\cup_{A}Y \\
-\end{align}$$
-
+> $$ \begin{align}  \\ i_{X}:X\to X&\cup_{A}Y \\ &\longmapsto\text{un modo per incollare spazi topologici} \\ i_{Y}:Y\to X&\cup_{A}Y \\ \end{align}$$
+> 
 
 > [!es] Esempio di pushout
 > ![[Diagrams/Esempio Pushout.excalidraw.svg]]
