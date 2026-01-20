@@ -29,8 +29,5 @@ icon: lucide-book-open
 
 > [!def] Metrica discreta
 > Sia $X$ un insieme non vuoto. La **Metrica Discreta** è definita ponendo:
-> $$d(x,y)=\begin{cases}
-0 & \text{ se } x=y \\
-1 & \text{ se } x\not=y
-\end{cases}$$
+> $$d(x,y)=\begin{cases} 0 & \text{ se } x=y \\ 1 & \text{ se } x\not=y 2\end{cases}$$
 ^def-metrica-discreta

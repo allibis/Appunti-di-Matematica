@@ -20,4 +20,4 @@ icon: lucide-circle-check-big
 \gamma(t) &t\in[0,1] \\
 \gamma'(t-1) &t\in[1,2]
 \end{cases}$$
-> Tale mappa è ben definita perché $\gamma(1)=\gamma'(0)$ ed è continua per il [[Lemma dell'incollamento]] e $\gamma''(0)=x,\gamma''(2)=z$ pertanto $x\sim z$. 
+> Tale mappa è ben definita perché $\gamma(1)=\gamma'(0)$ ed è continua per il [[Lemma dell'Incollamento]] e $\gamma''(0)=x,\gamma''(2)=z$ pertanto $x\sim z$. 

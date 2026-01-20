@@ -110,7 +110,8 @@ a.internal {
   
   &[data-callout="dimostrazione"],
   &[data-callout="dim"] {
-    border-right: 0.5vw double;
+    border: 0 0.5vw 0 0;
+    border-right-style: double;
   }
 }
 

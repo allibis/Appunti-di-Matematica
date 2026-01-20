@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Topologia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Lemma dell&#039;Incollamento</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Lemma-dell'Incollamento</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Lemma-dell'Incollamento</guid>
+    <description><![CDATA[  Lemma dell&#039;Incollamento Sia X=A\cup B, dove A,B sono chiusi in X Siano f:A\to Y e g:B\to Y funzioni continue tali che \forall x\in A\cap B:f(x)=g(x). ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:40:34 GMT</pubDate>
+  </item><item>
+    <title>Caratterizzazione degli insiemi densi</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-insiemi-densi</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-degli-insiemi-densi</guid>
+    <description><![CDATA[  Caratterizzazione degli insiemi densi Sia (X,\tau) spazio topologico e A\subseteq X. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:20:46 GMT</pubDate>
+  </item><item>
+    <title>Caratterizzazione delle Mappe Continue</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Mappe-Continue</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Mappe-Continue</guid>
+    <description><![CDATA[  Teorema Siano (X,\tau),(Y,\tau&#039;) spazi topologici e f:X\to Y. Allora vale la seguente equivalenza: a. f è continua globalmente b. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:20:46 GMT</pubDate>
+  </item><item>
+    <title>Chiusi e interni di spazi topologici (proprietà)</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Chiusi-e-interni-di-spazi-topologici-(propriet%C3%A0)</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Chiusi-e-interni-di-spazi-topologici-(propriet%C3%A0)</guid>
+    <description><![CDATA[  Propriet Sia (X,\tau) uno spazio topologico e Y\subseteq X Se A\subseteq Y\implies\overline{A}^Y=\overline{A}^X\cap Y Int_{Y}(A)=Int_{X}(A\cup(X\setminus Y))\cap Y Dim Verifico la doppia inclusione (utilizzo il Teorema sui Punti di Aderenza 1.) \overline{A}^Y\subseteq \overline{A}^X\cap Y Sia p\in ... ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:20:46 GMT</pubDate>
+  </item><item>
+    <title>Chiusura di un insieme</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Chiusura-di-un-insieme</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Chiusura-di-un-insieme</guid>
+    <description><![CDATA[  Chiusura di un insieme Siano (X,\tau) uno spazio topologico e A\in\tau. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:20:46 GMT</pubDate>
+  </item><item>
+    <title>Esempi di Chiusi in Topologie Diverse</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Esempi-di-Chiusi-in-Topologie-Diverse</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Esempi-di-Chiusi-in-Topologie-Diverse</guid>
+    <description><![CDATA[  In \mathbb{R} Consideriamo A_{1}=(0,+\infty), A_{2}=\{ 1,2 \}, A_{3}=\mathbb{N}, A_{4}=\mathbb{Q}. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:20:46 GMT</pubDate>
+  </item><item>
     <title>Esempio di Confronto tra Topologie</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Esempio-di-Confronto-tra-Topologie</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Esempio-di-Confronto-tra-Topologie</guid>
     <description><![CDATA[  Esempio La base per la Topologia Euclidea su \mathbb{R} è \beta=\{(a,b)\mid a,b\in \mathbb{R}, a&lt;b\} La base per la Topologia del Limite Inferiore \mathbb{R}_{\ell} è \beta&#039;=\{[a,b) | a,b\in \mathbb{R}, a&lt;b\} La K-topologia su \mathbb{R} è generata dalla base \beta&#039;&#039;=\{(a,b)\mi... ]]></description>
-    <pubDate>Tue, 20 Jan 2026 08:04:46 GMT</pubDate>
+    <pubDate>Tue, 20 Jan 2026 08:20:46 GMT</pubDate>
   </item><item>
-    <title>Caratterizzazione delle Basi di una Topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Basi-di-una-Topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-delle-Basi-di-una-Topologia</guid>
-    <description><![CDATA[  Caratterizzazione delle Basi di una Topologia \beta è una base per \tau se verifica le seguenti proprietà: \forall x \in X: \exists B\in \beta \mid x\in B \forall B_{1},B_{2}\in \beta tali che B_{1}\cap B_{2} \not=\varnothing, \forall x\in B_{1}\cap B_{2}:\exists B\in \beta\mid x\in B\subseteq B_{1... ]]></description>
-    <pubDate>Tue, 20 Jan 2026 08:00:36 GMT</pubDate>
+    <title>Insieme Denso</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Insieme-Denso</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Insieme-Denso</guid>
+    <description><![CDATA[  Insieme denso Sia (X,\tau) spazio topologico e A\subseteq X. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:20:46 GMT</pubDate>
   </item><item>
-    <title>Topologia Cofinita</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Topologia-Cofinita</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Topologia-Cofinita</guid>
-    <description><![CDATA[  Topologia Cofinita Dato X, la sua topologia cofinita è \tau = \{X\} \cup \{\varnothing\} \cup \{U_j | U^C è sottoinsieme finito di X\} Dim Dimostro che \tau = \{X\} \cup \{\varnothing\} \cup \{U_j | U^C è un sottoinsieme finito di X\} è una topologia su X. ]]></description>
-    <pubDate>Tue, 20 Jan 2026 08:00:36 GMT</pubDate>
+    <title>Interno</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Interno</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Interno</guid>
+    <description><![CDATA[  Interno di un insieme Sia (X,\tau) uno spazio topologico e A\subseteq X. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:20:46 GMT</pubDate>
   </item><item>
-    <title>Caratterizzazione della Compattezza tramite Proprietà di Intersezione Finita</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-della-Compattezza-tramite-Propriet%C3%A0-di-Intersezione-Finita</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Caratterizzazione-della-Compattezza-tramite-Propriet%C3%A0-di-Intersezione-Finita</guid>
-    <description><![CDATA[  Teorema Sia X uno spazio topologico, allora vale la seguente equivalenza: X è compatto Ogni collezione \mathcal{C} di chiusi di X che ha la Proprietà di Intersezione Finita verifica la proprietà: \bigcap \limits_{C\in \mathcal{C}}C\not=\varnothing Dim Provo l’equivalenza delle negazioni: Sia \mathc... ]]></description>
-    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
-  </item><item>
-    <title>Compatto per Punti di Accumulazione</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Compatto-per-Punti-di-Accumulazione</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Compatto-per-Punti-di-Accumulazione</guid>
-    <description><![CDATA[  Spazio Compatto per Punti di Accumulazione Sia X uno spazio topologico. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
-  </item><item>
-    <title>Compatto</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Compatto</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Compatto</guid>
-    <description><![CDATA[  Spazio Topologico Compatto Uno spazio topologico si dice compatto se ogni ricoprimento aperto di X contiene un sottoricoprimento finito che ricopre ancora X. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
-  </item><item>
-    <title>Componenti Connesse</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Componenti-Connesse</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Componenti-Connesse</guid>
-    <description><![CDATA[  Componenti Connesse Sia X spazio topologico e sia \sim una relazione di equivalenza tale che: x\sim y\iff \exists un sottoinsieme connesso che contiene x,y. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
-  </item><item>
-    <title>Esempi di Compatti e non Compatti</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Esempi-di-Compatti-e-non-Compatti</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Esempi-di-Compatti-e-non-Compatti</guid>
-    <description><![CDATA[  \mathbb{R} non è compatto Consideriamo la famiglia di insiemi \mathcal{A}=\{ (n,n+2),n\in \mathbb{Z} \}. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
-  </item><item>
-    <title>I Compatti lo sono anche Per Punti di Accumulazione</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/I-Compatti-lo-sono-anche-Per-Punti-di-Accumulazione</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/I-Compatti-lo-sono-anche-Per-Punti-di-Accumulazione</guid>
-    <description><![CDATA[  Teorema Se X è compatto, allora lo è anche per punti di accumulazione Non vale il viceversa . ]]></description>
-    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
-  </item><item>
-    <title>I Sottospazi Compatti di Spazi T2 sono Chiusi</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/I-Sottospazi-Compatti-di-Spazi-T2-sono-Chiusi</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/I-Sottospazi-Compatti-di-Spazi-T2-sono-Chiusi</guid>
-    <description><![CDATA[  Teorema Ogni sottospazio compatto di uno spazio di Hausdorff è chiuso. Dimostrazione Provo che X\setminus Y è aperto. Sia x_{0}\in X\setminus Y. ]]></description>
-    <pubDate>Mon, 19 Jan 2026 21:20:33 GMT</pubDate>
+    <title>Intorni</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Intorni</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Intorni</guid>
+    <description><![CDATA[  Intorno di un punto Sia (X,\tau) uno spazio topologico e x\in X. Si dice che V\subseteq X è intorno di x se \exists A\in \tau\mid x\in A\subseteq V. ]]></description>
+    <pubDate>Tue, 20 Jan 2026 08:20:46 GMT</pubDate>
   </item>
     </channel>
   </rss>

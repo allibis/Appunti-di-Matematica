@@ -193,7 +193,7 @@ description: "Appunti di Topologia"
 
 ![[Regole per la costruzione delle funzioni continue]]
 
-![[Lemma dell'incollamento]]
+![[Lemma dell'Incollamento]]
 
 ![[Teorema sulle funzioni continue e topologia prodotto]]
 

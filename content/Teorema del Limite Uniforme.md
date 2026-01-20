@@ -16,8 +16,6 @@ icon: lucide-scroll-text
 > [!dim]
 > Sia $V\subseteq Y$, aperto, vogliamo dimostrare che $f^{-1}(V)$ è aperto in $X$.
 > Sia $x_{0}\in f^{-1}(V)$, cerco un intorno $U\subseteq X$ di $x_{0}$ tale che $f(U)\subseteq V\implies U\subseteq f^{-1}(V)$.
-> > [!obs]- L'idea
-> > Avendo scelto un $x_{0}$ generico, dimostrerei che per ogni $x\in f^{-1}(V)$ quest'ultimo è intorno di ogni suo punto, e per la [[Caratterizzazione degli aperti]] $f^{-1}(V)$ è aperto
 > 
 > Sia $y_{0}=f(x_{0})$ e sia $\varepsilon>0$ tale che $B(y_{0},\varepsilon)\subseteq V$
 > Per la [[Convergenza Uniforme|uniforme convergenza]] di $f_{n}$ si ha che $\displaystyle \exists N\in \mathbb{N}\, \vert \,\forall n>N: d(f_{N}(x),f(x))<\frac{\varepsilon}{3}\,\,\forall x\in X$.

@@ -4,7 +4,7 @@ aliases: [lemma dell'incollamento]
 icon: lucide-circle-check-big
 ---
 
-> [!proposizione]
+> [!proposizione] Lemma dell'Incollamento
 > Sia $X=A\cup B$, dove $A,B$ sono [[Chiuso|chiusi]] in $X$
 > Siano $f:A\to Y$ e $g:B\to Y$ funzioni continue tali che $\forall x\in A\cap B:f(x)=g(x)$.
 > Allora $\exists h:X\to Y$ continua definita ponendo:
