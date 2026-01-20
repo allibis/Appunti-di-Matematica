@@ -107,12 +107,7 @@ a.internal {
   border-style: double;
   border-width: 0 .5vw 0 .5vw;
   border-radius: .0;
-  
-  &[data-callout="dimostrazione"],
-  &[data-callout="dim"] {
-    border: 0 0.5vw 0 0;
-    border-right-style: double;
-  }
+
 }
 
 /* Override globale per KaTeX display */

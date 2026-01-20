@@ -145,7 +145,10 @@
     --border: rgb(120, 120, 120);
     --bg: rgba(120, 120, 120, 0.1);
     --callout-icon: url("https://unpkg.com/lucide-static@latest/icons/pen-tool.svg");
-    border: 1px solid rgba(120, 120, 120, 0.2); /* Bordo sottile */
+    border-color: rgba(120, 120, 120, 0.2); /* Bordo sottile */
+    border: 0 0 0 .5vw !important;
+    border-right-style: double !important;
+    border-left-style: none !important;
     margin-top: -12px !important;
     margin-left: 20px !important; /* La sposta un po' più a destra */
   }
