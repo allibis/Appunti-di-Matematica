@@ -39,15 +39,15 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
       condition: (page) => {
-          const tags = page.fileData.frontmatter?.tags ?? []
-          return !tags.includes("nobacklinks")
+        const tags = page.fileData.frontmatter?.tags ?? []
+        return !tags.includes("nobacklinks")
       },
     }),
     Component.ConditionalRender({
       component: Component.TagList(),
       condition: (page) => {
-          const tags = page.fileData.frontmatter?.tags ?? []
-          return !tags.includes("notags")
+        const tags = page.fileData.frontmatter?.tags ?? []
+        return !tags.includes("notags")
       },
     }),
   ],
@@ -86,9 +86,9 @@ export const defaultContentPageLayout: PageLayout = {
         ),
         condition: (page) => {
           const tags = page.fileData.frontmatter?.tags ?? []
-          console.log("noexp: " + tags)
+
           return !tags.includes("noexp")
-        }
+        },
       }),
     ),
     Component.DesktopOnly(
@@ -97,7 +97,7 @@ export const defaultContentPageLayout: PageLayout = {
         condition: (page) => {
           const tags = page.fileData.frontmatter?.tags ?? []
           return !tags.includes("notoc")
-        }
+        },
       }),
     ),
   ],
@@ -105,11 +105,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph({
       localGraph: {
         showTags: false,
-        // defaultCentralSlug: "Topologia",
+        defaultCentralSlug: "Topologia",
       },
       globalGraph: {
         showTags: false,
-        // defaultCentralSlug: "Topologia",
+        defaultCentralSlug: "Topologia",
       },
     }),
     Component.DesktopOnly(
@@ -120,7 +120,7 @@ export const defaultContentPageLayout: PageLayout = {
         condition: (page) => {
           // 3. Gestione sicura dei tag: se non ci sono tag, usa una lista vuota []
           const tags = page.fileData.frontmatter?.tags ?? []
-          return tags.includes("noexp")
+          return !tags.includes("noexp")
         },
       }),
     ),
@@ -132,19 +132,126 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle()],
+  beforeBody: [
+    Component.MobileOnly(
+      Component.Flex({
+        components: [
+          {
+            Component: Component.Search(),
+            grow: true,
+          },
+          { Component: Component.Darkmode() },
+        ],
+        direction: "column",
+      }),
+    ),
+    Component.ArticleTitle(),
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs(),
+      condition: (page) => {
+        const tags = page.fileData.frontmatter?.tags ?? []
+        return !tags.includes("nobacklinks")
+      },
+    }),
+    Component.ConditionalRender({
+      component: Component.TagList(),
+      condition: (page) => {
+        const tags = page.fileData.frontmatter?.tags ?? []
+        return !tags.includes("notags")
+      },
+    }),
+  ],
+
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
+    Component.DesktopOnly(
+      Component.Flex({
+        components: [
+          {
+            Component: Component.Search(),
+            grow: true,
+          },
+          { Component: Component.Darkmode() },
+        ],
+      }),
+    ),
+
+    // mostra la lista delle note se mi trovo in una nota, altrimenti mostra l'indice se mi trovo in sulla pagina principale
+    Component.DesktopOnly(
+      Component.ConditionalRender({
+        component: Component.DesktopOnly(
+          Component.Explorer({
+            title: "Materie", // Titolo sopra il menu
+            folderClickBehavior: "link", // IMPORTANTE: Se clicchi la cartella, apre la nota dentro (se ha lo stesso nome)
+            folderDefaultState: "collapsed", // Tiene tutto chiuso per ordine
+            useSavedState: true, // Si ricorda cosa avevi aperto
+            // Filtro per nascondere cartelle tecniche o vuote
+            filterFn: (node) => {
+              // Escludi cartelle di sistema, tag e la cartella immagini
+              const exclude = ["tags", "Diagrams", "Attachments", "Excalidraw", ".obsidian"]
+              return !exclude.includes(node.displayName)
+            },
+          }),
+        ),
+        condition: (page) => {
+          const tags = page.fileData.frontmatter?.tags ?? []
+
+          return !tags.includes("mainpage")
         },
-        { Component: Component.Darkmode() },
-      ],
+      }),
+    ),
+    Component.DesktopOnly(
+      Component.ConditionalRender({
+        component: Component.TableOfContents(),
+        condition: (page) => {
+          const tags = page.fileData.frontmatter?.tags ?? []
+          return tags.includes("mainpage")
+        },
+      }),
+    ),
+  ],
+  right: [
+    Component.ConditionalRender({
+      component: Component.Graph({
+        localGraph: {
+          showTags: false,
+          defaultCentralSlug: "Teoria-di-Topologia-Generale/Topologia",
+        },
+        globalGraph: {
+          showTags: false,
+          defaultCentralSlug: "Teoria-di-Topologia-Generale/Topologia",
+        },
+      }),
+      condition: (page) => {
+        const tags = page.fileData.frontmatter?.tags ?? []
+        return tags.includes("Topologia")
+      },
+    }),
+    Component.Graph({
+      localGraph: {
+        showTags: false,
+        defaultCentralSlug: "Teoria-di-Topologia-Generale/Topologia",
+      },
+      globalGraph: {
+        showTags: false,
+        defaultCentralSlug: "Teoria-di-Topologia-Generale/Topologia",
+      },
+    }),
+    Component.DesktopOnly(
+      Component.ConditionalRender({
+        component: Component.Explorer({
+          filterFn: (f) => !f.slug!.startsWith("Excalidraw/") || !f.slug.includes("index"),
+        }),
+        condition: (page) => {
+          // 3. Gestione sicura dei tag: se non ci sono tag, usa una lista vuota []
+          const tags = page.fileData.frontmatter?.tags ?? []
+          return tags.includes("mainpage")
+        },
+      }),
+    ),
+    Component.Backlinks({
+      ignoreIndex: true,
     }),
   ],
-  right: [],
 }

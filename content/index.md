@@ -1,6 +1,6 @@
 ---
 title: "Home"
-tags: nograph
+tags: nograph, notags
 ---
 
 # Benvenuto nel Giardino Digitale
