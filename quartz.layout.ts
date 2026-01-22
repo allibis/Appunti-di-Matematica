@@ -41,11 +41,14 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => {
           const tags = page.fileData.frontmatter?.tags ?? []
           return !tags.includes("nobacklinks")
-        },
+      },
     }),
     Component.ConditionalRender({
       component: Component.TagList(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => {
+          const tags = page.fileData.frontmatter?.tags ?? []
+          return !tags.includes("notags")
+      },
     }),
   ],
 
@@ -83,6 +86,7 @@ export const defaultContentPageLayout: PageLayout = {
         ),
         condition: (page) => {
           const tags = page.fileData.frontmatter?.tags ?? []
+          console.log("noexp: " + tags)
           return !tags.includes("noexp")
         }
       }),

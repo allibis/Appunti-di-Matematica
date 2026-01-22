@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Appunti di Topologia",
+    pageTitle: "Appunti di Matematica",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
