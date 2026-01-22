@@ -6,6 +6,18 @@
       <description>Ultime 10 note on Appunti di Matematica</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Teoria di Topologia Generale</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/Teoria-di-Topologia-Generale/</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/Teoria-di-Topologia-Generale/</guid>
+    <description><![CDATA[ Appunti di Topologia ]]></description>
+    <pubDate>Thu, 22 Jan 2026 17:59:01 GMT</pubDate>
+  </item><item>
+    <title>Home</title>
+    <link>https://allibis.github.io/Appunti-di-Topologia/</link>
+    <guid>https://allibis.github.io/Appunti-di-Topologia/</guid>
+    <description><![CDATA[ Benvenuto nel Giardino Digitale Qui raccolgo i miei appunti universitari, teoremi e dimostrazioni, organizzati per materia. ]]></description>
+    <pubDate>Thu, 22 Jan 2026 17:59:01 GMT</pubDate>
+  </item><item>
     <title>Teoria di Algebra</title>
     <link>https://allibis.github.io/Appunti-di-Topologia/Teoria-di-Algebra/Teoria-di-Algebra</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Teoria-di-Algebra/Teoria-di-Algebra</guid>
@@ -52,18 +64,6 @@
     <link>https://allibis.github.io/Appunti-di-Topologia/Teoria-di-Topologia-Generale/British-Rail-Express-Metric-(SNCF-Metrica)</link>
     <guid>https://allibis.github.io/Appunti-di-Topologia/Teoria-di-Topologia-Generale/British-Rail-Express-Metric-(SNCF-Metrica)</guid>
     <description><![CDATA[  British Rail Express Metric Sia X=\mathbb{R}^{2} e \delta:\mathbb{R}^2\to R definita come: \delta(x,y)=\begin{cases} \underline{0} &amp; \text{se }x=y \\ d(x,\underline{0})+y(y,\underline{0}) &amp; \text{se } x\not=y \end{cases} Si dimostra che soddisfa le proprietà di metrica. ]]></description>
-    <pubDate>Thu, 22 Jan 2026 12:35:51 GMT</pubDate>
-  </item><item>
-    <title>Caratterizzazione degli Insiemi Saturi per Mappe Quozienti</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Teoria-di-Topologia-Generale/Caratterizzazione-degli-Insiemi-Saturi-per-Mappe-Quozienti</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Teoria-di-Topologia-Generale/Caratterizzazione-degli-Insiemi-Saturi-per-Mappe-Quozienti</guid>
-    <description><![CDATA[  Mappe quozienti Se \pi:X\to {}^{X}\!/_{\sim} tale che x\longmapsto\pi(x)=[x]_{\sim} Se V\subseteq X vale la seguente equivalenza: V è \mathcal{R}-saturo V=\pi ^{-1}(\pi(V)) 1. ]]></description>
-    <pubDate>Thu, 22 Jan 2026 12:35:51 GMT</pubDate>
-  </item><item>
-    <title>Caratterizzazione degli Spazi di Hausdorff</title>
-    <link>https://allibis.github.io/Appunti-di-Topologia/Teoria-di-Topologia-Generale/Caratterizzazione-degli-Spazi-di-Hausdorff</link>
-    <guid>https://allibis.github.io/Appunti-di-Topologia/Teoria-di-Topologia-Generale/Caratterizzazione-degli-Spazi-di-Hausdorff</guid>
-    <description><![CDATA[  Caratterizzazione degli Spazi di Hausdorff Sia X spazio topologico. ]]></description>
     <pubDate>Thu, 22 Jan 2026 12:35:51 GMT</pubDate>
   </item>
     </channel>

@@ -102,16 +102,7 @@ export const defaultContentPageLayout: PageLayout = {
     ),
   ],
   right: [
-    Component.Graph({
-      localGraph: {
-        showTags: false,
-        defaultCentralSlug: "Topologia",
-      },
-      globalGraph: {
-        showTags: false,
-        defaultCentralSlug: "Topologia",
-      },
-    }),
+    Component.Graph(),
     Component.DesktopOnly(
       Component.ConditionalRender({
         component: Component.Explorer({
