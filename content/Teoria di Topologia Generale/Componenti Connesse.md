@@ -1,0 +1,14 @@
+---
+tags:
+  - Topologia
+  - Definizione
+  - Connessi
+  - Componenti-Connesse
+aliases: [componenti connesse]
+icon: lucide-book-open
+---
+
+> [!def] Componenti Connesse
+> Sia $X$ [[Teoria di Topologia Generale/Topologia|spazio topologico]] e sia $\sim$ una relazione di equivalenza tale che:
+> $x\sim y\iff \exists$ un sottoinsieme connesso che contiene $x,y$. 
+> Le classi di equivalenza sono dette **componenti connesse** di $X$

@@ -1,3 +1,10 @@
+/* tag utili
+  nograph -> esclude il nodo dalla generazione del grafico
+  noexp -> nasconde l'explorer
+  notoc -> nasconde il table of contents
+  notags -> nasconde i tags
+  nobacklinks -> nasconde i backlinks
+*/
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
@@ -31,7 +38,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => {
+          const tags = page.fileData.frontmatter?.tags ?? []
+          return !tags.includes("nobacklinks")
+        },
     }),
     Component.ConditionalRender({
       component: Component.TagList(),
@@ -57,16 +67,33 @@ export const defaultContentPageLayout: PageLayout = {
     // mostra la lista delle note se mi trovo in una nota, altrimenti mostra l'indice se mi trovo in sulla pagina principale
     Component.DesktopOnly(
       Component.ConditionalRender({
-        component: Component.Explorer({
-          filterFn: (f) => !f.slug!.startsWith("Excalidraw/"),
-        }),
-        condition: (page) => page.fileData.slug !== "index",
+        component: Component.DesktopOnly(
+          Component.Explorer({
+            title: "Materie", // Titolo sopra il menu
+            folderClickBehavior: "link", // IMPORTANTE: Se clicchi la cartella, apre la nota dentro (se ha lo stesso nome)
+            folderDefaultState: "collapsed", // Tiene tutto chiuso per ordine
+            useSavedState: true, // Si ricorda cosa avevi aperto
+            // Filtro per nascondere cartelle tecniche o vuote
+            filterFn: (node) => {
+              // Escludi cartelle di sistema, tag e la cartella immagini
+              const exclude = ["tags", "Diagrams", "Attachments", "Excalidraw", ".obsidian"]
+              return !exclude.includes(node.displayName)
+            },
+          }),
+        ),
+        condition: (page) => {
+          const tags = page.fileData.frontmatter?.tags ?? []
+          return !tags.includes("noexp")
+        }
       }),
     ),
     Component.DesktopOnly(
       Component.ConditionalRender({
         component: Component.TableOfContents(),
-        condition: (page) => page.fileData.slug === "index",
+        condition: (page) => {
+          const tags = page.fileData.frontmatter?.tags ?? []
+          return !tags.includes("notoc")
+        }
       }),
     ),
   ],
@@ -74,11 +101,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph({
       localGraph: {
         showTags: false,
-        defaultCentralSlug: "Topologia",
+        // defaultCentralSlug: "Topologia",
       },
       globalGraph: {
         showTags: false,
-        defaultCentralSlug: "Topologia",
+        // defaultCentralSlug: "Topologia",
       },
     }),
     Component.DesktopOnly(
@@ -86,11 +113,15 @@ export const defaultContentPageLayout: PageLayout = {
         component: Component.Explorer({
           filterFn: (f) => !f.slug!.startsWith("Excalidraw/") || !f.slug.includes("index"),
         }),
-        condition: (page) => page.fileData.slug === "index",
+        condition: (page) => {
+          // 3. Gestione sicura dei tag: se non ci sono tag, usa una lista vuota []
+          const tags = page.fileData.frontmatter?.tags ?? []
+          return tags.includes("noexp")
+        },
       }),
     ),
     Component.Backlinks({
-      ignoreIndex: true
+      ignoreIndex: true,
     }),
   ],
 }
