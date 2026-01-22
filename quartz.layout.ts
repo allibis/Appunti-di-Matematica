@@ -4,6 +4,7 @@
   notoc -> nasconde il table of contents
   notags -> nasconde i tags
   nobacklinks -> nasconde i backlinks
+  nobread -> nasconde i breadcrumbs
 */
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
@@ -40,7 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => {
         const tags = page.fileData.frontmatter?.tags ?? []
-        return !tags.includes("nobacklinks")
+        return !tags.includes("nobread")
       },
     }),
     Component.ConditionalRender({
@@ -115,8 +116,14 @@ export const defaultContentPageLayout: PageLayout = {
         },
       }),
     ),
-    Component.Backlinks({
-      ignoreIndex: true,
+    Component.ConditionalRender({
+      component: Component.Backlinks({
+        ignoreIndex: true,
+      }),
+      condition: (page) => {
+        const tags = page.fileData.frontmatter?.tags ?? []
+        return !tags.includes("nobacklinks")
+      },
     }),
   ],
 }

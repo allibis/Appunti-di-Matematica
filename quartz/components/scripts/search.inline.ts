@@ -16,49 +16,11 @@ interface Item {
 type SearchType = "basic" | "tags"
 let searchType: SearchType = "basic"
 let currentSearchTerm: string = ""
-const encoder = (str: string): string[] => {
-  const tokens: string[] = []
-  let bufferStart = -1
-  let bufferEnd = -1
-  const lower = str.toLowerCase()
-
-  let i = 0
-  for (const char of lower) {
-    const code = char.codePointAt(0)!
-
-    const isCJK =
-      (code >= 0x3040 && code <= 0x309f) ||
-      (code >= 0x30a0 && code <= 0x30ff) ||
-      (code >= 0x4e00 && code <= 0x9fff) ||
-      (code >= 0xac00 && code <= 0xd7af) ||
-      (code >= 0x20000 && code <= 0x2a6df)
-
-    const isWhitespace = code === 32 || code === 9 || code === 10 || code === 13
-
-    if (isCJK) {
-      if (bufferStart !== -1) {
-        tokens.push(lower.slice(bufferStart, bufferEnd))
-        bufferStart = -1
-      }
-      tokens.push(char)
-    } else if (isWhitespace) {
-      if (bufferStart !== -1) {
-        tokens.push(lower.slice(bufferStart, bufferEnd))
-        bufferStart = -1
-      }
-    } else {
-      if (bufferStart === -1) bufferStart = i
-      bufferEnd = i + char.length
-    }
-
-    i += char.length
-  }
-
-  if (bufferStart !== -1) {
-    tokens.push(lower.slice(bufferStart))
-  }
-
-  return tokens
+const encoder = (str: string) => {
+  return str
+    .toLowerCase()
+    .split(/\s+/)
+    .filter((token) => token.length > 0)
 }
 
 let index = new FlexSearch.Document<Item>({
@@ -86,7 +48,7 @@ let index = new FlexSearch.Document<Item>({
 const p = new DOMParser()
 const fetchContentCache: Map<FullSlug, Element[]> = new Map()
 const contextWindowWords = 30
-const numSearchResults = 8
+const numSearchResults = 20
 const numTagResults = 5
 
 const tokenizeTerm = (term: string) => {
@@ -477,20 +439,134 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
         index: ["title", "content"],
       })
     }
+    // OLD CODE
+    // const getByField = (field: string): number[] => {
+    //   const results = searchResults.filter((x) => x.field === field)
+    //   return results.length === 0 ? [] : ([...results[0].result] as number[])
+    // }
 
-    const getByField = (field: string): number[] => {
-      const results = searchResults.filter((x) => x.field === field)
-      return results.length === 0 ? [] : ([...results[0].result] as number[])
-    }
+    // // order titles ahead of content
+    // const allIds: Set<number> = new Set([
+    //   ...getByField("title"),
+    //   ...getByField("content"),
+    //   ...getByField("tags"),
+    // ])
+    // const finalResults = [...allIds].map((id) => formatForDisplay(currentSearchTerm, id))
+    // await displayResults(finalResults)
 
-    // order titles ahead of content
-    const allIds: Set<number> = new Set([
-      ...getByField("title"),
-      ...getByField("content"),
-      ...getByField("tags"),
-    ])
-    const finalResults = [...allIds].map((id) => formatForDisplay(currentSearchTerm, id))
-    await displayResults(finalResults)
+
+  //   // SYSTEM THAT PRIORITIZES EXACT MATCH (solution 1)
+  //   const getByField = (field: string): number[] => {  
+  //   const results = searchResults.filter((x) => x.field === field)  
+  //   const allIds: number[] = []  
+  //   results.forEach(result => {  
+  //     if (result.result && Array.isArray(result.result)) {  
+  //       result.result.forEach(id => {  
+  //         const numId = typeof id === 'string' ? parseInt(id, 10) : id  
+  //         if (!isNaN(numId)) {  
+  //           allIds.push(numId)  
+  //         }  
+  //       })  
+  //     }  
+  //   })  
+  //   return allIds  
+  // }  
+    
+  // // Find exact title matches first  
+  // const titleResults = getByField("title")  
+  // const contentResults = getByField("content")  
+  // const tagResults = getByField("tags")  
+    
+  // // Separate exact matches from partial matches  
+  // const exactMatches: number[] = []  
+  // const otherMatches: number[] = []  
+    
+  // titleResults.forEach(id => {  
+  //   const slug = idDataMap[id]  
+  //   const title = data[slug]?.title?.toLowerCase() || ""  
+  //   if (title === currentSearchTerm.toLowerCase()) {  
+  //     exactMatches.push(id)  
+  //   } else {  
+  //     otherMatches.push(id)  
+  //   }  
+  // })  
+    
+  // // Order: exact title matches first, then other titles, then content, then tags  
+  // const allIds: Set<number> = new Set([  
+  //   ...exactMatches,  
+  //   ...otherMatches,  
+  //   ...contentResults,  
+  //   ...tagResults,  
+  // ])  
+  // const finalResults = [...allIds].map((id) => formatForDisplay(currentSearchTerm, id))  
+  // await displayResults(finalResults)
+
+ // Sostituisci la sezione da const getByField a displayResults in search.inline.ts  
+const getByField = (field: string): number[] => {  
+  const results = searchResults.filter((x) => x.field === field)  
+  const allIds: number[] = []  
+  results.forEach(result => {  
+    if (result.result && Array.isArray(result.result)) {  
+      result.result.forEach(id => {  
+        const numId = typeof id === 'string' ? parseInt(id, 10) : id  
+        if (!isNaN(numId)) {  
+          allIds.push(numId)  
+        }  
+      })  
+    }  
+  })  
+  return allIds  
+}  
+  
+// Calcola backlink counts usando solo i dati disponibili nel ContentIndex  
+const backlinkCounts: Map<number, number> = new Map()  
+for (const [slug] of Object.entries(data)) {  
+  const slugId = idDataMap.indexOf(slug as FullSlug)  
+  if (slugId !== -1) {  
+    // Conta quante pagine linkano a questa pagina usando i dati del ContentIndex  
+    let backlinkCount = 0  
+    for (const [otherSlug, otherContent] of Object.entries(data)) {  
+      if (otherSlug !== slug && otherContent.links?.includes(slug)) {  
+        backlinkCount++  
+      }  
+    }  
+    backlinkCounts.set(slugId, backlinkCount)  
+  }  
+}  
+  
+// Identifica gli exact match nel titolo  
+const exactMatchIds: number[] = []  
+const searchLower = currentSearchTerm.toLowerCase()  
+for (const [slug, content] of Object.entries(data)) {  
+  const slugId = idDataMap.indexOf(slug as FullSlug)  
+  if (slugId !== -1 && content.title?.toLowerCase() === searchLower) {  
+    exactMatchIds.push(slugId)  
+  }  
+}  
+  
+// Ordina i risultati: exact match prima, poi per backlink count  
+const allIds: Set<number> = new Set([  
+  ...getByField("title"),  
+  ...getByField("content"),  
+  ...getByField("tags"),  
+])  
+  
+const finalResults = [...allIds]  
+  .sort((a, b) => {  
+    // Exact match hanno la priorità assoluta  
+    const aExact = exactMatchIds.includes(a)  
+    const bExact = exactMatchIds.includes(b)  
+    if (aExact && !bExact) return -1  
+    if (!aExact && bExact) return 1  
+      
+    // Poi ordina per numero di backlink (decrescente)  
+    const aBacklinks = backlinkCounts.get(a) ?? 0  
+    const bBacklinks = backlinkCounts.get(b) ?? 0  
+    return bBacklinks - aBacklinks  
+  })  
+  .map((id) => formatForDisplay(currentSearchTerm, id))  
+  
+await displayResults(finalResults)
   }
 
   document.addEventListener("keydown", shortcutHandler)
