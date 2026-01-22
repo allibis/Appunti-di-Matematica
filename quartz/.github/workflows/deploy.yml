@@ -25,9 +25,14 @@ jobs:
         with:  
           node-version: 22  
       - name: Install Dependencies  
-        run: npm ci  
+        run: |  
+          npm ci  
+          npx quartz --version  
       - name: Build Quartz  
-        run: npx quartz build  
+        run: |  
+          npx quartz build --verbose  
+          ls -la  
+          echo "Public directory exists: $(test -d public && echo 'YES' || echo 'NO')"
       - name: Upload artifact  
         uses: actions/upload-pages-artifact@v3  
         with:  
