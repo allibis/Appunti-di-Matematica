@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Matematica</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Teoria di Topologia Generale</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/</guid>
-    <description><![CDATA[ Appunti di Topologia ]]></description>
-    <pubDate>Thu, 22 Jan 2026 17:59:01 GMT</pubDate>
+    <title>Esempio di Classi Laterali</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempio-di-Classi-Laterali</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempio-di-Classi-Laterali</guid>
+    <description><![CDATA[  Esempio di Classe Laterale Considero il gruppo \mathcal{S}_{3}=\{ f:\{ 1,2,3 \}\to \{ 1,2,3 \} \, \vert \, f \text{ è bigettiva}\} e il sottogruppo H=\{ id,(1,2) \}. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 21:02:20 GMT</pubDate>
   </item><item>
-    <title>Home</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/</guid>
-    <description><![CDATA[ Benvenuto nel Giardino Digitale Qui raccolgo i miei appunti universitari, teoremi e dimostrazioni, organizzati per materia. ]]></description>
-    <pubDate>Thu, 22 Jan 2026 17:59:01 GMT</pubDate>
+    <title>Congruenza Sinistra e Destra</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Congruenza-Sinistra-e-Destra</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Congruenza-Sinistra-e-Destra</guid>
+    <description><![CDATA[  Congruenza Sinistra e Destra Sia G un gruppo e H&lt;G un sottogruppo. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 18:06:21 GMT</pubDate>
+  </item><item>
+    <title>Sottogruppo</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Sottogruppo</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Sottogruppo</guid>
+    <description><![CDATA[  Sottogruppo Sia G un gruppo, e H\subseteq G. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 17:55:11 GMT</pubDate>
+  </item><item>
+    <title>Classi Laterali</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-Laterali</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-Laterali</guid>
+    <description><![CDATA[  Classi Laterali Sia (G,\cdot) un gruppo e H\subseteq G un suo sottogruppo. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 17:53:48 GMT</pubDate>
+  </item><item>
+    <title>Caratterizzazione dei Sottogruppi</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Caratterizzazione-dei-Sottogruppi</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Caratterizzazione-dei-Sottogruppi</guid>
+    <description><![CDATA[  Caratterizzazione dei Sottogruppi Sia (G,\cdot) un gruppo e sia H\subseteq G,H\not=\varnothing. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 16:13:29 GMT</pubDate>
+  </item><item>
+    <title>Monoide</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Monoide</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Monoide</guid>
+    <description><![CDATA[  Gruppo Sia G un insieme e *:G \times G\to G una funzione binaria. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 16:10:20 GMT</pubDate>
+  </item><item>
+    <title>Gruppo</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo</guid>
+    <description><![CDATA[  Gruppo Sia G un insieme e *:G \times G\to G una funzione binaria. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 16:10:05 GMT</pubDate>
+  </item><item>
+    <title>Gruppo Generale Lineare</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo-Generale-Lineare</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo-Generale-Lineare</guid>
+    <description><![CDATA[  Gruppo Generale Lineare L’insieme GL_{n}(K)=\{ A\in M_{n}(K) \, \vert \,\det(A)\not=0\} è chiamato Gruppo Generale Lineare. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 15:59:49 GMT</pubDate>
   </item><item>
     <title>Teoria di Algebra</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teoria-di-Algebra</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teoria-di-Algebra</guid>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/</guid>
     <description><![CDATA[ Appunti di Algebra 2 ]]></description>
-    <pubDate>Thu, 22 Jan 2026 12:35:51 GMT</pubDate>
+    <pubDate>Fri, 23 Jan 2026 15:32:39 GMT</pubDate>
   </item><item>
-    <title>Aperto</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Aperto</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Aperto</guid>
-    <description><![CDATA[  Definizione Data una topologia \tau, i suoi elementi si chiamano aperti. ]]></description>
-    <pubDate>Thu, 22 Jan 2026 12:35:51 GMT</pubDate>
-  </item><item>
-    <title>Assiomi di Separazione</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Assiomi-di-Separazione</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Assiomi-di-Separazione</guid>
-    <description><![CDATA[  Assiomi di separazione T_{1} e T_{2} Sia (X,\tau) uno spazio topologico. ]]></description>
-    <pubDate>Thu, 22 Jan 2026 12:35:51 GMT</pubDate>
-  </item><item>
-    <title>Base di sottospazio</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Base-di-sottospazio</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Base-di-sottospazio</guid>
-    <description><![CDATA[  Base di un sottospazio Se \beta è base per (X,\tau), allora \beta_{Y}=\{ B\cap Y\,\vert\,B\in \beta \} è base per il sottospazio (Y,\tau_{Y}) Dim Sia U\subseteq X e y\in U\cap Y Allora per la definizione di base \exists B\in \beta \,\vert\,y\in B\cap Y\subseteq U\cap Y. ]]></description>
-    <pubDate>Thu, 22 Jan 2026 12:35:51 GMT</pubDate>
-  </item><item>
-    <title>Base di una Topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Base-di-una-Topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Base-di-una-Topologia</guid>
-    <description><![CDATA[  Base di una Topologia Sia (X,\tau) uno spazio topologico, \beta \subseteq \tau è base della topologia \tau se \displaystyle\forall U\in \tau, \exists\{B_{i}\}_{i\in I}\mid U=\bigcup_{i\in I}B_{i} . ]]></description>
-    <pubDate>Thu, 22 Jan 2026 12:35:51 GMT</pubDate>
-  </item><item>
-    <title>Box Topologia e Continuità</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Box-Topologia-e-Continuit%C3%A0</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Box-Topologia-e-Continuit%C3%A0</guid>
-    <description><![CDATA[  La Box Topologia non garantisce la continuità delle funzioni Consideriamo (\mathbb{R},\mathcal{E}) (topologia euclidea) e (\mathbb{R}^\mathbb{N},\tau_{\text{box}}) la box topologia. ]]></description>
-    <pubDate>Thu, 22 Jan 2026 12:35:51 GMT</pubDate>
-  </item><item>
-    <title>Box Topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Box-Topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Box-Topologia</guid>
-    <description><![CDATA[  Box Topologia La box topologia su \mathbb{R}^\mathbb{N}=\{ (x_{1},x_{2},\dots,)\vert x_{i}\in \mathbb{R},\forall i\in \mathbb{N} \} è la topologia generata dalla base \displaystyle\beta=\left\{ \prod_{n\in N}U_{n} \middle \vert U_{n}\text{ aperto in } \mathbb{R}\right\} Su \mathbb{R}^n con n\in \ma... ]]></description>
-    <pubDate>Thu, 22 Jan 2026 12:35:51 GMT</pubDate>
-  </item><item>
-    <title>British Rail Express Metric (SNCF Metrica)</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/British-Rail-Express-Metric-(SNCF-Metrica)</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/British-Rail-Express-Metric-(SNCF-Metrica)</guid>
-    <description><![CDATA[  British Rail Express Metric Sia X=\mathbb{R}^{2} e \delta:\mathbb{R}^2\to R definita come: \delta(x,y)=\begin{cases} \underline{0} &amp; \text{se }x=y \\ d(x,\underline{0})+y(y,\underline{0}) &amp; \text{se } x\not=y \end{cases} Si dimostra che soddisfa le proprietà di metrica. ]]></description>
-    <pubDate>Thu, 22 Jan 2026 12:35:51 GMT</pubDate>
+    <title>Topologia</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Topologia</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Topologia</guid>
+    <description><![CDATA[  Topologia Sia X un insieme e \tau \subseteq \mathcal{P}(X) una famiglia di sottoinsiemi di X con le seguenti proprietà: \varnothing \in \tau e X \in \tau La famiglia \tau è chiusa rispetto all’unione, ossia \forall A,B \in \tau: A\cup B \in \tau, e più in generale, data \{U_j\}_{j\in J} tale che \f... ]]></description>
+    <pubDate>Thu, 22 Jan 2026 23:54:26 GMT</pubDate>
   </item>
     </channel>
   </rss>

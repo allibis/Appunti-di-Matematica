@@ -1,6 +1,6 @@
 ---
 title: "Home"
-tags: nograph, notags
+tags: nograph, notags, notoc
 ---
 
 # Benvenuto nel Giardino Digitale
@@ -11,12 +11,8 @@ Qui raccolgo i miei appunti universitari, teoremi e dimostrazioni, organizzati p
 
 ### [[Teoria di Topologia Generale/index|Topologia Generale]]
 Studio degli spazi topologici, connessione, compattezza e assiomi di separazione.
-> [!success] Stato: Completato ✅
+> [!success] Stato: Completato 
 
 ### [[Algebra 2/Mappa-Algebra2|Algebra 2]]
 Teoria degli Anelli, Campi, Domini e Teoria di Galois.
-> [!example] Stato: In corso 🚧
-
----
-## 🧭 Navigazione
-- [[Tags]] - Naviga per argomenti trasversali
+> [!es] Stato: In corso 🚧
