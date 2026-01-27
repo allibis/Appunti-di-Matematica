@@ -18,3 +18,7 @@ icon: lucide-circle-check-big
 > Risulta che per lo stesso $g\in G$, la classe laterale destra e sinistra non sempre coincidono: $g\cdot H\not=H\cdot g$
 > Inoltre $g\in g\cdot H$ e $g\in H\cdot g$ e le classi laterali distinte sono disgiunte, mentre la loro unione è $G$ stesso. 
 > Quindi le classi laterali sono delle classi di equivalenza 
+> 
+> Se si usa la notazione additiva e il gruppo è abeliano, allora le classi laterali si indicano:
+> $x+H\qquad x\in H,H<G$ 
+> e dalla proprietà commutativa risulta che $x+H=H+x$. 

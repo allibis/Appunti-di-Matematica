@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Matematica</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Esempio di Classi Laterali</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempio-di-Classi-Laterali</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempio-di-Classi-Laterali</guid>
-    <description><![CDATA[  Esempio di Classe Laterale Considero il gruppo \mathcal{S}_{3}=\{ f:\{ 1,2,3 \}\to \{ 1,2,3 \} \, \vert \, f \text{ è bigettiva}\} e il sottogruppo H=\{ id,(1,2) \}. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 21:02:20 GMT</pubDate>
+    <title>Numero di Cosets</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Numero-di-Cosets</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Numero-di-Cosets</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Tue, 27 Jan 2026 11:32:44 GMT</pubDate>
   </item><item>
-    <title>Congruenza Sinistra e Destra</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Congruenza-Sinistra-e-Destra</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Congruenza-Sinistra-e-Destra</guid>
-    <description><![CDATA[  Congruenza Sinistra e Destra Sia G un gruppo e H&lt;G un sottogruppo. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 18:06:21 GMT</pubDate>
-  </item><item>
-    <title>Sottogruppo</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Sottogruppo</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Sottogruppo</guid>
-    <description><![CDATA[  Sottogruppo Sia G un gruppo, e H\subseteq G. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 17:55:11 GMT</pubDate>
-  </item><item>
-    <title>Classi Laterali</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-Laterali</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-Laterali</guid>
-    <description><![CDATA[  Classi Laterali Sia (G,\cdot) un gruppo e H\subseteq G un suo sottogruppo. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 17:53:48 GMT</pubDate>
+    <title>Teorema di Lagrange</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-Lagrange</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-Lagrange</guid>
+    <description><![CDATA[  Teorema di Lagrange Sia (G,\cdot) un gruppo finito e H&lt;G un sottogruppo. Allora |H| divide |G|. ]]></description>
+    <pubDate>Tue, 27 Jan 2026 11:29:56 GMT</pubDate>
   </item><item>
     <title>Caratterizzazione dei Sottogruppi</title>
     <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Caratterizzazione-dei-Sottogruppi</link>
     <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Caratterizzazione-dei-Sottogruppi</guid>
     <description><![CDATA[  Caratterizzazione dei Sottogruppi Sia (G,\cdot) un gruppo e sia H\subseteq G,H\not=\varnothing. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 16:13:29 GMT</pubDate>
+    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
   </item><item>
-    <title>Monoide</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Monoide</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Monoide</guid>
-    <description><![CDATA[  Gruppo Sia G un insieme e *:G \times G\to G una funzione binaria. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 16:10:20 GMT</pubDate>
+    <title>Classi Laterali</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-Laterali</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-Laterali</guid>
+    <description><![CDATA[  Classi Laterali Sia (G,\cdot) un gruppo e H\subseteq G un suo sottogruppo. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
   </item><item>
-    <title>Gruppo</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo</guid>
-    <description><![CDATA[  Gruppo Sia G un insieme e *:G \times G\to G una funzione binaria. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 16:10:05 GMT</pubDate>
+    <title>Congruenza Sinistra e Destra</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Congruenza-Sinistra-e-Destra</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Congruenza-Sinistra-e-Destra</guid>
+    <description><![CDATA[  Congruenza Sinistra e Destra Sia G un gruppo e H&lt;G un sottogruppo. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
+  </item><item>
+    <title>Esempio di Classi Laterali</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempio-di-Classi-Laterali</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempio-di-Classi-Laterali</guid>
+    <description><![CDATA[  Esempio di Classe Laterale Considero il gruppo \mathcal{S}_{3}=\{ f:\{ 1,2,3 \}\to \{ 1,2,3 \} \, \vert \, f \text{ è bigettiva}\} e il sottogruppo H=\{ id,(1,2) \}. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
   </item><item>
     <title>Gruppo Generale Lineare</title>
     <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo-Generale-Lineare</link>
     <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo-Generale-Lineare</guid>
     <description><![CDATA[  Gruppo Generale Lineare L’insieme GL_{n}(K)=\{ A\in M_{n}(K) \, \vert \,\det(A)\not=0\} è chiamato Gruppo Generale Lineare. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 15:59:49 GMT</pubDate>
+    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
   </item><item>
-    <title>Teoria di Algebra</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/</guid>
-    <description><![CDATA[ Appunti di Algebra 2 ]]></description>
-    <pubDate>Fri, 23 Jan 2026 15:32:39 GMT</pubDate>
+    <title>Gruppo</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo</guid>
+    <description><![CDATA[  Gruppo Sia G un insieme e *:G \times G\to G una funzione binaria. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
   </item><item>
-    <title>Topologia</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Topologia</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Topologia</guid>
-    <description><![CDATA[  Topologia Sia X un insieme e \tau \subseteq \mathcal{P}(X) una famiglia di sottoinsiemi di X con le seguenti proprietà: \varnothing \in \tau e X \in \tau La famiglia \tau è chiusa rispetto all’unione, ossia \forall A,B \in \tau: A\cup B \in \tau, e più in generale, data \{U_j\}_{j\in J} tale che \f... ]]></description>
-    <pubDate>Thu, 22 Jan 2026 23:54:26 GMT</pubDate>
+    <title>Monoide</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Monoide</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Monoide</guid>
+    <description><![CDATA[  Gruppo Sia G un insieme e *:G \times G\to G una funzione binaria. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
+  </item><item>
+    <title>Sottogruppo</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Sottogruppo</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Sottogruppo</guid>
+    <description><![CDATA[  Sottogruppo Sia G un gruppo, e H\subseteq G. ]]></description>
+    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
   </item>
     </channel>
   </rss>
