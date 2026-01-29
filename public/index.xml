@@ -6,6 +6,18 @@
       <description>Ultime 10 note on Appunti di Matematica</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Teoria di Algebra</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/</guid>
+    <description><![CDATA[ Appunti di Algebra 2 ]]></description>
+    <pubDate>Thu, 29 Jan 2026 13:00:59 GMT</pubDate>
+  </item><item>
+    <title>Teoria di Topologia Generale</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/</guid>
+    <description><![CDATA[ Appunti di Topologia ]]></description>
+    <pubDate>Thu, 29 Jan 2026 13:00:59 GMT</pubDate>
+  </item><item>
     <title>Classi Laterali</title>
     <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-Laterali</link>
     <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-Laterali</guid>
@@ -34,18 +46,6 @@
     <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-Lagrange</link>
     <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-Lagrange</guid>
     <description><![CDATA[  Teorema di Lagrange Sia (G,\cdot) un gruppo finito e H&lt;G un sottogruppo. Allora |H| divide |G|. ]]></description>
-    <pubDate>Tue, 27 Jan 2026 11:48:34 GMT</pubDate>
-  </item><item>
-    <title>Teoria di Algebra</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/</guid>
-    <description><![CDATA[ Appunti di Algebra 2 ]]></description>
-    <pubDate>Tue, 27 Jan 2026 11:48:34 GMT</pubDate>
-  </item><item>
-    <title>Teoria di Topologia Generale</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/</guid>
-    <description><![CDATA[ Appunti di Topologia ]]></description>
     <pubDate>Tue, 27 Jan 2026 11:48:34 GMT</pubDate>
   </item><item>
     <title>Caratterizzazione dei Sottogruppi</title>
