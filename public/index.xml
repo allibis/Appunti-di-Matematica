@@ -6,34 +6,52 @@
       <description>Ultime 10 note on Appunti di Matematica</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Numero di Cosets</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Numero-di-Cosets</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Numero-di-Cosets</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 27 Jan 2026 11:32:44 GMT</pubDate>
-  </item><item>
-    <title>Teorema di Lagrange</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-Lagrange</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-Lagrange</guid>
-    <description><![CDATA[  Teorema di Lagrange Sia (G,\cdot) un gruppo finito e H&lt;G un sottogruppo. Allora |H| divide |G|. ]]></description>
-    <pubDate>Tue, 27 Jan 2026 11:29:56 GMT</pubDate>
-  </item><item>
-    <title>Caratterizzazione dei Sottogruppi</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Caratterizzazione-dei-Sottogruppi</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Caratterizzazione-dei-Sottogruppi</guid>
-    <description><![CDATA[  Caratterizzazione dei Sottogruppi Sia (G,\cdot) un gruppo e sia H\subseteq G,H\not=\varnothing. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
-  </item><item>
     <title>Classi Laterali</title>
     <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-Laterali</link>
     <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-Laterali</guid>
     <description><![CDATA[  Classi Laterali Sia (G,\cdot) un gruppo e H\subseteq G un suo sottogruppo. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
+    <pubDate>Tue, 27 Jan 2026 11:48:34 GMT</pubDate>
   </item><item>
     <title>Congruenza Sinistra e Destra</title>
     <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Congruenza-Sinistra-e-Destra</link>
     <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Congruenza-Sinistra-e-Destra</guid>
     <description><![CDATA[  Congruenza Sinistra e Destra Sia G un gruppo e H&lt;G un sottogruppo. ]]></description>
+    <pubDate>Tue, 27 Jan 2026 11:48:34 GMT</pubDate>
+  </item><item>
+    <title>Gruppo</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo</guid>
+    <description><![CDATA[  Gruppo Sia G un insieme e *:G \times G\to G una funzione binaria. ]]></description>
+    <pubDate>Tue, 27 Jan 2026 11:48:34 GMT</pubDate>
+  </item><item>
+    <title>Numero di Cosets</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Numero-di-Cosets</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Numero-di-Cosets</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Tue, 27 Jan 2026 11:48:34 GMT</pubDate>
+  </item><item>
+    <title>Teorema di Lagrange</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-Lagrange</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-Lagrange</guid>
+    <description><![CDATA[  Teorema di Lagrange Sia (G,\cdot) un gruppo finito e H&lt;G un sottogruppo. Allora |H| divide |G|. ]]></description>
+    <pubDate>Tue, 27 Jan 2026 11:48:34 GMT</pubDate>
+  </item><item>
+    <title>Teoria di Algebra</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/</guid>
+    <description><![CDATA[ Appunti di Algebra 2 ]]></description>
+    <pubDate>Tue, 27 Jan 2026 11:48:34 GMT</pubDate>
+  </item><item>
+    <title>Teoria di Topologia Generale</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/</guid>
+    <description><![CDATA[ Appunti di Topologia ]]></description>
+    <pubDate>Tue, 27 Jan 2026 11:48:34 GMT</pubDate>
+  </item><item>
+    <title>Caratterizzazione dei Sottogruppi</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Caratterizzazione-dei-Sottogruppi</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Caratterizzazione-dei-Sottogruppi</guid>
+    <description><![CDATA[  Caratterizzazione dei Sottogruppi Sia (G,\cdot) un gruppo e sia H\subseteq G,H\not=\varnothing. ]]></description>
     <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
   </item><item>
     <title>Esempio di Classi Laterali</title>
@@ -46,24 +64,6 @@
     <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo-Generale-Lineare</link>
     <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo-Generale-Lineare</guid>
     <description><![CDATA[  Gruppo Generale Lineare L’insieme GL_{n}(K)=\{ A\in M_{n}(K) \, \vert \,\det(A)\not=0\} è chiamato Gruppo Generale Lineare. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
-  </item><item>
-    <title>Gruppo</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo</guid>
-    <description><![CDATA[  Gruppo Sia G un insieme e *:G \times G\to G una funzione binaria. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
-  </item><item>
-    <title>Monoide</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Monoide</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Monoide</guid>
-    <description><![CDATA[  Gruppo Sia G un insieme e *:G \times G\to G una funzione binaria. ]]></description>
-    <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
-  </item><item>
-    <title>Sottogruppo</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Sottogruppo</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Sottogruppo</guid>
-    <description><![CDATA[  Sottogruppo Sia G un gruppo, e H\subseteq G. ]]></description>
     <pubDate>Mon, 26 Jan 2026 22:50:38 GMT</pubDate>
   </item>
     </channel>

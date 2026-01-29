@@ -1,5 +1,5 @@
 ---
-tags: [nograph, notags, nobacklinks, noexp, mainpage]
+tags: [nograph, notags, nobacklinks, noexp, mainpage, nolist]
 title: "Teoria di Algebra"
 description: "Appunti di Algebra 2"
 ---
