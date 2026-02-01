@@ -27,4 +27,4 @@ description: "Appunti di Algebra 2"
 
 ![[Teoria di Algebra/Teorema di Lagrange|Teorema di Lagrange]]
 
-![[Teoria di Algebra/Numero di Cosets|Numero di Cosets]]
+![[Teoria di Algebra/Indice di un Sottogruppo|Indice di un Sottogruppo]]

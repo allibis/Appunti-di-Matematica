@@ -103,7 +103,38 @@ export const defaultContentPageLayout: PageLayout = {
     ),
   ],
   right: [
-    Component.Graph(),
+    Component.ConditionalRender({
+      component: Component.Graph({
+        localGraph: {
+          showTags: false,
+          defaultCentralSlug: "Teoria-di-Topologia-Generale/Topologia",
+        },
+        globalGraph: {
+          showTags: false,
+          defaultCentralSlug: "Teoria-di-Topologia-Generale/Topologia",
+        },
+      }),
+      condition: (page) => {
+        const tags = page.fileData.frontmatter?.tags ?? []
+        return tags.includes("Topologia")
+      },
+    }),
+    Component.ConditionalRender({
+      component: Component.Graph({
+        localGraph: {
+          showTags: false,
+          defaultCentralSlug: "Teoria-di-Algebra-Generale/Gruppo",
+        },
+        globalGraph: {
+          showTags: false,
+          defaultCentralSlug: "Teoria-di-Algebra-Generale/Gruppo",
+        },
+      }),
+      condition: (page) => {
+        const tags = page.fileData.frontmatter?.tags ?? []
+        return tags.includes("Algebra")
+      },
+    }),
     Component.DesktopOnly(
       Component.ConditionalRender({
         component: Component.Explorer({
@@ -226,14 +257,20 @@ export const defaultListPageLayout: PageLayout = {
         return tags.includes("Topologia")
       },
     }),
-    Component.Graph({
-      localGraph: {
-        showTags: false,
-        defaultCentralSlug: "Teoria-di-Topologia-Generale/Topologia",
-      },
-      globalGraph: {
-        showTags: false,
-        defaultCentralSlug: "Teoria-di-Topologia-Generale/Topologia",
+    Component.ConditionalRender({
+      component: Component.Graph({
+        localGraph: {
+          showTags: false,
+          defaultCentralSlug: "Teoria-di-Algebra-Generale/Gruppo",
+        },
+        globalGraph: {
+          showTags: false,
+          defaultCentralSlug: "Teoria-di-Algebra-Generale/Gruppo",
+        },
+      }),
+      condition: (page) => {
+        const tags = page.fileData.frontmatter?.tags ?? []
+        return tags.includes("Algebra")
       },
     }),
     Component.DesktopOnly(

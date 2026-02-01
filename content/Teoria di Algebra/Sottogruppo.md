@@ -12,6 +12,6 @@ icon: lucide-book-open
 >
 > Notazione: se $H$ è sottogruppo di $G$ si scrive $H<G$
 
- > [!osservazione]
+ > [!osservazione] Osservazione
  > Se $H\not=\varnothing$ allora le proprietà 1. e 3. implicano la 2. 
  > $H\not=\varnothing \implies \exists x\in H \overset{3.}\implies \exists x ^{-1}\in H\overset{1.}\implies 1=x\cdot x ^{-1}\in H$
