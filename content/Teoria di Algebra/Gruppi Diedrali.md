@@ -1,6 +1,6 @@
 ---
 tags: [Algebra, Definizione, Gruppi, Diedrali, Sottogruppi]
-aliases: []
+aliases: [gruppo diedrale]
 icon: lucide-book-open
 ---
 

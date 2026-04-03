@@ -1,6 +1,6 @@
 ---
 tags: [Algebra, Definizione, Laterali, Congruenza]
-aliases: []
+aliases: [gruppo quoziente, quoziente]
 icon: lucide-book-open
 ---
 
@@ -9,4 +9,4 @@ icon: lucide-book-open
 > Dato un [[Teoria di Algebra/Gruppo|gruppo]] $G$ e un suo sottogruppo [[Teoria di Algebra/Sottogruppo Normale|normale]] $N$, si indica l'insieme quoziente dei laterali con $G/N$. 
 > Poiché la congruenza è compatibile con l'operazione d'insieme, quest'ultima si può estendere agli elementi dell'insieme quoziente:
 > $[x]\cdot[y]=[x\cdot y]$ in quanto $xN\cdot yN=xyN$.
-> Risulta inoltre che $G/N$ ha struttura di gruppo. 
+> Risulta inoltre che $G/N$ ha struttura di gruppo, quindi prende il nome di Gruppo Quoziente modulo $N$

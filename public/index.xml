@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Matematica</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Insieme Quoziente dei Laterali</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Insieme-Quoziente-dei-Laterali</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Insieme-Quoziente-dei-Laterali</guid>
-    <description><![CDATA[  Insieme Quoziente dei Laterali Considerata la relazione di congruenza, si possono considerare le sue classi di equivalenza e dunque l’insieme quoziente. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 10:19:10 GMT</pubDate>
+    <title>Esempi di Sottogruppo Prodotto</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempi-di-Sottogruppo-Prodotto</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempi-di-Sottogruppo-Prodotto</guid>
+    <description><![CDATA[  Gruppo Diedrale Possiamo considerare il gruppo diedrale \mathcal{D}_{n} come il prodotto di H=\braket{ \tau }=\{ 1,\tau \} N=\braket{ \sigma }=\{ 1,\sigma, \dots,\sigma^{n-1} \}\lhd \mathcal{D}_{n} Osservo che \mathcal{D_{n}}=HN=\{ 1,\sigma, \dots,\sigma^{n-1}, \tau, \tau \sigma, \dots,\tau \sigma^... ]]></description>
+    <pubDate>Fri, 03 Apr 2026 13:30:28 GMT</pubDate>
   </item><item>
-    <title>Congruenza</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Congruenza</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Congruenza</guid>
-    <description><![CDATA[  Congruenza Sia N\lhd G un sottogruppo normale. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 10:09:34 GMT</pubDate>
+    <title>Sottogruppi Prodotto</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Sottogruppi-Prodotto</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Sottogruppi-Prodotto</guid>
+    <description><![CDATA[  Proposizione Sia G un gruppo e H,N suoi sottogruppi. L’insieme H\cdot N=\{ h\cdot n\, | \,h\in H,n\in N \} in generale è solo un sottoinsieme di G. ]]></description>
+    <pubDate>Fri, 03 Apr 2026 13:06:11 GMT</pubDate>
   </item><item>
-    <title>Relazione tra Sottogruppi normali e Classi di Coniugio</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Relazione-tra-Sottogruppi-normali-e-Classi-di-Coniugio</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Relazione-tra-Sottogruppi-normali-e-Classi-di-Coniugio</guid>
-    <description><![CDATA[  Osservazione Si osserva che: H è sottogruppo normale \iff \begin{cases} H &amp; \text{sottogruppo} \\ H &amp;\text{unione disgiunta di classi di coniugio} \end{cases} Non è detto che le classi di coniugio abbiano tutte la stessa cardinalità, come per le classi laterali, non è detto inoltre che una ... ]]></description>
-    <pubDate>Fri, 03 Apr 2026 09:38:37 GMT</pubDate>
-  </item><item>
-    <title>Classi di Coniugio</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-di-Coniugio</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-di-Coniugio</guid>
-    <description><![CDATA[  Classi di Coniugio Considerata la relazione di coniugio su un gruppo G, di dimostra che è una relazione di equivalenza. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 09:18:11 GMT</pubDate>
-  </item><item>
-    <title>Gruppi Semplici</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppi-Semplici</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppi-Semplici</guid>
-    <description><![CDATA[  Gruppi Semplici Un gruppo G si dice semplice se i suoi sottogruppi normali sono solo \{ 1 \} e G Esempio Il gruppo A_{5} è semplice, ma ammette sottogruppi non normali. ]]></description>
-    <pubDate>Thu, 02 Apr 2026 16:03:38 GMT</pubDate>
-  </item><item>
-    <title>I gruppi semplici sono ciclici di ordine primo</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/I-gruppi-semplici-sono-ciclici-di-ordine-primo</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/I-gruppi-semplici-sono-ciclici-di-ordine-primo</guid>
-    <description><![CDATA[  Proposizione I gruppi semplici sono tutti e soli gruppi ciclici di ordine primo. Dim Supponiamo che G sia di ordine p primo. ]]></description>
-    <pubDate>Thu, 02 Apr 2026 16:03:21 GMT</pubDate>
-  </item><item>
-    <title>Relazione di Coniugio</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Relazione-di-Coniugio</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Relazione-di-Coniugio</guid>
-    <description><![CDATA[  Relazione di Coniugio Sia G un gruppo. La relazione di coniugio è definita: x\sim y\qquad\iff\qquad \exists g\in G\, | \,y=gxg^{-1} . ]]></description>
-    <pubDate>Thu, 02 Apr 2026 16:03:13 GMT</pubDate>
+    <title>Esempi di Gruppi Quozienti</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempi-di-Gruppi-Quozienti</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempi-di-Gruppi-Quozienti</guid>
+    <description><![CDATA[  Esempio in \mathbb{Z} Considero G=\mathbb{Z} dotato di somma e N=3\mathbb{Z} sottogruppo normale. ]]></description>
+    <pubDate>Fri, 03 Apr 2026 12:36:38 GMT</pubDate>
   </item><item>
     <title>Appunti di Metodi Numerici per Data Science</title>
     <link>https://allibis.github.io/Appunti-di-Matematica/Metodi-Numerici-per-Data-Science/</link>
     <guid>https://allibis.github.io/Appunti-di-Matematica/Metodi-Numerici-per-Data-Science/</guid>
     <description><![CDATA[ Appunti di Metodi Numerici per Data Science ]]></description>
-    <pubDate>Wed, 01 Apr 2026 08:42:07 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 10:26:21 GMT</pubDate>
   </item><item>
-    <title>Gruppi Diedrali</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppi-Diedrali</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppi-Diedrali</guid>
-    <description><![CDATA[  Gruppi Diedrali Il gruppo diedrale può essere considerato come il gruppo di riflessioni e rotazioni simmetriche di un poligono regolare di n lati. ]]></description>
-    <pubDate>Tue, 31 Mar 2026 10:55:49 GMT</pubDate>
+    <title>Caratterizzazione dei Sottogruppi</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Caratterizzazione-dei-Sottogruppi</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Caratterizzazione-dei-Sottogruppi</guid>
+    <description><![CDATA[  Caratterizzazione dei Sottogruppi Sia (G,\cdot) un gruppo e sia H\subseteq G,H\not=\varnothing. ]]></description>
+    <pubDate>Fri, 03 Apr 2026 10:26:21 GMT</pubDate>
   </item><item>
-    <title>Ogni sottogruppo di indice 2 è normale</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Ogni-sottogruppo-di-indice-2-%C3%A8-normale</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Ogni-sottogruppo-di-indice-2-%C3%A8-normale</guid>
-    <description><![CDATA[  Proposizione Ogni sottogruppo di indice 2 è normale Dim Supponiamo H&lt;G di indice 2, dunque ha 2 classi laterali. Supponiamo g\not\in H. ]]></description>
-    <pubDate>Tue, 31 Mar 2026 10:44:44 GMT</pubDate>
+    <title>Classi di Coniugio</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-di-Coniugio</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Classi-di-Coniugio</guid>
+    <description><![CDATA[  Classi di Coniugio Considerata la relazione di coniugio su un gruppo G, di dimostra che è una relazione di equivalenza. ]]></description>
+    <pubDate>Fri, 03 Apr 2026 10:26:21 GMT</pubDate>
+  </item><item>
+    <title>Condizione necessaria e sufficiente per la normalità di un sottogruppo</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Condizione-necessaria-e-sufficiente-per-la-normalit%C3%A0-di-un-sottogruppo</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Condizione-necessaria-e-sufficiente-per-la-normalit%C3%A0-di-un-sottogruppo</guid>
+    <description><![CDATA[  Condizione necessaria e sufficiente per la normalità di un gruppo Sia G gruppo e N&lt;G sottogruppo. ]]></description>
+    <pubDate>Fri, 03 Apr 2026 10:26:21 GMT</pubDate>
+  </item><item>
+    <title>Congruenza</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Congruenza</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Congruenza</guid>
+    <description><![CDATA[  Congruenza Sia N\lhd G un sottogruppo normale. ]]></description>
+    <pubDate>Fri, 03 Apr 2026 10:26:21 GMT</pubDate>
+  </item><item>
+    <title>Esponente di un Gruppo</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esponente-di-un-Gruppo</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esponente-di-un-Gruppo</guid>
+    <description><![CDATA[  Esponente di un Gruppo Dato un gruppo finito G, si dice esponente del gruppo il numero: m=\exp(G)=LCM\{ |g|\, \vert \,g\in G \} In altre parole, è il più piccolo intero tale che g^m=1,\;\forall g\in G Ad esempio, \exp (A_{4})=6 . ]]></description>
+    <pubDate>Fri, 03 Apr 2026 10:26:21 GMT</pubDate>
+  </item><item>
+    <title>Funzione di Eulero</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Funzione-di-Eulero</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Funzione-di-Eulero</guid>
+    <description><![CDATA[  Funzione di Eulero La funzione \varphi:\mathbb{N}\to \mathbb{N} che associa ad ogni numero n\in \mathbb{N} la quantità di numeri primi minori di n \varphi(n)=\#\{ k\in \mathbb{N}\, \vert \, k&lt;n\vee k\text{ è coprimo a }n\}=\lvert \mathcal{U(\mathbb{Z}_{n})} \rvert Si dimostra che se p è primo, \... ]]></description>
+    <pubDate>Fri, 03 Apr 2026 10:26:21 GMT</pubDate>
   </item>
     </channel>
   </rss>
