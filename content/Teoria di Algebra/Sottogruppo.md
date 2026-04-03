@@ -1,5 +1,5 @@
 ---
-tags: [Algebra, Definizione]
+tags: [Algebra, Definizione, Gruppi, Sottogruppi]
 aliases: [sottogruppo, sottogruppi]
 icon: lucide-book-open
 ---

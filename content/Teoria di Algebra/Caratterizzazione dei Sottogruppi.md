@@ -1,5 +1,5 @@
 ---
-tags: [Algebra, Proposizione, Gruppi]
+tags: [Algebra, Proposizione, Gruppi, Sottogruppi]
 aliases: []
 icon: lucide-circle-check-big
 ---
