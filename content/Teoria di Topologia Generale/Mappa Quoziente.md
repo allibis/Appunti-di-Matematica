@@ -16,7 +16,7 @@ icon: lucide-book-open
 > Sia $X=[0,1]$ dotato di $\mathcal{E}_{[0,1]}$ e sia 
 > $p:[0,1]\to S^1 \subseteq \mathbb{R}^2$ tale che $t\longmapsto(\cos(2\pi t),\sin(2\pi t))=e^{ 2\pi it }$
 > Risulta che:
-> 1. $p$ è continua, perché lo sono $\sin$ e $\cos$ e vale  il [[Teoria di Topologia Generale/Teorema sulle funzioni continue e topologia prodotto]]
+> 1. $p$ è continua, perché lo sono $\sin$ e $\cos$ e vale  il [[Teoria di Topologia Generale/Teorema sulle funzioni continue e topologia prodotto|teorema sulle funzioni continue e topologia prodotto]]
 > 2. $p$ è suriettiva per le proprietà di $\sin$ e $\cos$
 > 3. $p$ è una mappa quoziente
 > 4. $p$ non è aperta, infatti se $A=\left[ 0, \frac{1}{3} \right)$ che è aperto nel sottospazio $\mathcal{E}_{[0,1]}$, $p(A)=\left\{ e^{ 2\pi it } \, \vert \, t\in\left[ 0, \frac{1}{3} \right)\right\}\not\in \mathcal{E}_{S^1}$

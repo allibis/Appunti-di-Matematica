@@ -5,8 +5,8 @@ icon: lucide-notebook-text
 
 
 > [!es] Esempio
-> La base per la [[Teoria di Topologia Generale/Topologia Euclidea]] su $\mathbb{R}$ è $\beta=\{(a,b)\mid a,b\in \mathbb{R}, a<b\}$
-> La base per la [[Teoria di Topologia Generale/Topologia del Limite Inferiore]] $\mathbb{R}_{\ell}$ è $\beta'=\{[a,b) | a,b\in \mathbb{R}, a<b\}$
+> La base per la [[Teoria di Topologia Generale/Topologia Euclidea|topologia euclidea]] su $\mathbb{R}$ è $\beta=\{(a,b)\mid a,b\in \mathbb{R}, a<b\}$
+> La base per la [[Teoria di Topologia Generale/Topologia del Limite Inferiore|topologia del limite inferiore]] $\mathbb{R}_{\ell}$ è $\beta'=\{[a,b) | a,b\in \mathbb{R}, a<b\}$
 > La **K-topologia** su $\mathbb{R}$ è generata dalla base $\beta''=\{(a,b)\mid a,b\in \mathbb{R},a<b\}\cup\{(a,b)\setminus K\}$ con $K=\{\frac{1}{n}\mid n\in \mathbb{Z}^+\}$
 > 
 > | Topologia | Confronto |

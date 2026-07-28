@@ -8,9 +8,9 @@ icon: lucide-notebook-text
 > Consideriamo $\forall n\in \mathbb{N}: \widetilde{\mathbb{R}}^n=\{ (x_{1},\dots,x_{n},0,0,\dots) \}$ 
 > e la funzione $\varphi:\widetilde{\mathbb{R}}^n\to \mathbb{R}^n$ che associa
 > $\forall(x_{1},\dots,x_{n},0,0,\dots)\longmapsto(x_{1},\dots,x_{n})$
-> Tale funzione è continua (in quanto lo sono le sue componenti in virtù del [[Teoria di Topologia Generale/Teorema sulle funzioni continue e topologia prodotto]])
-> Inoltre ogni $\widetilde{\mathbb{R}}^n\simeq \mathbb{R}^n$ è connesso, in quanto $\mathbb{R}^n$ è [[Teoria di Topologia Generale/Prodotto di Spazi Connessi]] finito.
-> Inoltre tutti gli $\widetilde{\mathbb{R}}^n$ contengono il punto $(0,0,\dots)\in \mathbb{R}^\omega$, pertanto la loro unione $\bigcup \limits_{n\in \mathbb{N}}\widetilde{\mathbb{R}}^n=\mathbb{R}^\infty$ è connessa per il [[Teoria di Topologia Generale/Teorema sull'Unione di Spazi Connessi]] è connessa.
+> Tale funzione è continua (in quanto lo sono le sue componenti in virtù del [[Teoria di Topologia Generale/Teorema sulle funzioni continue e topologia prodotto|teorema sulle funzioni continue rispetto alla topologia prodotto]])
+> Inoltre ogni $\widetilde{\mathbb{R}}^n\simeq \mathbb{R}^n$ è connesso, in quanto $\mathbb{R}^n$ è [[Teoria di Topologia Generale/Prodotto di Spazi Connessi|prodotto di spazi connessi]] finito.
+> Inoltre tutti gli $\widetilde{\mathbb{R}}^n$ contengono il punto $(0,0,\dots)\in \mathbb{R}^\omega$, pertanto la loro unione $\bigcup \limits_{n\in \mathbb{N}}\widetilde{\mathbb{R}}^n=\mathbb{R}^\infty$ è connessa per il [[Teoria di Topologia Generale/Teorema sull'Unione di Spazi Connessi|teorema sull'unione di spazi connessi]] è connessa.
 > (Ricordo che $\mathbb{R}^\infty$ contiene solo successioni che ad un certo punto finiscono)
 > Sia $a=(a_{1},a_{2},\dots)\in \mathbb{R}^\omega$ e sia $U=\prod\limits_{i}U_{i}$ intorno di $a$ per la topologia prodotto.
 > Risulta che $U_{i}=\mathbb{R}$ definitivamente da un certo $N$ in poi.

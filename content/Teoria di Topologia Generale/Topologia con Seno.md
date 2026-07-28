@@ -8,7 +8,7 @@ icon: lucide-book-open
 >[!def] Definizione
 >$\tau=\{U\subseteq \tau | \forall x\in U: \sin x>0 \}\cup\{\mathbb{R}\}$ 
 >Dove $\tau_{0}$ è la topologia indotta dalla distanza euclidea $d(x,y)=|x-y|$.
-> Tale insieme è [[Teoria di Topologia Generale/Topologia]] su $\mathbb{R}$
+> Tale insieme è [[Teoria di Topologia Generale/Topologia|topologia]] su $\mathbb{R}$
 ^def-topologia-seno
 
 > [!dim]

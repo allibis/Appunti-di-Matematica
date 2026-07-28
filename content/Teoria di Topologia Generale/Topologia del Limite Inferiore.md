@@ -9,7 +9,7 @@ icon: lucide-book-open
 
 
 > [!def] Topologia del Limite Inferiore $\tau_{\ell}$ 
-> Si può definire su $\mathbb{R}$ la seguente [[Teoria di Topologia Generale/Topologia]]
+> Si può definire su $\mathbb{R}$ la seguente [[Teoria di Topologia Generale/Topologia|topologia]]
 > $\tau_{\ell}=\left\{U\subseteq \mathbb{R}|\exists\{[a_{i},b_{i})\}_{i\in I},\text{t.c } U=\bigcup_{i\in I}[a_{i},b_{i})\right\}$
 ^def-topologia-lim-inf
 

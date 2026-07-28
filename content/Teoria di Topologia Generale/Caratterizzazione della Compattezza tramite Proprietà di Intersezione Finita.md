@@ -7,7 +7,7 @@ icon: lucide-scroll-text
 > [!teorema]
 > Sia $X$ uno [[Teoria di Topologia Generale/Topologia|spazio topologico]], allora vale la seguente equivalenza:
 > 1. $X$ è [[Teoria di Topologia Generale/Compatto|compatto]] 
-> 2. Ogni collezione $\mathcal{C}$ di chiusi di $X$ che ha la [[Teoria di Topologia Generale/Proprietà di Intersezione Finita]] verifica la proprietà: $\bigcap \limits_{C\in \mathcal{C}}C\not=\varnothing$
+> 2. Ogni collezione $\mathcal{C}$ di chiusi di $X$ che ha la [[Teoria di Topologia Generale/Proprietà di Intersezione Finita|proprietà di intersezione finita]] verifica la proprietà: $\bigcap \limits_{C\in \mathcal{C}}C\not=\varnothing$
 
 > [!dim] 
 > Provo l'equivalenza delle negazioni:

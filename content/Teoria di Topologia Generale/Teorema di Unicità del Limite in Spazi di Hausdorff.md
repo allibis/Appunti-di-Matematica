@@ -5,7 +5,7 @@ icon: lucide-scroll-text
 ---
 
 > [!teo] Teorema di Unicità del Limite
-> Se $(X,\tau)$ [[Teoria di Topologia Generale/Topologia|spazio topologico]] è di [[Teoria di Topologia Generale/Hausdorff]], allora ogni successione $(x_{n})_{n\in \mathbb{N}}$ converge al più a un punto. 
+> Se $(X,\tau)$ [[Teoria di Topologia Generale/Topologia|spazio topologico]] è di [[Teoria di Topologia Generale/Hausdorff|Hausdorff]], allora ogni successione $(x_{n})_{n\in \mathbb{N}}$ converge al più a un punto. 
 
 > [!dim] Dimostrazione
 > Supponiamo che $x_{n}$ sia una successione convergente a $x\in X$ e a $y\in X$ con $x\not=y$. 

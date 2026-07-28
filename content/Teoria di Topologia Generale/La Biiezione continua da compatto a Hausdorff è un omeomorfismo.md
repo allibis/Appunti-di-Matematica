@@ -5,7 +5,7 @@ icon: lucide-circle-check-big
 ---
 
 > [!teorema]
-> Sia $f:X\to Y$ una [[Teoria di Topologia Generale/Mappa Continua]] biiettiva. Se $X$ è [[Teoria di Topologia Generale/Compatto]] e $Y$ è di [[Teoria di Topologia Generale/Hausdorff]], allora $f^{-1}$ è continua, cioè $X$ è [[Teoria di Topologia Generale/Omeomorfismo|omemorfo]] a $Y$
+> Sia $f:X\to Y$ una [[Teoria di Topologia Generale/Mappa Continua|mappa continua]] biiettiva. Se $X$ è [[Teoria di Topologia Generale/Compatto|compatto]] e $Y$ è di [[Teoria di Topologia Generale/Hausdorff|hausdorff]], allora $f^{-1}$ è continua, cioè $X$ è [[Teoria di Topologia Generale/Omeomorfismo|omemorfo]] a $Y$
 
 > [!dim] Dimostrazione
 > Per dimostrare che $f^{-1}:Y\to X$ è continua, basta dimostrare che la controimmagine di ogni chiuso mediante $f^{-1}$ è chiusa. Cioè che se $C\subseteq X$ è chiuso, allora $f(C)$ è chiuso. 

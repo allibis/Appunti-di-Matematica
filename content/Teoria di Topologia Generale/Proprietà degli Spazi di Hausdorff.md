@@ -5,7 +5,7 @@ icon: lucide-pencil
 ---
 
 > [!proprietà] Proprietà
-> 1. Il prodotto tra due spazi di [[Teoria di Topologia Generale/Hausdorff]] è $T_2$
+> 1. Il prodotto tra due spazi di [[Teoria di Topologia Generale/Hausdorff|Hausdorff]] è $T_2$
 > 2. Ogni sottospazio di uno spazio $T_2$ è $T_2$
 
 > [!dim] Dimostrazione della proprietà 1.

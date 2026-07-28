@@ -20,7 +20,7 @@ icon: lucide-scroll-text
 > b. $\implies$ a.
 > Per ipotesi $\forall x_{0}\in X,\forall V$ intorno aperto di $f(x_{0})$ esiste $U$ intorno di $x_{0}$  tale che $U\subseteq f^{-1}(V)$.
 > Sia $W\in \tau'$: dimostro che $f^{-1}(W)$ è intorno di ogni suo punto.
-> Sia $p\in f^{-1}(W)$. allora $\exists U$ intorno aperto di $p$ tale che $U\subseteq f^{-1}(V)$. Ciò significa che $f^{-1}(V)$ è [[Teoria di Topologia Generale/Intorni|intorno]] di $p$ per definizione. Per l'arbitrarietà di $p$, si ha che $f^{-1}(W)$ è aperto, in virtù della [[Teoria di Topologia Generale/Caratterizzazione degli aperti]].
+> Sia $p\in f^{-1}(W)$. allora $\exists U$ intorno aperto di $p$ tale che $U\subseteq f^{-1}(V)$. Ciò significa che $f^{-1}(V)$ è [[Teoria di Topologia Generale/Intorni|intorno]] di $p$ per definizione. Per l'arbitrarietà di $p$, si ha che $f^{-1}(W)$ è aperto, in virtù della [[Teoria di Topologia Generale/Caratterizzazione degli aperti|caratterizzazione degli aperti]].
 > 
 > ---
 > 
@@ -30,7 +30,7 @@ icon: lucide-scroll-text
 > ---
 > 
 > a. $\implies$ d.
-> Suppongo che $f$ sia continua. Sia $A\subseteq X$ e sia $p\in f(\overline{A})$, cioè $p=f(x),x\in \overline{A}$. Per provare che $p\in \overline{f(A)}$ applico il [[Teoria di Topologia Generale/Teorema sui Punti di Aderenza]] e dimostro che $\forall U$ intorno di $p=f(x)$, $U\cap f(A)\not=\varnothing$. 
+> Suppongo che $f$ sia continua. Sia $A\subseteq X$ e sia $p\in f(\overline{A})$, cioè $p=f(x),x\in \overline{A}$. Per provare che $p\in \overline{f(A)}$ applico il [[Teoria di Topologia Generale/Teorema sui Punti di Aderenza|teorema sui punti di aderenza]] e dimostro che $\forall U$ intorno di $p=f(x)$, $U\cap f(A)\not=\varnothing$. 
 > Poiché $f$ è continua, allora $f^{-1}(U)$ è aperto e contiene $x$, quindi è intorno di $x\in \overline{A}$. Poiché $x$ è un punto di aderenza per $A$, tutti i suoi intorni hanno intersezioni non vuote con $A$.
 > Quindi $f^{-1}(U)\cap A\not=\varnothing\implies$ $f(f^{-1}(U)\cap A)=U\cap f(A)\not=\varnothing$.
 > 

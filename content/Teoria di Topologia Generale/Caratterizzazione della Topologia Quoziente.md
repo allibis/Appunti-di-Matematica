@@ -13,7 +13,7 @@ icon: lucide-circle-check-big
 
 > [!dim] $1. \implies 2.$
 > Supponiamo $A\in \tau_{\pi}\implies \pi ^{-1}(A)\in \tau$ (quindi $\pi ^{-1}(A)$ è aperto)
-> $\pi ^{-1}(A)$ è saturo, inoltre $\pi$ è suriettiva, quindi per la [[Teoria di Topologia Generale/Caratterizzazione degli Insiemi Saturi per Mappe Quozienti]] vale che $A=\pi(\underbrace{ \pi(^{-1}A) }_{ \text{saturo} })$
+> $\pi ^{-1}(A)$ è saturo, inoltre $\pi$ è suriettiva, quindi per la [[Teoria di Topologia Generale/Caratterizzazione degli Insiemi Saturi per Mappe Quozienti|caratterizzazione degli insiemi saturi per mappe quozienti]] vale che $A=\pi(\underbrace{ \pi(^{-1}A) }_{ \text{saturo} })$
 > Quindi $A$ è immagine di un aperto saturo.
 
 > [!dim] $2.\implies 1.$

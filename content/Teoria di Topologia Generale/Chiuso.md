@@ -12,7 +12,7 @@ icon: lucide-book-open
 ^def-chiuso
 
 > [!ex] Esempio
-> Nella [[Teoria di Topologia Generale/Topologia Banale]], $X$ è chiuso in quanto il suo complementare è $\varnothing$, che è aperto
+> Nella [[Teoria di Topologia Generale/Topologia Banale|topologia banale]], $X$ è chiuso in quanto il suo complementare è $\varnothing$, che è aperto
 
 > [!proprietà] Proprietà dei Chiusi
 > 1. $\varnothing, X$ sono chiusi

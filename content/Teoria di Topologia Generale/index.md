@@ -121,7 +121,7 @@ description: "Appunti di Topologia"
 
 > [!dim]
 > $x\in A\implies x\in \overline{A}$.
-> Se $x\in D(A)$ allora $\forall U\in \tau,x\in U \mid (U\cap A)\setminus\{x\}\not=\varnothing\implies U\cap A\not=\varnothing$.  Per cui $x$ è di aderenza, e quindi per il [[Teoria di Topologia Generale/Teorema sui Punti di Aderenza]] $x\in \overline{A}$
+> Se $x\in D(A)$ allora $\forall U\in \tau,x\in U \mid (U\cap A)\setminus\{x\}\not=\varnothing\implies U\cap A\not=\varnothing$.  Per cui $x$ è di aderenza, e quindi per il [[Teoria di Topologia Generale/Teorema sui Punti di Aderenza|teorema sui punti di aderenza]] $x\in \overline{A}$
 
 ![[Teoria di Topologia Generale/Esempi di Chiusi in Topologie Diverse]]
 
@@ -440,3 +440,4 @@ description: "Appunti di Topologia"
 ![[Teoria di Topologia Generale/Compatto per Punti di Accumulazione]]
 
 ![[Teoria di Topologia Generale/I Compatti lo sono anche Per Punti di Accumulazione]]
+

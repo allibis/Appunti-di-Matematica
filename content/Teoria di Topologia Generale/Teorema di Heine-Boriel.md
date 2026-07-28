@@ -9,7 +9,7 @@ icon: lucide-scroll-text
 > $K$ è [[Teoria di Topologia Generale/Compatto|compatto]] $\iff$ $K$ è [[Teoria di Topologia Generale/Chiuso|chiuso]] e limitato
 
 > [!dimostrazione] $\implies$
-> Sappiamo che $\mathbb{R}^n$ è uno spazio di [[Teoria di Topologia Generale/Hausdorff]].
+> Sappiamo che $\mathbb{R}^n$ è uno spazio di [[Teoria di Topologia Generale/Hausdorff|Hausdorff]].
 > Poiché $K$ è compatto, sappiamo anche che è chiuso [(!)](<Teoria di Topologia Generale/I Sottospazi Compatti di Spazi T2 sono Chiusi.md>)
 > Resta da dimostrare che è limitato.
 > Siano $B_{m}:=\{ x\in \mathbb{R}^n\, \vert \, \Vert x \Vert<m \}$

@@ -9,7 +9,7 @@ icon: lucide-notebook-text
 > Considero:
 > - $A$ l'insieme delle successioni limitate
 > - $B$ l'insieme delle successioni non limitate
-> Risulta che i due insiemi sono disgiunti e aperti per la [[Teoria di Topologia Generale/Box Topologia]]:
+> Risulta che i due insiemi sono disgiunti e aperti per la [[Teoria di Topologia Generale/Box Topologia|box topologia]]:
 > dato un punto $a=(a_{1},a_{2},\dots)\in \mathbb{R}^\omega$ è possibile considerare un intorno $U=(a_{1}-1,a_{1}+1)\times(a_{2}-1,a_{2}-1)\times\dots$. 
 > Se $a$ è limitato, allora $U\subseteq A$, se $a$ non è limitato, allora $U\subseteq B$.
 > Dunque ho trovato una [[Teoria di Topologia Generale/Spazio Connesso|separazione]] rispetto alla box topology dunque $\mathbb{R}^\omega$ non è connesso

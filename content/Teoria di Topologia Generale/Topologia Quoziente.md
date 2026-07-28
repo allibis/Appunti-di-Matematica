@@ -7,4 +7,4 @@ icon: lucide-circle-check-big
 > [!definizione] Topologia Quoziente
 > Sia $X$ uno [[Teoria di Topologia Generale/Topologia|spazio topologico]] e $\sim$ una relazione di equivalenza su $X$.
 > Sia $\pi:X\to {}^{X}\!/_{\sim}$
-> Allora esiste una topologia $\tau'=\left\{ U\in{}^{X}\!/_{\sim}\, \vert \,\pi ^{-1}(U)\in \tau\right\}$ in virtù del Teorema sulla [[Teoria di Topologia Generale/Topologia Relativa a una Mappa Quoziente]]. Tale topologia si chiama **Topologia Quoziente**
+> Allora esiste una topologia $\tau'=\left\{ U\in{}^{X}\!/_{\sim}\, \vert \,\pi ^{-1}(U)\in \tau\right\}$ in virtù del Teorema sulla [[Teoria di Topologia Generale/Topologia Relativa a una Mappa Quoziente|topologia relativa a una mappa quoziente]]. Tale topologia si chiama **Topologia Quoziente**

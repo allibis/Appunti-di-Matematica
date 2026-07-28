@@ -12,4 +12,4 @@ icon: lucide-book-open
 ^def-aperto
 
 > [!ex] Esempio
-> Nella [[Teoria di Topologia Generale/Topologia Cofinita]] $(\mathbb{R}, \tau_c)$, l'insieme $A = ]-\infty, 0[ \cup ]0, +\infty]$ è un aperto di $\tau_c$ in quanto $A^C = \{0\}$ 
+> Nella [[Teoria di Topologia Generale/Topologia Cofinita|topologia cofinita]] $(\mathbb{R}, \tau_c)$, l'insieme $A = ]-\infty, 0[ \cup ]0, +\infty]$ è un aperto di $\tau_c$ in quanto $A^C = \{0\}$ 

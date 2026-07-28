@@ -5,7 +5,7 @@ icon: lucide-scroll-text
 ---
 
 > [!teorema] Teorema
-> Sia $(X,\tau)$ uno [[Teoria di Topologia Generale/Topologia|spazio topologico]] di [[Teoria di Topologia Generale/Hausdorff]]. Allora gli insiemi $\{p\}\, \vert \,p\in X$ sono [[Teoria di Topologia Generale/Chiuso|chiusi]]. 
+> Sia $(X,\tau)$ uno [[Teoria di Topologia Generale/Topologia|spazio topologico]] di [[Teoria di Topologia Generale/Hausdorff|Hausdorff]]. Allora gli insiemi $\{p\}\, \vert \,p\in X$ sono [[Teoria di Topologia Generale/Chiuso|chiusi]]. 
 
 > [!dimostrazione]
 > Sia $p\in X$ e considero $\{ p \}\implies\complement_{X}\{ p \}=X\setminus \{ p \}$. 

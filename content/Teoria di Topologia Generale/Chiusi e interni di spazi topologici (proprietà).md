@@ -10,7 +10,7 @@ icon: lucide-pencil
 > 2. $Int_{Y}(A)=Int_{X}(A\cup(X\setminus Y))\cap Y$
 
 > [!dim]
-> 3. Verifico la doppia inclusione (utilizzo il [[Teoria di Topologia Generale/Teorema sui Punti di Aderenza]] 1.)
+> 3. Verifico la doppia inclusione (utilizzo il [[Teoria di Topologia Generale/Teorema sui Punti di Aderenza|teorema sui punti di aderenza]] 1.)
 > 	- $\overline{A}^Y\subseteq \overline{A}^X\cap Y$
 >      Sia $p\in \overline{A}^Y\implies p\in Y$
 > 	   $\forall U\in \tau_{Y}$ (ossia $\forall \widetilde{U}\in \tau \vert U=\widetilde{U}\cap Y$) [[Teoria di Topologia Generale/Intorni#^def-intorno|intorno]] di $p$ risulta $U\cap \overline{A}^Y\not=\varnothing$ (perché $p$ è punto [[Teoria di Topologia Generale/Interno|interno]] ad $A$).

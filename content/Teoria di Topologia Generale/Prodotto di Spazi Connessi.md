@@ -12,7 +12,7 @@ icon: lucide-scroll-text
 > Sia $(a,b)\in X \times Y$
 > Osservo che $X \times \{ b \}\simeq X$ (omeomorfo) e $\{ a \}\times Y\simeq Y$ pertanto sono connessi.
 > Definisco $\forall x\in X: T_{x}:=(X \times \{ b \})\cup(\{ a \}\times Y)$
-> In virtù del [[Teoria di Topologia Generale/Teorema sull'Unione di Spazi Connessi]] risulta che $T_{x}$ è connesso.
+> In virtù del [[Teoria di Topologia Generale/Teorema sull'Unione di Spazi Connessi|teorema sull'unione di spazi connessi]] risulta che $T_{x}$ è connesso.
 > Pertanto, $X \times Y=\bigcup\limits_{x\in X}T_{x}$ è connesso.
 
 > [!dim] Dimostrazione per $n$ spazi connessi

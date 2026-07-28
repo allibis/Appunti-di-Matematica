@@ -9,4 +9,4 @@ icon: lucide-notebook-text
 > Consideriamo $f_{1}:X\to S^1$ tale che $t\longmapsto e^{ 2\pi ti }$ (dall'esempio della [[Teoria di Topologia Generale/Mappa Quoziente|mappa quoziente]]) 
 > $f_{2}:X\to {}^{X}\!/_{\sim}$ tale che $t\in [0,1]\longmapsto[t]$  
 > Risulta che $f_{1}(t)=f_{1}(s)\iff e^{ 2\pi is }=e^{ 2\pi it }\iff s-t\in \mathbb{Z}\iff s=t\,\vee\,s,t\in\{0,1\}$. L'ultima doppia implicazione vale perché $s,t\in[0,1]$ 
-> Le condizioni del Teorema sull [[Teoria di Topologia Generale/Unicità della Topologia Quoziente]] sono verificate, per cui $\exists\phi: S^1\longmapsto{}^{X}\!/_{\sim}$ omeomorfismo
+> Le condizioni del Teorema sull [[Teoria di Topologia Generale/Unicità della Topologia Quoziente|unicità della topologia quoziente]] sono verificate, per cui $\exists\phi: S^1\longmapsto{}^{X}\!/_{\sim}$ omeomorfismo

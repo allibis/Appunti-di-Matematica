@@ -5,7 +5,7 @@ icon: lucide-scroll-text
 ---
 
 > [!teorema]
-> Ogni [[Teoria di Topologia Generale/Topologia di Sottospazio|sottospazio]] [[Teoria di Topologia Generale/Compatto|compatto]] di uno spazio di [[Teoria di Topologia Generale/Hausdorff]] è [[Teoria di Topologia Generale/Chiuso|chiuso]].
+> Ogni [[Teoria di Topologia Generale/Topologia di Sottospazio|sottospazio]] [[Teoria di Topologia Generale/Compatto|compatto]] di uno spazio di [[Teoria di Topologia Generale/Hausdorff|Hausdorff]] è [[Teoria di Topologia Generale/Chiuso|chiuso]].
 
 > [!dim] Dimostrazione
 > Provo che $X\setminus Y$ è aperto.
