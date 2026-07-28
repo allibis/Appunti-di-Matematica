@@ -4,7 +4,6 @@ title: "Teoria di Topologia Generale"
 description: "Appunti di Topologia"
 ---
 
-
 # 1. Topologia
 
 ## 1.1 _Definizione di Topologia_

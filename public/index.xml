@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Matematica</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Teoria di Analisi Differenziale</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Analisi-Differenziale/</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Analisi-Differenziale/</guid>
-    <description><![CDATA[ Appunti di Analisi 4 ]]></description>
-    <pubDate>Tue, 28 Jul 2026 16:46:42 GMT</pubDate>
-  </item><item>
-    <title>Teorema di corrispondenza</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-corrispondenza</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-corrispondenza</guid>
-    <description><![CDATA[  Teorema di corrispondenza Siano G,\overline{G} due gruppi e \pi:G\to \overline{G} un omomorfismo suriettivo. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 10:10:51 GMT</pubDate>
-  </item><item>
-    <title>Teorema Fondamentale di Isomorfismo</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-Fondamentale-di-Isomorfismo</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-Fondamentale-di-Isomorfismo</guid>
-    <description><![CDATA[  Osservazioni Preliminari Se considero due gruppi G,G&#039; e \varphi:G\to G&#039; omomorfismo qualsiasi, posso valutare la relazione di equivalenza R_{\varphi} tale che \forall x,y\in G: xR_{\varphi}y\iff\varphi(x)=\varphi(y). ]]></description>
-    <pubDate>Sun, 05 Apr 2026 10:40:26 GMT</pubDate>
+    <title>Gruppo Generato</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo-Generato</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo-Generato</guid>
+    <description><![CDATA[  Gruppo Generato Sia G un gruppo e X\subseteq G. ]]></description>
+    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
   </item><item>
     <title>Surgezione Canonica sul Gruppo Quoziente</title>
     <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Surgezione-Canonica-sul-Gruppo-Quoziente</link>
     <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Surgezione-Canonica-sul-Gruppo-Quoziente</guid>
     <description><![CDATA[  Surgezione Canonica sul Gruppo Quoziente Sia G gruppo, N\lhd G sottogruppo normale. Considero inoltre il gruppo quoziente ^G /_{N}. ]]></description>
-    <pubDate>Sun, 05 Apr 2026 10:20:49 GMT</pubDate>
+    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
   </item><item>
-    <title>Gruppo Generato</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo-Generato</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo-Generato</guid>
-    <description><![CDATA[  Gruppo Generato Sia G un gruppo e X\subseteq G. ]]></description>
-    <pubDate>Sun, 05 Apr 2026 09:30:42 GMT</pubDate>
+    <title>Teorema Fondamentale di Isomorfismo</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-Fondamentale-di-Isomorfismo</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-Fondamentale-di-Isomorfismo</guid>
+    <description><![CDATA[  Osservazioni Preliminari Se considero due gruppi G,G&#039; e \varphi:G\to G&#039; omomorfismo qualsiasi, posso valutare la relazione di equivalenza R_{\varphi} tale che \forall x,y\in G: xR_{\varphi}y\iff\varphi(x)=\varphi(y). ]]></description>
+    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
   </item><item>
-    <title>Esempi di Gruppi Quozienti</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempi-di-Gruppi-Quozienti</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempi-di-Gruppi-Quozienti</guid>
-    <description><![CDATA[  Esempio in \mathbb{Z} Considero G=\mathbb{Z} dotato di somma e N=3\mathbb{Z} sottogruppo normale. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 13:32:30 GMT</pubDate>
+    <title>Teorema di corrispondenza</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-corrispondenza</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-corrispondenza</guid>
+    <description><![CDATA[  Teorema di corrispondenza Siano G,\overline{G} due gruppi e \pi:G\to \overline{G} un omomorfismo suriettivo. ]]></description>
+    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
   </item><item>
-    <title>Esempi di Sottogruppo Prodotto</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempi-di-Sottogruppo-Prodotto</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Esempi-di-Sottogruppo-Prodotto</guid>
-    <description><![CDATA[  Gruppo Diedrale Possiamo considerare il gruppo diedrale \mathcal{D}_{n} come il prodotto di H=\braket{ \tau }=\{ 1,\tau \} N=\braket{ \sigma }=\{ 1,\sigma, \dots,\sigma^{n-1} \}\lhd \mathcal{D}_{n} Osservo che \mathcal{D_{n}}=HN=\{ 1,\sigma, \dots,\sigma^{n-1}, \tau, \tau \sigma, \dots,\tau \sigma^... ]]></description>
-    <pubDate>Fri, 03 Apr 2026 13:32:30 GMT</pubDate>
+    <title>Teoria di Analisi Differenziale</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Analisi-Differenziale/</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Analisi-Differenziale/</guid>
+    <description><![CDATA[ Appunti di Analisi 4 ]]></description>
+    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
   </item><item>
-    <title>Gruppi Diedrali</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppi-Diedrali</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppi-Diedrali</guid>
-    <description><![CDATA[  Gruppi Diedrali Il gruppo diedrale può essere considerato come il gruppo di riflessioni e rotazioni simmetriche di un poligono regolare di n lati. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 13:32:30 GMT</pubDate>
+    <title>Aperto</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Aperto</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Aperto</guid>
+    <description><![CDATA[  Definizione Data una topologia \tau, i suoi elementi si chiamano aperti. ]]></description>
+    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
   </item><item>
-    <title>Insieme Quoziente dei Laterali</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Insieme-Quoziente-dei-Laterali</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Insieme-Quoziente-dei-Laterali</guid>
-    <description><![CDATA[  Insieme Quoziente dei Laterali Considerata la relazione di congruenza, si possono considerare le sue classi di equivalenza e dunque l’insieme quoziente. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 13:32:30 GMT</pubDate>
+    <title>Assiomi di Separazione</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Assiomi-di-Separazione</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Assiomi-di-Separazione</guid>
+    <description><![CDATA[  Assiomi di separazione T_{1} e T_{2} Sia (X,\tau) uno spazio topologico. ]]></description>
+    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
   </item><item>
-    <title>Sottogruppi Prodotto</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Sottogruppi-Prodotto</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Sottogruppi-Prodotto</guid>
-    <description><![CDATA[  Proposizione Sia G un gruppo e H,N suoi sottogruppi. L’insieme H\cdot N=\{ h\cdot n\, | \,h\in H,n\in N \} in generale è solo un sottoinsieme di G. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 13:32:30 GMT</pubDate>
+    <title>Caratterizzazione della Compattezza tramite Proprietà di Intersezione Finita</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Caratterizzazione-della-Compattezza-tramite-Propriet%C3%A0-di-Intersezione-Finita</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Caratterizzazione-della-Compattezza-tramite-Propriet%C3%A0-di-Intersezione-Finita</guid>
+    <description><![CDATA[  Teorema Sia X uno spazio topologico, allora vale la seguente equivalenza: X è compatto Ogni collezione \mathcal{C} di chiusi di X che ha la proprietà di intersezione finita verifica la proprietà: \bigcap \limits_{C\in \mathcal{C}}C\not=\varnothing Dim Provo l’equivalenza delle negazioni: Sia \mathc... ]]></description>
+    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
+  </item><item>
+    <title>Caratterizzazione della Topologia Quoziente</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Caratterizzazione-della-Topologia-Quoziente</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Caratterizzazione-della-Topologia-Quoziente</guid>
+    <description><![CDATA[  Caratterizzazione della Topologia Quoziente Sia (X,\tau) uno spazio topologico e sia \mathcal{R} una relazione di equivalenza. ]]></description>
+    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
+  </item><item>
+    <title>Caratterizzazione delle Mappe Continue</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Caratterizzazione-delle-Mappe-Continue</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Caratterizzazione-delle-Mappe-Continue</guid>
+    <description><![CDATA[  Teorema Siano (X,\tau),(Y,\tau&#039;) spazi topologici e f:X\to Y. Allora vale la seguente equivalenza: a. f è continua globalmente b. ]]></description>
+    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
   </item>
     </channel>
   </rss>

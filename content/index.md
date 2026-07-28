@@ -13,6 +13,9 @@ Qui raccolgo i miei appunti universitari, teoremi e dimostrazioni, organizzati p
 Studio degli spazi topologici, connessione, compattezza e assiomi di separazione.
 > [!success] Stato: Completato 
 
-### [[Algebra 2/Mappa-Algebra2|Algebra 2]]
+### [[Teoria di Algebra/index|Algebra 2]]
 Teoria degli Anelli, Campi, Domini e Teoria di Galois.
-> [!es] Stato: In corso 🚧
+> [!] Stato:  🚧
+
+### [[Teoria di Analisi Differenziale/index|Analisi 4]]
+Equazioni differenziali, Integrali multipli, Forme differenziali
