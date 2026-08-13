@@ -15,7 +15,8 @@ Studio degli spazi topologici, connessione, compattezza e assiomi di separazione
 
 ### [[Teoria di Algebra/index|Algebra 2]]
 Teoria degli Anelli, Campi, Domini e Teoria di Galois.
-> [!] Stato:  🚧
+> [!error] Stato: in pausa 
 
-### [[Teoria di Analisi Differenziale/index|Analisi 4]]
+### [[Teoria di Calcolo Differenziale/index|Analisi 4]]
 Equazioni differenziali, Integrali multipli, Forme differenziali
+> [!ex] Stato: in preparazione

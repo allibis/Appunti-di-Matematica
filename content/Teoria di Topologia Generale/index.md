@@ -1,5 +1,5 @@
 ---
-tags: [nograph, notags, nobacklinks, noexp, mainpage, nolist]
+tags: [notags, nobacklinks, mainpage, nolist, index]
 title: "Teoria di Topologia Generale"
 description: "Appunti di Topologia"
 ---

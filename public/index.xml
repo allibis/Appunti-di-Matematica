@@ -6,65 +6,65 @@
       <description>Ultime 10 note on Appunti di Matematica</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Gruppo Generato</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo-Generato</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Gruppo-Generato</guid>
-    <description><![CDATA[  Gruppo Generato Sia G un gruppo e X\subseteq G. ]]></description>
-    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
-  </item><item>
-    <title>Surgezione Canonica sul Gruppo Quoziente</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Surgezione-Canonica-sul-Gruppo-Quoziente</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Surgezione-Canonica-sul-Gruppo-Quoziente</guid>
-    <description><![CDATA[  Surgezione Canonica sul Gruppo Quoziente Sia G gruppo, N\lhd G sottogruppo normale. Considero inoltre il gruppo quoziente ^G /_{N}. ]]></description>
-    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
-  </item><item>
-    <title>Teorema Fondamentale di Isomorfismo</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-Fondamentale-di-Isomorfismo</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-Fondamentale-di-Isomorfismo</guid>
-    <description><![CDATA[  Osservazioni Preliminari Se considero due gruppi G,G&#039; e \varphi:G\to G&#039; omomorfismo qualsiasi, posso valutare la relazione di equivalenza R_{\varphi} tale che \forall x,y\in G: xR_{\varphi}y\iff\varphi(x)=\varphi(y). ]]></description>
-    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
-  </item><item>
-    <title>Teorema di corrispondenza</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-corrispondenza</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Algebra/Teorema-di-corrispondenza</guid>
-    <description><![CDATA[  Teorema di corrispondenza Siano G,\overline{G} due gruppi e \pi:G\to \overline{G} un omomorfismo suriettivo. ]]></description>
-    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
-  </item><item>
-    <title>Teoria di Analisi Differenziale</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Analisi-Differenziale/</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Analisi-Differenziale/</guid>
+    <title>Teoria di Calcolo Differenziale</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/</guid>
     <description><![CDATA[ Appunti di Analisi 4 ]]></description>
-    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
+    <pubDate>Tue, 11 Aug 2026 14:34:02 GMT</pubDate>
   </item><item>
-    <title>Aperto</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Aperto</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Aperto</guid>
-    <description><![CDATA[  Definizione Data una topologia \tau, i suoi elementi si chiamano aperti. ]]></description>
-    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
+    <title>Sistemi di ODE e semplificazione della teoria</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Sistemi-di-ODE-e-semplificazione-della-teoria</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Sistemi-di-ODE-e-semplificazione-della-teoria</guid>
+    <description><![CDATA[  Obs Grazie all’equivalenza tra ODE in forma normale e sistemi di ODE, possiamo semplificare lo studio della teoria concentrandoci solo su sistemi di ODE di primo ordine in forma normale: y&#039; = F(x,y) dove F: \Omega \to \mathbb{R}^n, con \Omega \subseteq \mathbb{R} \times \mathbb{R}^n aperto, me... ]]></description>
+    <pubDate>Tue, 11 Aug 2026 14:33:09 GMT</pubDate>
   </item><item>
-    <title>Assiomi di Separazione</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Assiomi-di-Separazione</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Assiomi-di-Separazione</guid>
-    <description><![CDATA[  Assiomi di separazione T_{1} e T_{2} Sia (X,\tau) uno spazio topologico. ]]></description>
-    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
+    <title>ODE in forma normale e sistema di ODE</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/ODE-in-forma-normale-e-sistema-di-ODE</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/ODE-in-forma-normale-e-sistema-di-ODE</guid>
+    <description><![CDATA[  Proposizione Ogni ODE in forma normale è equivalente a un sistema di ODE del primo ordine. ]]></description>
+    <pubDate>Tue, 11 Aug 2026 09:54:41 GMT</pubDate>
   </item><item>
-    <title>Caratterizzazione della Compattezza tramite Proprietà di Intersezione Finita</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Caratterizzazione-della-Compattezza-tramite-Propriet%C3%A0-di-Intersezione-Finita</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Caratterizzazione-della-Compattezza-tramite-Propriet%C3%A0-di-Intersezione-Finita</guid>
-    <description><![CDATA[  Teorema Sia X uno spazio topologico, allora vale la seguente equivalenza: X è compatto Ogni collezione \mathcal{C} di chiusi di X che ha la proprietà di intersezione finita verifica la proprietà: \bigcap \limits_{C\in \mathcal{C}}C\not=\varnothing Dim Provo l’equivalenza delle negazioni: Sia \mathc... ]]></description>
-    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
+    <title>Forma Normale</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Forma-Normale</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Forma-Normale</guid>
+    <description><![CDATA[  Forma Normale Un’equazione differenziale ordinaria di ordine n si dice in forma normale se la derivata di ordine massimo (la derivata n-esima) può essere isolata ed esplicitata rispetto a tutte le altre variabili. ]]></description>
+    <pubDate>Tue, 11 Aug 2026 09:27:23 GMT</pubDate>
   </item><item>
-    <title>Caratterizzazione della Topologia Quoziente</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Caratterizzazione-della-Topologia-Quoziente</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Caratterizzazione-della-Topologia-Quoziente</guid>
-    <description><![CDATA[  Caratterizzazione della Topologia Quoziente Sia (X,\tau) uno spazio topologico e sia \mathcal{R} una relazione di equivalenza. ]]></description>
-    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
+    <title>Esempi Di Equazioni Differenziali</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Esempi-Di-Equazioni-Differenziali</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Esempi-Di-Equazioni-Differenziali</guid>
+    <description><![CDATA[  Esempio (3x-1)y&#039;&#039;+y&#039;=0 La funzione y(x)=1 è una soluzione particolare dell’equazione, infatti: y\in C^{\infty}(\mathbb{R}) \forall x\in \mathbb{R}: (x,5,0,0)\in \Omega=\mathbb{R}^{4} (3x-1)\cdot 0+0=0\qquad\forall x\in \mathbb{R} Le tre proprietà sono verificate, tuttavia se porto l’... ]]></description>
+    <pubDate>Tue, 11 Aug 2026 09:26:42 GMT</pubDate>
   </item><item>
-    <title>Caratterizzazione delle Mappe Continue</title>
-    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Caratterizzazione-delle-Mappe-Continue</link>
-    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/Caratterizzazione-delle-Mappe-Continue</guid>
-    <description><![CDATA[  Teorema Siano (X,\tau),(Y,\tau&#039;) spazi topologici e f:X\to Y. Allora vale la seguente equivalenza: a. f è continua globalmente b. ]]></description>
-    <pubDate>Tue, 28 Jul 2026 16:49:12 GMT</pubDate>
+    <title>Equazione Differenziale</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Equazione-Differenziale</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Equazione-Differenziale</guid>
+    <description><![CDATA[  Equazione Differenziale Ogni espressione del tipo F(x,y,y&#039;,\dots,y^{(n)})=0 è chiamata Equazione Differenziale di Ordine n, dove F:\Omega\to \mathbb{R}\text{ e }\Omega \subseteq \mathbb{R}^{n+2},x\in \mathbb{R}\text{ e }y=y(x)è la funzione incognita. ]]></description>
+    <pubDate>Tue, 11 Aug 2026 09:26:16 GMT</pubDate>
+  </item><item>
+    <title>Sistema di ODE</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Sistema-di-ODE</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Sistema-di-ODE</guid>
+    <description><![CDATA[  Sistema di ODE Siano F_{1}\dots F_{k}:\Omega\to \mathbb{R} e \Omega \subseteq \mathbb{R}^{m} aperto. ]]></description>
+    <pubDate>Thu, 06 Aug 2026 09:40:46 GMT</pubDate>
+  </item><item>
+    <title>Esempi problemi di Cauchy</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Esempi-problemi-di-Cauchy</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Esempi-problemi-di-Cauchy</guid>
+    <description><![CDATA[  Esempio y&#039;=y Cerchiamo y tale che y&#039;=y. Osserviamo che y(x)=e^x è derivabile su \mathbb{R} e y&#039;(x)=e^x. ]]></description>
+    <pubDate>Mon, 03 Aug 2026 22:08:21 GMT</pubDate>
+  </item><item>
+    <title>Problema di Cauchy</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Problema-di-Cauchy</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Calcolo-Differenziale/Problema-di-Cauchy</guid>
+    <description><![CDATA[  Problema di Cauchy Consideriamo f:I\to \mathbb{R} con I intervallo di \mathbb{R}. ]]></description>
+    <pubDate>Mon, 03 Aug 2026 21:53:31 GMT</pubDate>
+  </item><item>
+    <title>Teoria di Topologia Generale</title>
+    <link>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/</link>
+    <guid>https://allibis.github.io/Appunti-di-Matematica/Teoria-di-Topologia-Generale/</guid>
+    <description><![CDATA[ Appunti di Topologia ]]></description>
+    <pubDate>Tue, 28 Jul 2026 17:01:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -24,6 +24,7 @@ export interface D3Config {
   // if a page is not included because of the "nograph" tag
   // default is "/"
   defaultCentralSlug: string
+  hideNodesWithTags: string[]
 }
 
 interface GraphOptions {
@@ -46,7 +47,8 @@ const defaultOptions: GraphOptions = {
     removeTags: [],
     focusOnHover: false,
     enableRadial: false,
-    defaultCentralSlug: "/"
+    defaultCentralSlug: "/",
+    hideNodesWithTags: []
   },
   globalGraph: {
     drag: true,
@@ -62,7 +64,8 @@ const defaultOptions: GraphOptions = {
     removeTags: [],
     focusOnHover: true,
     enableRadial: true,
-    defaultCentralSlug: "/"
+    defaultCentralSlug: "/",
+    hideNodesWithTags: []
   },
 }
 

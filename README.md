@@ -106,4 +106,4 @@ Adesso che ho provato un po' di strumenti (gratuiti e possibilmente open source)
   
     Per questo ho dovuto (con l'aiuto di deepwiki) modificare la logica del file [`search.inline.ts`](https://github.com/allibis/Appunti-di-Matematica/blob/e084c16f6a3e6dfda990524c45a27c58c62853f3/quartz/components/scripts/search.inline.ts) che ordinava i risultati di ricerca in modo tale che inserisse come primo risultato una corrispondenza esatta a quello che cerco, in più ho pensato di dare più importanza ai risultati che avessero più connessioni con altre note, utilizzando i backlinks come criterio di popolarità.
   
-    Questa funzionalità è sicuramente perfezionabile, ma anche in questo caso ci lavorerò su quando ne avrò la necessità. 
+    Questa funzionalità è sicuramente perfezionabile, si potrebbe implementare un algoritmo di PageRank.

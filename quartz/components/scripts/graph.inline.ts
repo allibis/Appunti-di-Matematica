@@ -88,6 +88,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     focusOnHover,
     enableRadial,
     defaultCentralSlug,
+    hideNodesWithTags,
 
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
@@ -179,15 +180,25 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       tags: data.get(url)?.tags ?? [],
     }
   })
+
+  // --- INIZIO FILTRO HUB CONFIGURABILE ---
+  const visualNodes = nodes.filter(n => {
+    if (!n.tags) return true
+    return !n.tags.some(tag => hideNodesWithTags.includes(tag))
+  })
+  const visualNodeIds = new Set(visualNodes.map(n => n.id))
+
   const graphData: { nodes: NodeData[]; links: LinkData[] } = {
-    nodes,
+    nodes: visualNodes,
     links: links
       .filter((l) => neighbourhood.has(l.source) && neighbourhood.has(l.target))
+      .filter((l) => visualNodeIds.has(l.source) && visualNodeIds.has(l.target))
       .map((l) => ({
-        source: nodes.find((n) => n.id === l.source)!,
-        target: nodes.find((n) => n.id === l.target)!,
+        source: visualNodes.find((n) => n.id === l.source)!,
+        target: visualNodes.find((n) => n.id === l.target)!,
       })),
   }
+  // --- FINE FILTRO HUB ---
 
   const width = graph.offsetWidth
   const height = Math.max(graph.offsetHeight, 250)
@@ -237,7 +248,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const numLinks = graphData.links.filter(
       (l) => l.source.id === d.id || l.target.id === d.id,
     ).length
-    return 2 + Math.sqrt(numLinks)
+    return 5 + Math.sqrt(numLinks) // Cambiato da 2 a 5
   }
 
   let hoveredNodeId: string | null = null

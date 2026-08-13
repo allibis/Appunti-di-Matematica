@@ -4,10 +4,9 @@
 /* ============================================================
    1. GLOBAL UI & SCROLLBARS
    ============================================================ */
-/* Applica lo stile custom a TUTTE le barre di scorrimento del sito */
 ::-webkit-scrollbar {
-  width: 5px;  /* Larghezza verticale */
-  height: 5px; /* Altezza orizzontale (es. blocchi di codice/latex) */
+  width: 5px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -15,13 +14,13 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--lightgray); /* Colore base (grigio chiaro) */
+  background-color: var(--lightgray);
   border-radius: 10px;
-  border: 1px solid transparent; /* Crea un padding visivo */
+  border: 1px solid transparent;
   background-clip: content-box;
 
   &:hover {
-    background-color: var(--secondary); /* Diventa del colore del tema all'hover */
+    background-color: var(--secondary);
   }
 }
 
@@ -32,10 +31,10 @@
 }
 
 /* ============================================================
-   2. LAYOUT GENERALE
+   2. LAYOUT GENERALE E FIX VARI
    ============================================================ */
 .page {
-  max-width: none !important; /* Espande la pagina */
+  max-width: none !important;
 }
 
 @media all and ($desktop) {
@@ -45,72 +44,56 @@
   }
 }
 
+/* Fix sovrapposizione testo nei titoli di ricerca */  
+.search h1.article-title,
+.popover-hint .article-title {  
+  line-height: 1.5 !important;  
+  margin: 0 0 0.75rem 0 !important;  
+  word-wrap: break-word !important;  
+  overflow-wrap: break-word !important;  
+  hyphens: auto !important;  
+  display: block !important;  
+  padding: 0 !important;  
+  min-height: 1.5em !important;  
+}
+
+.page-listing {  
+  display: none !important;  
+}
+
 /* ============================================================
-   3. TIPOGRAFIA & BASE ELEMENTS
+   3. TIPOGRAFIA & IMMAGINI
    ============================================================ */
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.3em; }
+
+ol, ul {
+  margin-top: -1em;
+}
+
+a.internal {
+  color: var(--darkgray);
+}
+
 blockquote {
   border-left: 0;
   padding-left: 0;
   
-  h1 {
-    font-size: 1.2em;
-  }
+  h1 { font-size: 1.2em; }
   
   /* Nasconde i titoli negli embed (transclusioni) per evitare ripetizioni */
-  &.transclude h1 {
-    display: none;
-  }
+  &.transclude h1 { display: none; }
 }
 
-h1 { font-size: 1.5em; }
-h2 { font-size: 1.3em; }
-
-/* Liste */
-ol, ul {
-  margin-top: -1em; /* Nota: attenzione che non si sovrapponga al testo precedente */
-}
-
-/* Link Interni */
-a.internal {
-  color: var(--darkgray);
+/* Limita la larghezza delle immagini SVG per non spaccare il layout */
+img[src$=".svg"] {
+  max-width: 100%;
+  height: auto;
 }
 
 /* ============================================================
    4. LATEX & MATH FIXES
    ============================================================ */
-/* Fix completo per i newline di LaTeX dentro i Callout e blocchi */
-.callout {
-  .callout-content {
-    /* Targettiamo tutti i possibili contenitori MathJax/Katex */
-    .katex-display,
-    .katex .katex-display,
-    mjx-container[jax="CHTML"][display="true"] {
-      display: block !important;
-      margin: 1em 0 !important;
-      overflow-x: auto !important;
-      overflow-y: hidden !important;
-      text-align: center !important;
-    }
-
-    /* Forza il block display sul contenitore padre */
-    *:has(.katex-display, mjx-container[display="true"]) {
-      display: block !important;
-      margin-bottom: 1em !important;
-    }
-
-    /* Assicura che i paragrafi vadano a capo dopo la matematica */
-    p:has(.katex-display, mjx-container[display="true"]) {
-      margin-bottom: 1em !important;
-      display: block !important;
-    }
-  }
-  border-style: double;
-  border-width: 0 .5vw 0 .5vw;
-  border-radius: .0;
-
-}
-
-/* Override globale per KaTeX display */
 .katex-display {
   display: block !important;
   margin: 1em 0 !important;
@@ -130,74 +113,101 @@ h1 .katex, h2 .katex, h3 .katex {
   display: none;
 }
 
-.callout-title {
-  padding-bottom: 0.5rem;
+.callout {
+  border-radius: 0vw;
+  box-shadow: inset 3px 0 0 0 var(--color);
+  opacity: 0.95;
+  transform: scale(1);
+  transition: border-radius 0.4s ease, opacity 0.4s ease, transform 0.4s ease, box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border-radius: .2vw;
+    box-shadow: inset 0 0 0 3px var(--color);
+    opacity: 1;
+    transform: scale(1.005);
+  }
+  
+  .callout-title {
+    padding-bottom: 0.5rem;
+  }
+
+  .callout-content {
+    /* Fix per i newline di LaTeX dentro i Callout */
+    .katex-display,
+    .katex .katex-display,
+    mjx-container[jax="CHTML"][display="true"] {
+      display: block !important;
+      margin: 1em 0 !important;
+      overflow-x: auto !important;
+      overflow-y: hidden !important;
+      text-align: center !important;
+    }
+
+    *:has(.katex-display, mjx-container[display="true"]),
+    p:has(.katex-display, mjx-container[display="true"]) {
+      display: block !important;
+      margin-bottom: 1em !important;
+    }
+  }
 }
 
 /* ============================================================
-   6. TOC (TABLE OF CONTENTS) - FLEXBOX FIX
+   6. PANNELLI LATERALI E FLEXBOX FIX (TOC, Explorer, Graph)
    ============================================================ */
 
-/* A. Blocchiamo la colonna laterale destra */
+/* Stile a "Card" per i pannelli */
+.explorer, 
+.toc,
+.backlinks {
+  background-color: color-mix(in srgb, var(--darkgray) 4%, transparent);
+  border-radius: 8px;
+  padding: 1rem !important;
+}
+
+/* Struttura colonna destra fissa */
 .sidebar.right {
   height: 100vh !important;
   max-height: 100vh !important;
-  overflow: hidden !important; /* Impedisce alla sidebar intera di scrollare */
-  
+  overflow: hidden !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: flex-start !important;
   padding-bottom: 0 !important;
+
+  /* Corazza del grafico: altezza fissa e non restringibile */
+  > .graph {
+    flex: 0 0 250px !important;
+    min-height: 250px !important;
+    margin-bottom: 1rem;
+  }
+
+  /* Explorer elastico (se a destra) */
+  > .desktop-only {
+    flex: 1 1 auto !important;
+    min-height: 0 !important;  
+    overflow-y: auto !important; 
+    padding-right: 10px; 
+  }
 }
 
-/* B. Il TOC diventa "elastico" e scrollabile */
+/* TOC elastico e scrollabile */
 .toc {
-  /* Flex magic: occupa tutto lo spazio verticale rimanente */
+  margin-top: 1rem;
+  margin-bottom: 0.5rem !important;
+  padding-right: 10px;
   flex: 1 1 auto !important;
   min-height: 0 !important; 
   max-height: none !important;
-  
   display: flex !important;
   flex-direction: column !important;
-  
-  /* Attiva lo scroll SOLO qui */
   overflow-y: auto !important;
-  
-  margin-bottom: 0.5rem !important;
-  padding-right: 10px;
-}
 
-/* C. Reset degli elementi interni al TOC per evitare doppie scrollbar */
-/* Fondamentale: sovrascrive 'ul.overflow' di base.scss */
-.toc ul.overflow,
-.toc .toc-content,
-.toc ul {
-  overflow-y: visible !important; /* Disabilita scroll interno */
-  max-height: none !important;
-  padding-bottom: 3rem !important; /* Spazio extra in fondo per comodità */
+  /* Reset per evitare doppie scrollbar */
+  ul.overflow,
+  .toc-content,
+  ul {
+    overflow-y: visible !important;
+    max-height: none !important;
+    padding-bottom: 3rem !important;
+  }
 }
-
-/* Limita la larghezza delle immagini nelle note per non spaccare il layout */
-img[src$=".svg"] {
-  max-width: 100%; /* Non uscire mai dal contenitore */
-  height: auto;
-}
-
-/* Fix search title text overlap inside search and popover - target the exact generated structure */  
-.search  h1.article-title,
-.popover-hint  .article-title {  
-  line-height: 1.5 !important;  
-  margin: 0 0 0.75rem 0 !important;  
-  word-wrap: break-word !important;  
-  overflow-wrap: break-word !important;  
-  hyphens: auto !important;  
-  display: block !important;  
-  padding: 0 !important;  
-  min-height: 1.5em !important;  
-}
-
-// Add to quartz/styles/custom.scss  
-.page-listing {  
-  display: none !important;  
-}
-
